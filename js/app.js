@@ -1,15 +1,17 @@
 "use strict";
+window.onload=function(){
 
-  // Seleccionar los elementos del DOM
-  const menu = document.querySelector(".menu");
-  const hamburger = document.querySelector(".hamburger");
 
-  // Añadir un evento de click al botón hamburguesa
-  hamburger.addEventListener("click", function() {
-    
-    // Alternar la clase active al menú y al botón
-    menu.classList.toggle("active");
-    hamburger.classList.toggle("active");
-    
-  });
-  
+const nav = document.querySelector(".nav");
+const abrir = document.querySelector(".a-mu");
+const cerrar = document.querySelector(".c-mu");
+
+abrir.addEventListener("click", () => {
+    nav.classList.add("visible");
+})
+
+cerrar.addEventListener("click", () => {
+    nav.classList.remove("visible");
+})
+
+}
