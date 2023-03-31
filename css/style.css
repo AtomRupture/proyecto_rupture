@@ -6,6 +6,12 @@
 }
 
 body {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 100%;
+    bottom: auto;
+    right: auto;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/Fondo_index.png);
     height: 100vh;
     background-attachment: fixed;
@@ -13,6 +19,12 @@ body {
 }
 
 .b1{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 100%;
+    bottom: auto;
+    right: auto;
     font-style: italic;
     background-color: #E40b0b;
     border: none;
@@ -23,7 +35,12 @@ body {
     font-size: 19px;
     color: white;
     cursor: pointer;
+    padding-top: 0.5rem;
     
+}
+
+.b1 p{
+    padding-left: 1.5rem;
 }
 
 
@@ -40,27 +57,40 @@ header{
 li{
     list-style: none;
     display: inline-block;
-    padding-right: 35px;
+    padding-right: 20px;
     padding-top: 42px;
 }
 
 .logo{
+    display: flex;
+    flex-wrap: wrap;
     float: left;
     width: 90px;
     height: auto;
-    position: fixed;
-    top: -10px;
-    left: 70px;
-    margin: auto;
+    position: static;
+    margin-left: 2rem;
+    margin-right: 1.6rem;
+    padding-left: 0.1px;
+    padding-right: 15px;
+    padding-top: 0.1px;
 }
 
 #b2{
-    position: fixed;
-    left: 113rem;
-    padding-top: 42px;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    padding-top: 2.2rem;
+    position: static;
+    margin-left: -2rem;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin-top: auto;
+    padding-top: auto;
 }
 
 li:hover{
     border-bottom: #E40b0b;
     border-radius: 5px;
 }
+
