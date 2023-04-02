@@ -45,7 +45,7 @@ header{
 
     font-style: italic;
     background-color: #E40b0b;
-    border: none;
+    border: transparent;
     border-radius: 50px;
     width: 150px;
     height: 42px;
@@ -54,15 +54,37 @@ header{
     color: white;
     cursor: pointer;
     margin-top: -0.5rem;
+    transition: .3s;
     
+}
+
+.nav-list button:hover{
+    background-color: black;
+    border: #E40b0b solid;
 }
 
 .nav-list a{
     cursor: pointer;
+    padding-bottom: 0.2rem;
+    border: #E40b0b 0px;
+}
+
+.nav-list a:hover{
+    border: #E40b0b solid 4px;
+    border-radius: 3px;
+    transition: border ease-in-out 120ms;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    
+}
+
+.nav-list .b2:hover{
+    border: none;
+    
 }
 
 .b2{
-    
     font-style: italic;
     background-color: transparent !important;
     font-weight: 700;
@@ -71,8 +93,10 @@ header{
     cursor: pointer;
     max-width: 5rem;
     margin-top: -2rem;
-    
+    padding-right: 6rem;
+    transition: .4s;
 }
+
 
 .logo{
     max-width: 7rem;
@@ -160,3 +184,16 @@ header{
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
