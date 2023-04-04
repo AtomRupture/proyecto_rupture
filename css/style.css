@@ -26,10 +26,10 @@ header{
 .nav-list{
     display: flex;
     list-style-type: none;
-    gap: 1rem;
+    gap: 3rem;
     font-weight: 700;
     color: white;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-left: 1rem;
     
 }
@@ -93,7 +93,7 @@ header{
     cursor: pointer;
     max-width: 5rem;
     margin-top: -2rem;
-    padding-right: 6rem;
+    padding-right: 3rem;
     transition: .4s;
 }
 
