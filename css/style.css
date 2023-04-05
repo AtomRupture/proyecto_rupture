@@ -100,7 +100,6 @@ header{
     
 }
 
-
 .logo{
     max-width: 7rem;
 }
@@ -171,19 +170,17 @@ header{
         position: absolute;
         top: 0;
         right: 0;
-        bottom: 0;
-        height: fit-content !important;;
+        bottom: 1;
         background-color: black;
         background-size: cover;
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
-        
+        max-height: 40rem;
     }
     .nav.visible{
         opacity: 1;
         visibility: visible;
     }
-
 
 
 
@@ -203,8 +200,37 @@ header{
         max-width: 10rem;
     }
 
+
 }
 
+@media screen and (max-width:500px){
+    .Text_princp{
+        font-size: 300px;
+        margin-left: 1rem;
+        max-width: 60rem;
+        
+    }
+}
+
+@media screen and (max-height:400rem){
+    
+    .nav.nav.visible{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: -50rem;
+        max-height: 110rem;
+
+    }
+
+    .c-mu{
+        padding-left: 6rem;
+        padding-bottom: 4rem;
+        transition: 5s ease-in-out;
+    }
+      
+}
 .Text_princp{
     text-align: center;
     padding: 3rem;
@@ -249,6 +275,12 @@ header{
     padding: 60px 0;
 }
 
+.bt{
+    text-align: center;
+    padding: 60px 0;
+    margin: 1rem;
+}
+
 .emp-ahr{
     display: inline;
     vertical-align: middle;
@@ -267,7 +299,7 @@ header{
     margin-left: 0rem;
     position: static;
     transition: .50s;
-    margin-top: -1.5rem;
+    margin-top: -10rem;
 
   }
   
