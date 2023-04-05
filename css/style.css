@@ -185,7 +185,18 @@ header{
 
 }
 
-
+.Text_princp{
+    text-align: center;
+    padding: 16rem;
+    color: white;
+    left: 334px;
+    top: 446px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57.45px;
+    font-style: Ubuntu;
+    align-items: center;
+}
 
 
 
