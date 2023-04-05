@@ -6,11 +6,12 @@
 }
 
 body {
-
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/Fondo_index.png);
-    height: auto;
-    background-attachment: fixed;
-    background-size: cover;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(../img/Fondo_index.png) no-repeat center center fixed;
+    background-size: cover !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
 }
 
 
@@ -134,7 +135,7 @@ header{
     display: none;
 }
 
-@media screen and (max-width:850px){
+@media screen and (max-width:1000px){
     .a-mu{
         display: block;
         background-color: transparent;
@@ -170,8 +171,10 @@ header{
         position: absolute;
         top: 0;
         right: 0;
-        bottom: -1;
+        bottom: 0;
+        height: fit-content !important;;
         background-color: black;
+        background-size: cover;
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
         
@@ -204,86 +207,73 @@ header{
 
 .Text_princp{
     text-align: center;
-    padding: 15rem;
+    padding: 3rem;
+    padding-left: 1rem;
     color: white;
     font-weight: 700px;
     font-size: 50px;
     line-height: 57.45px;
-    font-style: Ubuntu;
+    font-style: normal;
+    position: static;
 }
 
 .text_second{
+    padding: 7rem;
     text-align: center;
     font-weight: 700px;
     font-size: 20px;
     line-height: 22.98px;
-    font-style: Ubuntu;
-    margin-top: -220px;
+    font-style: normal;
+    margin-top: -8rem;
     color: white;
+    position: static;
 }
 
 .line-1{
-
+    display: inline-block;
     align-items: center;
-    position: absolute;
+    vertical-align: middle;
     width: 197px;
-    height: 0px;
-    left: 670px;
-    top: 465px;
+    margin-left:0rem;
+    margin-top: -10.5rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
     border: 3px solid #C30E0E;
+    position: static;
+    animation-name: line-1-animation;
+    animation-duration: 1.9s;
+}
+
+.b3{
+    text-align: center;
+    padding: 60px 0;
 }
 
 .emp-ahr{
-
-    align-items: center;
-    position: absolute;
-    width: 197px;
-    height: 0px;
-    left: 610px;
-    top: 50px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.emp-ahr{
-    width: 310px;
-    position: relative;
-    height: 100px;
-    border: 3px ridge #C30E0E;
-    outline: none;
+    display: inline;
+    vertical-align: middle;
     background-color: transparent;
+    border: 3px solid #C30E0E;
+    padding: 2rem;
+    border-radius: 3rem;
+    width: 18rem;
+    font-weight: 700;
+    line-height: 27.58px;
+    font-size: 20px;
+    font-style: normal;
     color: white;
-    transition: 1s;
-    border-radius: 50px;
-    font-size: 16px;
-    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 0rem;
+    position: static;
+    transition: .50s;
+    margin-top: -1.5rem;
+
   }
   
   .emp-ahr::after {
     content: "";
-    position: absolute;
-    top: -10px;
-    left: 3%;
+    position: static;
     width: 95%;
     height: 40%;
     transition: 0.5s;
@@ -293,9 +283,7 @@ header{
   .emp-ahr::before {
     content: "";
     transform-origin: center;
-    position: absolute;
-    top: 80%;
-    left: 3%;
+    position: static;
     width: 95%;
     height: 40%;
     transition: 0.5s;
@@ -315,3 +303,7 @@ header{
 
 
 
+@keyframes line-1-animation{
+    0%   {background-color: #E40b0b; width: 0%;}
+    100% {background-color: #C30E0E; width: 197px;}
+}
