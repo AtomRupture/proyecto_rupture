@@ -12,6 +12,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: contain;
+    height: 100vh;
 }
 
 
