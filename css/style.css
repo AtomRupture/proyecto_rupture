@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(../img/Fondo_index.png) no-repeat center center fixed;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/Fondo_index.png) no-repeat center center fixed;
     background-size: cover !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
