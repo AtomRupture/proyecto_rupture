@@ -162,18 +162,6 @@ header{
     position: static;
 }
 
-.sec1-el{
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-}
-
-.b3{
-    margin: 0px auto;
-}
-
 .line-1{
     display: inline-block;
     align-items: center;
@@ -187,6 +175,11 @@ header{
     position: static;
     animation-name: line-1-animation;
     animation-duration: 1.9s;
+}
+
+.b3{
+    text-align: center;
+    padding: 49.6px 0;
 }
 
 .bt{
@@ -379,24 +372,22 @@ header{
 }
 
 @media screen and (max-width:300px){
+
     .Text_princp{
-        font-size: 300px;
-        margin-left: 1rem;
-        max-width: 60rem;
-        
+        font-size: 20px;
+        margin-left: 2rem;
+        max-width: 20rem;
     }
 
     .text_second{
         vertical-align: center;
         width: 20rem;
-        margin-right: 30rem;
         margin-left: -2.2rem;
         padding-right: -40rem;
     }
 
     .emp-ahr{
         vertical-align: center;
-        margin-right: 30rem;
         margin-left: -1.5rem;
         padding-right: -40rem;
     }
