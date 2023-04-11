@@ -165,7 +165,7 @@ header{
     display: inline-block;
     align-items: center;
     vertical-align: middle;
-    width: 15%;
+    width: 150px;
     margin-left:0rem;
     margin-top: -10.5rem;
     margin-bottom: 3rem;
@@ -178,13 +178,13 @@ header{
 
 .b3{
     text-align: center;
-    padding: 60px 0;
+    padding: 35px 0;
 }
 
 .bt{
     text-align: center;
-    padding: 60px 0;
-    margin: 1rem;
+    padding: 0px 0;
+    margin: 3rem;
 }
 
 .emp-ahr{
@@ -201,16 +201,12 @@ header{
     font-style: normal;
     color: white;
     text-align: center;
-    cursor: pointer;
-    margin-left: 0rem;
     font-size: 15px;
     position: static;
     transition: .50s;
-    margin-top: -13rem;
+    margin-top: -8rem;
+    cursor: pointer;
 
-  }
-  .sec1{
-    max-height: 10rem;
   }
   .emp-ahr::after {
     content: "";
@@ -404,5 +400,5 @@ header{
 
 @keyframes line-1-animation{
     0%   {background-color: #E40b0b; width: 0%;}
-    100% {background-color: #C30E0E; width: 15%;}
+    100% {background-color: #C30E0E; width: 150px;}
 }
