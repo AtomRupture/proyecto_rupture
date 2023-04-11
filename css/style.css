@@ -178,7 +178,7 @@ header{
 
 .b3{
     text-align: center;
-    padding: 35px 0;
+    padding: 49.6px 0;
 }
 
 .bt{
@@ -266,12 +266,12 @@ header{
     border-radius: 1.5rem;
 }
 .redes a{
-    margin-bottom: -15px;
+    margin-bottom: 0rem;
     opacity: 0;
     visibility: hidden;
 }
 #btn-mas:checked~ .redes a{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     opacity: 1;
     visibility: visible;
 }
