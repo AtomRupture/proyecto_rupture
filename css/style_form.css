@@ -116,12 +116,12 @@ body{
 }
 
 .btn.btn-facebook{
-    background-color: #002fff;
+    background-color: #3b5998;
     color: white;
 }
 
 .btn.btn-facebook:hover{
-    background-color: #2600ff;
+    background-color: #3b5998;
 }
 
 .btn.btn-google{
@@ -135,7 +135,7 @@ body{
 }
 
 .form-main .container-registro{
-    background-color: #b11616;
+    background-color: #e40b0b;
     height: 100%;
     width: 50%;
     display: flex;
