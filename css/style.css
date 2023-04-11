@@ -33,6 +33,7 @@ header{
     color: white;
     padding-top: 2rem;
     padding-left: 1rem;
+    font-size: 15px;
     
 }
 
@@ -90,7 +91,7 @@ header{
     font-size: 19px;
     color: white;
     cursor: pointer;
-    max-width: 5rem;
+    max-width: 1rem;
     margin-top: -1rem;
     padding-right: 3rem;
     transition: .4s;
@@ -102,7 +103,8 @@ header{
 }
 
 .logo{
-    max-width: 7rem;
+    max-width: 9rem;
+    padding-left: 2.4rem;
 }
 
 
@@ -135,6 +137,174 @@ header{
     display: none;
 }
 
+.Text_princp{
+    text-align: center;
+    padding: 3rem;
+    padding-left: 1rem;
+    color: white;
+    font-weight: 700px;
+    font-size: 35px;
+    line-height: 57.45px;
+    font-style: normal;
+    position: static;
+}
+
+.text_second{
+    padding: 7rem;
+    text-align: center;
+    font-weight: 700px;
+    font-size: 15px;
+    line-height: 22.98px;
+    font-style: normal;
+    margin-top: -8rem;
+    color: white;
+    position: static;
+}
+
+.line-1{
+    display: inline-block;
+    align-items: center;
+    vertical-align: middle;
+    width: 15%;
+    margin-left:0rem;
+    margin-top: -10.5rem;
+    margin-bottom: 3rem;
+    border-radius: 1rem;
+    border: 3px solid #C30E0E;
+    position: static;
+    animation-name: line-1-animation;
+    animation-duration: 1.9s;
+}
+
+.b3{
+    text-align: center;
+    padding: 60px 0;
+}
+
+.bt{
+    text-align: center;
+    padding: 60px 0;
+    margin: 1rem;
+}
+
+.emp-ahr{
+    display: inline;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 3px solid #C30E0E;
+    padding: 1rem;
+    border-radius: 3rem;
+    width: 13rem;
+    font-weight: 700;
+    line-height: 27.58px;
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 0rem;
+    font-size: 15px;
+    position: static;
+    transition: .50s;
+    margin-top: -13rem;
+
+  }
+  .sec1{
+    max-height: 10rem;
+  }
+  .emp-ahr::after {
+    content: "";
+    position: static;
+    width: 95%;
+    height: 40%;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  
+  .emp-ahr::before {
+    content: "";
+    transform-origin: center;
+    position: static;
+    width: 95%;
+    height: 40%;
+    transition: 0.5s;
+  }
+  
+  .emp-ahr:hover::before, .emp-ahr:hover::after {
+    transform: scale(0)
+  }
+  
+  .emp-ahr:hover {
+    box-shadow: inset 0px 0px 25px #C30E0E;
+  }
+
+
+  #btn-mas{
+    display: none;
+}
+.bot{
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+}
+.redes a, .btn-mas label{
+    display: block;
+    text-decoration: none;
+    background: none;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border: none;
+    border-radius: none;
+    font-size: 24px;
+    transition: all 500ms ease;
+
+}
+
+.redes a:hover{
+    background: none;
+    color: none;
+    box-shadow: 0px 1px 10px rgba(155, 155, 155, 0.637);
+    border-radius: 1.5rem;
+}
+.redes a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-mas:checked~ .redes a{
+    margin-bottom: 20px;
+    opacity: 1;
+    visibility: visible;
+}
+.btn-mas label{
+    cursor: pointer;
+    background: none;
+    font-size: 40px;
+}
+
+.btn-mas label:hover{
+    color: #E40b0b;
+}
+#btn-mas:checked ~ .btn-mas label{
+    transform: rotate(180deg);
+    font-size: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------- */
+/* No escribir debajo!!!!!!(solo media querys y keyframes) */
+/* -------------------------------------------------------------------------------------------- */
 @media screen and (max-width:1000px){
     .a-mu{
         display: block;
@@ -183,8 +353,6 @@ header{
         visibility: visible;
     }
 
-
-
     .nav-list{
         flex-direction: column;
         align-items: center;
@@ -201,7 +369,9 @@ header{
         max-width: 10rem;
     }
 
-
+    .bot{
+        display: none;
+    }
 }
 
 @media screen and (max-width:500px){
@@ -230,113 +400,9 @@ header{
         padding-bottom: 4rem;
         transition: 5s ease-in-out;
     }
-      
 }
-.Text_princp{
-    text-align: center;
-    padding: 3rem;
-    padding-left: 1rem;
-    color: white;
-    font-weight: 700px;
-    font-size: 50px;
-    line-height: 57.45px;
-    font-style: normal;
-    position: static;
-}
-
-.text_second{
-    padding: 7rem;
-    text-align: center;
-    font-weight: 700px;
-    font-size: 20px;
-    line-height: 22.98px;
-    font-style: normal;
-    margin-top: -8rem;
-    color: white;
-    position: static;
-}
-
-.line-1{
-    display: inline-block;
-    align-items: center;
-    vertical-align: middle;
-    width: 197px;
-    margin-left:0rem;
-    margin-top: -10.5rem;
-    margin-bottom: 3rem;
-    border-radius: 1rem;
-    border: 3px solid #C30E0E;
-    position: static;
-    animation-name: line-1-animation;
-    animation-duration: 1.9s;
-}
-
-.b3{
-    text-align: center;
-    padding: 60px 0;
-}
-
-.bt{
-    text-align: center;
-    padding: 60px 0;
-    margin: 1rem;
-}
-
-.emp-ahr{
-    display: inline;
-    vertical-align: middle;
-    background-color: transparent;
-    border: 3px solid #C30E0E;
-    padding: 2rem;
-    border-radius: 3rem;
-    width: 18rem;
-    font-weight: 700;
-    line-height: 27.58px;
-    font-size: 20px;
-    font-style: normal;
-    color: white;
-    text-align: center;
-    cursor: pointer;
-    margin-left: 0rem;
-    position: static;
-    transition: .50s;
-    margin-top: -10rem;
-
-  }
-  
-  .emp-ahr::after {
-    content: "";
-    position: static;
-    width: 95%;
-    height: 40%;
-    transition: 0.5s;
-    transform-origin: center;
-  }
-  
-  .emp-ahr::before {
-    content: "";
-    transform-origin: center;
-    position: static;
-    width: 95%;
-    height: 40%;
-    transition: 0.5s;
-  }
-  
-  .emp-ahr:hover::before, .emp-ahr:hover::after {
-    transform: scale(0)
-  }
-  
-  .emp-ahr:hover {
-    box-shadow: inset 0px 0px 25px #C30E0E;
-  }
-
-
-
-
-
-
 
 @keyframes line-1-animation{
     0%   {background-color: #E40b0b; width: 0%;}
-    100% {background-color: #C30E0E; width: 197px;}
+    100% {background-color: #C30E0E; width: 15%;}
 }
