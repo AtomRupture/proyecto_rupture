@@ -380,8 +380,8 @@ header{
 
 @media screen and (max-width:300px){
     .Text_princp{
-        font-size: 20px;
-        margin-left: 2rem;
+        font-size: 300px;
+        margin-left: 1rem;
         max-width: 60rem;
         
     }
