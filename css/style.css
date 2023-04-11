@@ -146,6 +146,7 @@ header{
     font-size: 35px;
     line-height: 57.45px;
     font-style: normal;
+    margin-left: 2rem;
     position: static;
 }
 
@@ -370,12 +371,27 @@ header{
     }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:300px){
     .Text_princp{
-        font-size: 300px;
-        margin-left: 1rem;
+        font-size: 20px;
+        margin-left: 2rem;
         max-width: 60rem;
         
+    }
+
+    .text_second{
+        vertical-align: center;
+        width: 20rem;
+        margin-right: 30rem;
+        margin-left: -2.2rem;
+        padding-right: -40rem;
+    }
+
+    .emp-ahr{
+        vertical-align: center;
+        margin-right: 30rem;
+        margin-left: -1.5rem;
+        padding-right: -40rem;
     }
 }
 
