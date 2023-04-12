@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" src="img/short-ico.svg"/>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style_form.css">
+    <link rel="stylesheet" href="css/styles_form.css">
     <title> Página usuario</title>
 </head>
 <body>

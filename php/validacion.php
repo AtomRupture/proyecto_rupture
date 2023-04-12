@@ -4,10 +4,10 @@ include "conexion.php";
 
 if(isset($_POST['enviar'])){
 
-    $usuario = $_POST['usuario'];
+    $correo = $_POST['correo'];
     $pass = $_POST['pass'];
 
-    $consulta = "SELECT * FROM usuarios WHERE usuario = '$usuario' and pass= '$pass' ";
+    $consulta = "SELECT * FROM usuarios WHERE correo = '$correo' and pass= '$pass' ";
 
     $resultado = mysqli_query($conexion,$consulta);
 
