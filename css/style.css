@@ -172,6 +172,7 @@ header{
     margin-bottom: 3rem;
     border-radius: 1rem;
     border: 3px solid #C30E0E;
+    background-color: #C30E0E;
     position: static;
     animation-name: line-1-animation;
     animation-duration: 1.9s;
@@ -411,6 +412,18 @@ header{
         transition: 5s ease-in-out;
     }
 }
+
+
+@media screen and (width:1200px),(max-width:2000px){
+    
+    .Text_princp{
+    margin-top: 60px;
+    padding: 60px 0;
+    }
+}
+
+
+
 
 @keyframes line-1-animation{
     0%   {background-color: #E40b0b; width: 0%;}
