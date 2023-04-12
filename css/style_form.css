@@ -13,16 +13,17 @@ body{
 }
 
 .form-main{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     width: 80%;
     border-radius: 10px;
+    border: 3px solid red;
     overflow: hidden;
     height: 90%;
     display: flex;
     align-items: center;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.682),
+    box-shadow: 0 14px 28px rgba(255, 255, 255, 0.682),
     0 10px 10px rgba(0, 0, 0, 0.682);
-    opacity: 0.84;
+    opacity: 1;
 }
 
 .form-main .login-container{
@@ -135,7 +136,7 @@ body{
 }
 
 .form-main .container-registro{
-    background-color: #e40b0b;
+    background-color: rgba(228, 11, 11, 0.9);
     height: 100%;
     width: 50%;
     display: flex;
