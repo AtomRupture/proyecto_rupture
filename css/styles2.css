@@ -1,17 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
 body{
-	font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 	font-weight: 300;
 	line-height: 1.7;
 	color: white;
     background-color: #020000;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23020000' cx='50' cy='0' r='50'/%3E%3Cg fill='%23150505' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%231f0a0a' cx='50' cy='100' r='50'/%3E%3Cg fill='%23280e0d' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23321011' cx='50' cy='200' r='50'/%3E%3Cg fill='%233d1113' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23471115' cx='50' cy='300' r='50'/%3E%3Cg fill='%23521216' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%235d1217' cx='50' cy='400' r='50'/%3E%3Cg fill='%23681218' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23731119' cx='50' cy='500' r='50'/%3E%3Cg fill='%237e111a' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%2389101a' cx='50' cy='600' r='50'/%3E%3Cg fill='%23940f1a' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23a00d19' cx='50' cy='700' r='50'/%3E%3Cg fill='%23ab0c19' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23b60b17' cx='50' cy='800' r='50'/%3E%3Cg fill='%23c20a16' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23cd0913' cx='50' cy='900' r='50'/%3E%3Cg fill='%23d90a10' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23E40B0B' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/ricardo-henri-IBlWVIGnXag-unsplash.jpg);
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
-
-
 
 a:hover {
 	text-decoration: none;
