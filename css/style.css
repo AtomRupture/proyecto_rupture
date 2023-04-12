@@ -178,15 +178,14 @@ header{
     animation-duration: 1.9s;
 }
 
-.b3{
+.sec1-el{
+    display: flex;
+    align-items: center;
     text-align: center;
-    padding: 49.6px 0;
 }
 
-.bt{
-    text-align: center;
-    padding: 0px 0;
-    margin: 3rem;
+.b3{
+    margin: 0px auto;
 }
 
 .emp-ahr{
