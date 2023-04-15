@@ -328,12 +328,13 @@ header{
     text-align: center;
     margin: 0px auto;
     white-space: nowrap;
+    background-color: #c30e0e09;
     
 
 }
 
 .sec2-el p{
-    font-size: 21px;
+    font-size: 17px;
     max-width: 100rem;
     white-space: nowrap;
 }
