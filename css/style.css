@@ -343,8 +343,15 @@ header{
     color: red;
 }
 .sec2-el h1{
-    margin-top: 10rem;
+    margin-top: 35%;
     font-size: 45px;
+}
+
+.text_red{
+
+    white-space: nowrap;
+    font-size: 21px;
+    color: red;
 }
 
 
@@ -353,6 +360,54 @@ header{
     float: right;
 
 }
+
+.vist-plns{
+    display: inline;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 3px solid #C30E0E;
+    padding: 1rem;
+    border-radius: 3rem;
+    width: 13rem;
+    font-weight: 700;
+    line-height: 27.58px;
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    position: static;
+    transition: .50s;
+    margin-top: 5%;
+    cursor: pointer;
+
+  }
+  .vist-plns::after {
+    content: "";
+    position: static;
+    width: 95%;
+    height: 40%;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  
+  .vist-plns::before {
+    content: "";
+    transform-origin: center;
+    position: static;
+    width: 95%;
+    height: 40%;
+    transition: 0.5s;
+  }
+  
+  .vist-plns:hover::before, .vist-plns:hover::after {
+    transform: scale(0)
+  }
+  
+  .vist-plns:hover {
+    box-shadow: inset 0px 0px 25px #C30E0E;
+  }
+
 
 
 /* -------------------------------------------------------------------------------------------- */
