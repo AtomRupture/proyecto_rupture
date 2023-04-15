@@ -334,9 +334,10 @@ header{
 }
 
 .sec2-el p{
-    font-size: 17px;
+    font-size: 15px;
     max-width: 100rem;
     white-space: nowrap;
+    font-weight: bolder;
 }
 .sec2-el .p-red{
     white-space: nowrap;
@@ -344,7 +345,7 @@ header{
     color: red;
 }
 .sec2-el h1{
-    margin-top: 35%;
+    margin: 35% 0px 15px;
     font-size: 45px;
 }
 
