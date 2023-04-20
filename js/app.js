@@ -19,8 +19,7 @@ cerrar.addEventListener("click", () => {
     nav.classList.remove("visible");
 })
 
-
-
+// document.getElementById("abrir").style.display = "block"
 
 
 

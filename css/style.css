@@ -127,6 +127,12 @@ header{
 
 .a-mu{
     display: none;
+    background-color: transparent;
+    color: white;
+    border: none !important;
+    width: 5rem;
+    cursor: pointer;
+    font-size: 2rem;
 }
 
 .c-mu{
