@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 200vh;
 }
 
 
@@ -123,10 +123,12 @@ header{
   fill: #E40b0b;
 }
 
-
-
 .a-mu{
     display: none;
+}
+
+.a-mus{
+    display: block;
     background-color: transparent;
     color: white;
     border: none !important;
@@ -137,6 +139,18 @@ header{
 
 .c-mu{
     display: none;
+}
+
+.c-mus{
+    display: none;
+    background-color: transparent;
+    color: #E40b0b;
+    border: none !important;
+    width: 5rem;
+    cursor: pointer;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-top: 0rem;
 }
 .contenedor{
     margin-top: 10rem;
@@ -314,6 +328,7 @@ header{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: contain;
+    margin: auto;
     height: 100vh;
 
 }
@@ -362,6 +377,32 @@ header{
     color: red;
 }
 
+.nav-mus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 1;
+    background-color: black;
+    background-size: cover;
+    padding: 2rem;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+    max-height: 40rem;
+}
+
+.nav.visible-mus{
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav-list-mus{
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
 
 .right-cont{
 
@@ -415,6 +456,11 @@ header{
   .vist-plns:hover {
     box-shadow: inset 0px 0px 25px #C30E0E;
   }
+
+  .sec2-pd{
+    padding-left: 1rem;
+    position: static;
+}
 
 
 
@@ -492,29 +538,86 @@ header{
     .logo{
         max-width: 8rem;
     }
+
+
+
+    .sec1{
+        height: 150vh;
+        position: static;
+    }
+
+    .sec2{
+        height: 100vh;
+        position: static;
+    }
+
+    .sec2-el h1{
+        margin: 15% 6px 15px;
+        font-size: 40px;
+    }
+
+    .sec2-el{
+        padding: 3rem;
+    }
 }
 
 
 
-@media screen and (max-width:300px){
+@media screen and (max-width:400px){
 
     .Text_princp{
         font-size: 20px;
-        margin-left: 2rem;
+        margin-left: 1.4rem;
         max-width: 20rem;
     }
 
     .text_second{
         vertical-align: center;
         width: 20rem;
-        margin-left: -2.2rem;
+        margin-left: 1rem;
         padding-right: -40rem;
     }
 
     .emp-ahr{
         vertical-align: center;
-        margin-left: -1.5rem;
+        margin-left: -0.1rem;
         padding-right: -40rem;
+    }
+    .sec2-el h1{
+        margin: 15% 6px 15px;
+        font-size: 30px;
+    }
+
+    .sec2-el p{
+        font-size: 15px;
+        max-width: 100rem;
+        white-space: nowrap;
+        font-weight: bolder;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sec2-pd{
+        margin-top: 5rem;
+        padding-left: 4rem;
+        align-items: center;
+        text-align: center;
+        vertical-align: center;
+        margin-left: 5rem;
+        margin: 15% 6px 15px;
+        font-size: 30px;
+    }
+
+    .sec2-el{
+        padding: 1rem;
+    }
+
+    .sec2-pd{
+        margin-left: -2.7rem;
+    }
+
+    .vist-plns{
+        margin-left: 10rem;
     }
 
 }
@@ -565,6 +668,24 @@ header{
     
     .logo{
         max-width: 5rem;
+    }
+}
+
+@media screen and (max-width:700px){
+    .sec2-el h1{
+        font-size: 25px;
+    }
+
+    .p-4{
+        padding-left: 7rem;
+    }
+    .text_red{
+        padding-left: 6rem;
+    }
+
+    .vist-plns{
+        margin-top: 3rem;
+        margin-left: 3.7rem;
     }
 }
 
