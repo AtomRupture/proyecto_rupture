@@ -11,8 +11,31 @@ body{
 }
 
 header{
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 5.5rem;
 }
+
+.logo{
+  max-width: 9rem;
+  padding-left: 2.4rem;
+}
+
+::-webkit-scrollbar{
+  width:10px;
+  background-color: #40191c;
+  
+
+}
+
+::-webkit-scrollbar-thumb{
+  background: #A21112;
+  border-radius: 3rem;
+}
+
 
 a:hover {
 	text-decoration: none;
@@ -190,4 +213,27 @@ display: none;
   background-color: #000000;
   color: #ffeba7;
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+}
+
+/* -------------------------------------------------------------------------------------------- */
+/* No escribir debajo!!!!!!(solo media querys y keyframes) */
+/* -------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width:1000px){
+  .logo{
+    max-width: 6rem;
+  }
+}
+
+@media screen and (max-width:400px){
+  .logo{
+    max-width: 5rem;
+  }
+}
+
+@media screen and (width:1200px) and (max-width:2000px){
+  
+  .logo{
+      max-width: 5rem;
+  }
 }
