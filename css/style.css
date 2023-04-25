@@ -6,7 +6,7 @@
 }
 
 body {
-    height: 200vh;
+    height: 100vh;
 }
 
 
@@ -349,7 +349,7 @@ header{
     text-align: center;
     margin: 0px auto;
     white-space: nowrap;
-    background-color: #c30e0e09;
+    background-color: #a3252524;
     
 
 }
@@ -462,7 +462,28 @@ header{
     position: static;
 }
 
+.contenedor3{
+    background-image: url(../img/fond_sec3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: static;
+    align-items: center;
+    display: flex;
+}
 
+.cont_items{
+    display:inline-flex;
+    align-items: center;
+    text-align: center;
+    margin: 70px auto;
+}
+
+.item1{
+
+    color: #fff;
+    
+}
 
 /* -------------------------------------------------------------------------------------------- */
 /* No escribir debajo!!!!!!(solo media querys y keyframes) */
@@ -641,19 +662,7 @@ header{
     }
 }
 
-.sec3{
-    background-image: url(../img/fond_sec3);
-}
 
-.cont_items{
-    display:block;
-}
-
-.item1{
-
-    color: #fff;
-    
-}
 
 @media screen and (width:1200px) and (max-width:2000px){
     
