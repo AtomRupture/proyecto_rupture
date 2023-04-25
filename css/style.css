@@ -497,8 +497,28 @@ header{
 .item1{
 
     color: #fff;
+    padding: 2rem;
     
 }
+.item2{
+
+    color: #fff;
+    padding: 2rem;
+    
+}
+.item3{
+
+    color: #fff;
+    padding: 2rem;
+    
+}
+.item4{
+
+    color: #fff;
+    padding: 2rem;
+    
+}
+
 
 /* -------------------------------------------------------------------------------------------- */
 /* No escribir debajo!!!!!!(solo media querys y keyframes) */
