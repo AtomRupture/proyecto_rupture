@@ -19,10 +19,16 @@ cerrar.addEventListener("click", () => {
     nav.classList.remove("visible");
 })
 
+// document.getElementById("abrir").style.display = "block"
 
-
-
-
+window.addEventListener("scroll", function() {
+  var H = document.getElementById("headt"); // el objeto que quieres cambiar de color
+  var y = window.scrollY; // la posición vertical de la página
+  if (y > 600) { // si la posición es menor que 100px
+    H.style.backgroundColor = "black"; 
+  }else if(y ){
+        H.style.backgroundColor = "rgba(0, 0, 0, 0.4)"; 
+  }
+});
 
 }
-
