@@ -180,6 +180,20 @@ header{
     position: static;
 }
 
+.text_pri2{
+    padding-left: 2rem;
+    padding-top: 10rem;
+    text-align: center;
+    font-weight: 700px;
+    line-height: 22.98px;
+    font-style: normal;
+    margin-top: 1rem;
+    color: white;
+    position: static;
+    font-size: 45px;
+    margin-bottom: 2rem;
+}
+
 .line-1{
     display: inline-block;
     align-items: center;
@@ -354,26 +368,28 @@ header{
 
 }
 
-.sec2-el p{
+.text_second2{
     font-size: 15px;
-    max-width: 100rem;
+    text-align: center;
+    font-weight: 700px;
+    line-height: 22.98px;
+    font-style: normal;
+    color: white;
+    position: static;
     white-space: nowrap;
     font-weight: bolder;
 }
+
+
 .sec2-el .p-red{
     white-space: nowrap;
     font-size: 21px;
     color: red;
 }
-.sec2-el h1{
-    margin: 35% 0px 15px;
-    font-size: 45px;
-}
 
 .text_red{
-
     white-space: nowrap;
-    font-size: 21px;
+    font-size: 18px;
     color: red;
 }
 
@@ -551,9 +567,9 @@ header{
         position: static;
     }
 
-    .sec2-el h1{
-        margin: 15% 6px 15px;
+    .text_pri2{
         font-size: 40px;
+        margin-top: -5rem;
     }
 
     .sec2-el{
