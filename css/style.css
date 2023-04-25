@@ -641,6 +641,19 @@ header{
     }
 }
 
+.sec3{
+    background-image: url(../img/fond_sec3);
+}
+
+.cont_items{
+    display:block;
+}
+
+.item1{
+
+    color: #fff;
+    
+}
 
 @media screen and (width:1200px) and (max-width:2000px){
     
@@ -696,3 +709,4 @@ header{
     0%   {background-color: #E40b0b; width: 0%;}
     100% {background-color: #C30E0E; width: 150px;}
 }
+
