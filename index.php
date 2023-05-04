@@ -13,23 +13,7 @@
     <script defer type="text/javascript" src="js/app.js"></script>
     <title>Atom rupture</title>
 </head>
-<body onscroll="Camb()">
-    <header id="headt">
-           <a href="index.html"> <img src="img/unnamed-removebg-preview.svg" alt="logo" class="logo"></a>
-            <button class="a-mu" id="abrir"><i class="fa-solid fa-bars"></i></button>
-            <nav class="nav" id="nav">
-                <button class="c-mu" id="cerrar"><i class="fa-solid fa-x"></i></button>
-            <ul class="nav-list">
-                <li><a>Clases</a></li>
-                <li><a>Planes</a></li>
-                <li><a>Desafios</a></li>
-                <li><a>Contactos</a></li>
-                <li><a>Tienda</a></li>
-                <li><button onclick="enviar_form()" class="bo"><p>Comience ya!</p></button></li>
-                <li><a class="b2" onclick=""><img src="img/login.svg" alt="" class="login"></a></li>
-            </ul>
-        </nav>
-    </header>
+<?php include './php/modulos/header.php' ?>
 
 
     <section class="sec1">

@@ -1,7 +1,7 @@
 "use strict";
 
 const enviar_form = () =>{
-    this.location = "login.html";
+    this.location = "login.php";
 }
 
 window.onload=function(){

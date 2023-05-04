@@ -341,7 +341,6 @@ header{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: contain;
-    margin: auto;
     height: 100vh;
 
 }
@@ -596,7 +595,6 @@ header{
     }
 
 
-
     .sec1{
         height: 150vh;
         position: static;
@@ -625,6 +623,7 @@ header{
 @media screen and (max-width:400px){
 
     .Text_princp{
+        margin-top: 10rem;
         font-size: 20px;
         margin-left: 1.4rem;
         max-width: 20rem;
@@ -639,12 +638,24 @@ header{
 
     .emp-ahr{
         vertical-align: center;
-        margin-left: -0.1rem;
+        margin-left: -4rem;
         padding-right: -40rem;
     }
     .sec2-el h1{
         margin: 15% 6px 15px;
-        font-size: 30px;
+        font-size: 27px;
+    }
+
+    .sec2-pd .text_red{
+        padding-left: 5.5rem;
+    }
+
+    .sec2-pd .p-4{
+        padding-left: 7rem;
+    }
+
+    .bt{
+       padding-left: 4rem; 
     }
 
     .sec2-el p{
@@ -678,7 +689,10 @@ header{
     .vist-plns{
         margin-left: 10rem;
     }
-    
+
+    .cont_items{
+        display: block;
+    }
 }
 
 @media screen and (max-height:400rem){
@@ -734,6 +748,9 @@ header{
 
     .contenedor{
         margin-top: 3rem;
+        margin-bottom: 10rem;
+        height: 10rem;
+
     }
 
     .vist-plns{

@@ -8,13 +8,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="./img/unnamed-removebg-preview.svg">
+  <script defer type="text/javascript" src="js/app.js"></script>
   <link rel="stylesheet" href="css/styles_form.css">
 </head>
 <body>
+  <?php include './php/modulos/header.php' ?>
 
-  <header>
-    <a href="./index.html"><img src="img/unnamed-removebg-preview.svg" alt="logo" class="logo"></a>
-  </header>
+  
   <div class="section">
 
     <div class="container">
