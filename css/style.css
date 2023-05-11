@@ -522,7 +522,7 @@ header{
 /* -------------------------------------------------------------------------------------------- */
 /* No escribir debajo!!!!!!(solo media querys y keyframes) */
 /* -------------------------------------------------------------------------------------------- */
-@media screen and (max-width:1000px){
+@media screen and (max-width:1200px){
     .a-mu{
         display: block;
         background-color: transparent;
@@ -620,7 +620,7 @@ header{
 
 
 
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
 
     .Text_princp{
         margin-top: 10rem;
@@ -743,7 +743,7 @@ header{
     }
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:900px){
 
 
     .contenedor{
@@ -760,11 +760,17 @@ header{
 
     .text_pri2{
         font-size: 30px;
-        margin-top: -11rem;
+        margin-top: -5rem;
         padding-left: 0rem;
         margin-left: -0.7rem;
 
     }
+    .sec2-el{
+        padding-top: 2rem;
+    }
+
+
+
 }
 
 
