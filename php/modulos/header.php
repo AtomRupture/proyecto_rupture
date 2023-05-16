@@ -10,7 +10,7 @@
 </head>
 <body>
 <body onscroll="Camb()">
-    <header id="headt">
+    <header>
            <a href="index.php"> <img src="img/unnamed-removebg-preview.svg" alt="logo" class="logo"></a>
             <button class="a-mu" id="abrir"><i class="fa-solid fa-bars"></i></button>
             <nav class="nav" id="nav">
