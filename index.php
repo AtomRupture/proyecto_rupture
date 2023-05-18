@@ -126,7 +126,7 @@
 
     </section>
 
-    <section class="sec5">
+    <!-- <section class="sec5">
 
 <div class="cont5">
 
@@ -154,7 +154,7 @@
 <div class="box-2"> </div>
 <div class="box-3"> </div>
 
-</section>
+</section> -->
 
 </body>
 </html>
