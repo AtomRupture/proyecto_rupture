@@ -15,7 +15,7 @@
     if(mysqli_num_rows($verificar_usuario)> 0){
         echo '<script>
         
-            alert ("El usuario ya está registrado 🤨🐳");
+            alert ("El usuario ya está registrado");
             window.history.go(-1);
 
         </script>';
@@ -28,7 +28,7 @@
         echo '<script>
         
             alert("Datos insertados correctamente");
-            window.location.href = "login.html";
+            window.location="";
         
         </script>';
 

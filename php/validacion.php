@@ -43,6 +43,8 @@ if(isset($_POST['enviar'])){
             $_SESSION['id_usuario'] = $identificador;
             $_SESSION['nombre'] = $nombre;
             $_SESSION['correo'] = $correo;
+            $_SESSION['pass'] = $pass;
+            $_SESSION['tipo'] = $tipo;
 
             header("location:php/pagina_usuario.php");
 
@@ -50,7 +52,7 @@ if(isset($_POST['enviar'])){
             echo '<script>
         
             alert("Error de autenticacion");
-            window.location.href = "login.html";
+            window.location.href = "login.php";
         
         </script>';
 
