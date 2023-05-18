@@ -567,6 +567,63 @@ hr{
     border-color: #A21112;
 }
 
+/* -------------------------------------------------------------------------------------------- */
+/* SECCION NUMERO 5 */
+/* -------------------------------------------------------------------------------------------- */
+
+.sec5{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/fondo_seccion4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: static;
+    align-items: center;
+    height: 100vh;
+}
+
+.cont-title-sec5{
+    display: flex;
+}
+
+.title-sec5{
+    font-size: 20px;
+    margin: 15px auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.left-title5{
+    float: left;
+    margin: auto;
+}
+
+.right-title5{
+    float: right;
+    margin: auto;
+}
+
+.left-title5 h1{
+    margin-top: 5px;
+}
+
+.right-title5 img{
+    margin-left: 10px;
+    width: 120px;
+}
+
+hr{
+    margin: auto;
+    width: 30%;
+    border-color: #A21112;
+}
+
+.box-1, .box-2, .box-3{
+
+    background-color:#E40b0b;
+    display: inline-block;
+    margin: 30px;
+    width: 30px;
 
 
 /* -------------------------------------------------------------------------------------------- */
