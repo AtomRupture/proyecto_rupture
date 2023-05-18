@@ -116,9 +116,17 @@
             </div>
             <hr>
 
-        <div class="box-1">  </div>
-        <div class="box-2">  </div>
-        <div class="box-3">  </div>
+            <div class="cont-sec4">
+                <div class="box-1">  </div>
+                <div class="box-2"> 
+                    <div class="img-box2">
+
+                    </div>    
+                </div>
+                <div class="box-3">  </div>
+
+            </div>
+
 
         </div>
 
