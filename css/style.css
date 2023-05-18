@@ -521,7 +521,7 @@ header{
 }
 
 .sec4{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/fondo_seccion4.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/fondo_seccion4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -567,6 +567,45 @@ hr{
     border-color: #A21112;
 }
 
+.cont-sec4{
+    margin: 50px auto;
+    align-items: center;
+    text-align: center;
+}
+
+.box-1, .box-2, .box-3{
+    width: 30px;
+    margin-left: 50px;
+    display: inline-block;
+
+}
+
+.box-2{
+    width: 400px;
+    height: 400px;
+    border: 3px solid #fff;
+}
+
+.img-box2 img{
+
+}
+
+.box-1, .box-3{
+    background: rgba(255, 255, 255, 0.11);
+    width: 312px;
+    height: 400px;
+    border: 3px solid #fff;
+
+}
+
+.box-1{
+    border-radius: 100px 0px 0px 0px;
+}
+
+.box-3{
+    border-radius: 0px 100px 0px 0px;
+}
+
 /* -------------------------------------------------------------------------------------------- */
 /* SECCION NUMERO 5 */
 /* -------------------------------------------------------------------------------------------- */
@@ -610,20 +649,6 @@ hr{
 .right-title5 img{
     margin-left: 10px;
     width: 120px;
-}
-
-hr{
-    margin: auto;
-    width: 30%;
-    border-color: #A21112;
-}
-
-.box-1, .box-2, .box-3{
-
-    background-color:#E40b0b;
-    display: inline-block;
-    margin: 30px;
-    width: 30px;
 }
 
 /* -------------------------------------------------------------------------------------------- */
