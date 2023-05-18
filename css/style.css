@@ -624,7 +624,7 @@ hr{
     display: inline-block;
     margin: 30px;
     width: 30px;
-
+}
 
 /* -------------------------------------------------------------------------------------------- */
 /* No escribir debajo!!!!!!(solo media querys y keyframes) */
@@ -862,12 +862,7 @@ hr{
     }
     
     
-    
-
-
-
 @keyframes line-1-animation{
     0%   {background-color: #E40b0b; width: 0%;}
     100% {background-color: #C30E0E; width: 150px;}
 }
-
