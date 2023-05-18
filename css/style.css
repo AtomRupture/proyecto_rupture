@@ -236,7 +236,7 @@ header{
     font-size: 15px;
     position: static;
     transition: .50s;
-    margin-top: -6rem;
+    margin-top: -4rem;
     cursor: pointer;
 
   }
@@ -668,9 +668,10 @@ hr{
         bottom: 1;
         background-color: black;
         background-size: cover;
+        height: 55rem;
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
-        max-height: 40rem;
+        max-height: 55rem;
     }
     .nav.visible{
         opacity: 1;
@@ -703,12 +704,12 @@ hr{
 
 
     .sec1{
-        height: 150vh;
+        height: 100%;
         position: static;
     }
 
     .sec2{
-        height: 100vh;
+        height: 100%;
         position: static;
     }
 
@@ -731,7 +732,7 @@ hr{
 
     .Text_princp{
         margin-top: 10rem;
-        font-size: 20px;
+        font-size: 30px;
         margin-left: 1.4rem;
         max-width: 20rem;
     }
@@ -740,7 +741,9 @@ hr{
         vertical-align: center;
         width: 20rem;
         margin-left: 1rem;
+        padding-top: 8rem;
         padding-right: -40rem;
+        font-size: 20.4px;
     }
 
     .emp-ahr{
@@ -751,22 +754,23 @@ hr{
     .sec2-el h1{
         font-size: 23px;
         position:relative;
-        left: 2rem; 
+        left: 3rem; 
         margin-bottom:-1rem;
     }
 
     .sec2-pd .text_red{
         position:relative;
-        left: -1rem; 
+        left: 1rem; 
     }
 
     .sec2-pd .p-4{
     position:relative;
-        left: -1rem; 
+        left: 1rem; 
     }
 
     .bt{
-       padding-left: 4rem; 
+        padding-top: 4rem;
+       padding-left: 3.6rem; 
     }
 
     .sec2-el p{
