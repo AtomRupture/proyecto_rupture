@@ -28,7 +28,7 @@
         echo '<script>
         
             alert("Datos insertados correctamente");
-            window.location="";
+            window.location="../index.php";
         
         </script>';
 
