@@ -37,7 +37,7 @@
         <div class="sec1-el">
             <div class="b3">
                 <div class="contenedor">
-                <h1 class="Text_princp">BIENVENIDO A ATOM RUPTURE</h1>
+                <h1 class="Text_princp">BIENVENIDO, ADMIN</h1>
             <div class="btt">
                 <h2 class="text_second">Tu casa, tu gimnasio</h2>
             </div>
