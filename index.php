@@ -121,6 +121,8 @@
                 <div class="box-2"> 
                     <div class="img-box2">
 
+                    <img src="" >
+
                     </div>    
                 </div>
                 <div class="box-3">  </div>
