@@ -121,7 +121,10 @@
                 <div class="box-2"> 
                     <div class="img-box2">
 
-                    <img src="" >
+                        <img class="imagen-box2" src="img/caja_sec4.jpg" alt="">
+
+                        <button class="bo"><p>Comience ya!</p></button>
+                        
 
                     </div>    
                 </div>
