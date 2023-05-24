@@ -28,7 +28,7 @@ header{
     display: inline-flex;
     align-items: center;
     list-style-type: none;
-    gap: 1rem;
+    gap: 2rem;
     font-weight: 700;
     color: white;
     padding-top: 1rem;
@@ -46,27 +46,12 @@ header{
 
 
 
-.nav-list button:hover{
-    background-color: black;
-    border: #E40b0b solid;
-    transition: border ease-in-out 250ms;
-}
-
 .nav-list a{
     cursor: pointer;
     padding-bottom: 0.2rem;
-    border: #E40b0b 0px;
+    border: #ffffff 0px;
 }
 
-.nav-list a:hover{
-    border: #E40b0b solid 4px;
-    border-radius: 3px;
-    transition: border ease-in-out 120ms;
-    border-top: transparent;
-    border-left: transparent;
-    border-right: transparent;
-    
-}
 
 
 .icons{
@@ -87,7 +72,7 @@ header{
 
 .b2{
 
-    margin-left: 20px;
+    margin-left: 50px;
     margin-right: 20px;
 
 }
@@ -96,6 +81,8 @@ header{
 .b3 img{
     width: 50px;
     height: 50px;
+    margin-left: 20px;
+    
 }
 
 
@@ -117,11 +104,10 @@ header{
     font-style: italic;
     background-color: transparent !important;
     font-weight: 700;
-    font-size: 19px;
     color: white;
     cursor: pointer;
     max-width: 5rem;
-    margin-top: -1rem;
+    margin-top: -2rem;
     margin-left: -0.9rem;
 }
 
@@ -129,7 +115,7 @@ header{
 .login:hover {
   cursor: pointer;
   filter: brightness(0.7);
-  fill: #E40b0b;
+  fill: #ffffff;
 }
 
 .a-mu{
@@ -152,7 +138,7 @@ header{
 .c-mus{
     display: none;
     background-color: transparent;
-    color: #E40b0b;
+    color: #0b65e4;
     border: none !important;
     width: 5rem;
     cursor: pointer;
@@ -162,54 +148,59 @@ header{
 }
 
 
-.form {
-    --width-of-input: 200px;
-    --border-height: 1px;
-    --border-before-color: rgba(221, 221, 221, 0.39);
-    --border-after-color: #C30E0E;
-    --input-hovered-color: #c30e0e73;
-    position: relative;
-    width: var(--width-of-input);
-   }
-   /* styling of Input */
-   .input {
-    color: #fff;
-    font-size: 0.9rem;
-    background-color: transparent;
-    width: 100%;
-    box-sizing: border-box;
-    padding-inline: 0.5em;
-    padding-block: 0.7em;
-    border: none;
-    border-bottom: var(--border-height) solid var(--border-before-color);
-   }
-   /* styling of animated border */
-   .input-border {
-    position: absolute;
-    background: var(--border-after-color);
-    width: 0%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    transition: 0.3s;
-   }
-   /* Hover on Input */
-   input:hover {
-    background: var(--input-hovered-color);
-   }
-   
-   input:focus {
-    outline: none;
-   }
-   /* here is code of animated border */
-   input:focus ~ .input-border {
-    width: 100%;
-   }
-   /* === if you want to do animated border on typing === */
-   /* remove input:focus code and uncomment below code */
-   /* input:valid ~ .input-border{
-     width: 100%;
-   } */
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.search__input {
+  font-family: inherit;
+  font-size: inherit;
+  background-color: #f4f2f2;
+  border: none;
+  color: #646464;
+  padding: 0.7rem 1rem;
+  border-radius: 30px;
+  width: 12em;
+  transition: all ease-in-out .5s;
+  margin-right: -2rem;
+}
+
+.search__input:hover, .search__input:focus {
+  box-shadow: 0 0 1em #00000013;
+}
+
+.search__input:focus {
+  outline: none;
+  background-color: #f0eeee;
+}
+
+.search__input::-webkit-input-placeholder {
+  font-weight: 100;
+  color: #ccc;
+}
+
+.search__input:focus + .search__button {
+  background-color: #f0eeee;
+}
+
+.search__button {
+  border: none;
+  background-color: #f4f2f2;
+  margin-top: .1em;
+}
+
+.search__button:hover {
+  cursor: pointer;
+}
+
+.search__icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: #b4b4b4;
+}
 
   .sec1{
 
@@ -219,138 +210,3 @@ header{
     height: 100vh;
 
   }
-
-  :root {
-    --scrollcolor: #fff;
-    --scrollbackground: #141e27;
-  }
-  * {
-    box-sizing: border-box;
-  }
-  html, body {
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-  }
-  body {
-    background: #203239;
-  }
-  .title {
-    font-size: 2.5rem;
-    font-family: system-ui;
-    line-height: 1.1;
-    font-weight: 300;
-    color: #fff;
-    margin: 4rem auto 1rem;
-    width: 85%;
-    max-width: 1280px;
-  }
-  .slider {
-    width: 85%;
-    max-width: 1280px;
-    margin: 0 auto;
-  }
-  .slider__content {
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    display: flex;
-    gap: 1rem;
-    padding-bottom: 1rem;
-    scrollbar-color: var(--scrollcolor) var(--scrollbackground);
-  }
-  .slider__content::-webkit-scrollbar {
-    height: 0.5rem;
-    width: 0.5rem;
-    border-radius: 1rem;
-    background: var(--scrollbackground);
-  }
-  .slider__content::-webkit-scrollbar-thumb {
-    border-radius: 1rem;
-    background: var(--scrollcolor);
-  }
-  .slider__content::-webkit-scrollbar-track {
-    border-radius: 1rem;
-    background: var(--scrollbackground);
-  }
-  .slider__item {
-    scroll-snap-align: start;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    min-width: 100%;
-    width: 100%;
-    border-radius: 0.25rem;
-    overflow: hidden;
-    position: relative;
-    aspect-ratio: 1;
-  }
-  @media (min-width: 460px) {
-    .slider__item {
-      aspect-ratio: 0.6666666667;
-      min-width: calc((100% / 2) - 2rem);
-   }
-  }
-  @media (min-width: 940px) {
-    .slider__item {
-      min-width: calc((100% / 3) - 4rem);
-   }
-  }
-  .slider__image {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  .slider__info {
-    position: relative;
-    padding: 4rem 2rem 2rem;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(32, 50, 57, 0));
-  }
-  .slider__info h2 {
-    color: #fff;
-    font-family: system-ui;
-    line-height: 1.1;
-    font-weight: 300;
-    font-size: 1.75rem;
-    margin: 0;
-  }
-  .slider__nav {
-    margin: 1rem 0 4rem;
-    width: 100%;
-    padding: 0;
-    display: flex;
-    justify-content: flex-start;
-    gap: 1rem;
-    align-content: center;
-    align-items: center;
-    pointer-events: none;
-  }
-  @media (min-width: 460px) {
-    .slider__nav {
-      justify-content: flex-end;
-   }
-  }
-  .slider__nav__button {
-    margin: 0;
-    appearance: none;
-    border: 0;
-    border-radius: 2rem;
-    background: #fff;
-    color: #203239;
-    padding: 0.5rem 1rem;
-    font-size: 0.75rem;
-    line-height: 1;
-    pointer-events: none;
-    transition: 0.2s ease-out;
-    opacity: 0.25;
-  }
-  .slider__nav__button--active {
-    opacity: 1;
-    pointer-events: auto;
-    cursor: pointer;
-  }
-  
-  
