@@ -1,12 +1,12 @@
-* {
+body {
+    height: 100vh;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
-}
-
-body {
-    height: 100vh;
+    display: grid;
+    gap: 0.5px;
+    grid-template-columns: repeat(auto-fill, fit-content(200px));
 }
 
 element.style{
@@ -65,7 +65,9 @@ header{
     transition: .3s;
     
 }
-
+button p{
+    margin-top: 0.4rem;
+}
 .nav-list button:hover{
     background-color: black;
     border: #E40b0b solid;
@@ -162,19 +164,18 @@ header{
     padding-top: 0rem;
 }
 .contenedor{
-    margin-top: 10rem;
+    margin:8rem auto;
 }
 .Text_princp{
+    display: grid;
     text-align: center;
-    padding: 2rem;
-    padding-left: 1rem;
+    align-items: center;
     color: white;
     font-weight: 700px;
     font-size: 35px;
     line-height: 57.45px;
     font-style: normal;
-    margin-left: 2rem;
-    position: static;
+    padding-top:8rem;
 }
 
 .text_second{
@@ -350,18 +351,19 @@ header{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: contain;
-    height: 100vh;
+    height: 150vh;
 
 }
 
 .contenedor2{
     background-image: url(../img/fondo_sec2.png);
     background-size: cover;
-    background-position: no-repeat;
+    background-repeat: no-repeat;
     color: white;
-    height: 100vh;
-    position: static;
+    height: 150vh;
+    /* position: static; */
     align-items: center;
+    display:grid;
 }
 .sec2-el{
     width: 60%;
@@ -765,11 +767,6 @@ hr{
     }
 
 
-    .sec1{
-        height: 100%;
-        position: static;
-    }
-
     .sec2{
         height: 100%;
         position: static;
@@ -793,10 +790,7 @@ hr{
 @media screen and (max-width:700px){
 
     .Text_princp{
-        margin-top: 10rem;
         font-size: 30px;
-        margin-left: 1.4rem;
-        max-width: 20rem;
     }
 
     .text_second{
