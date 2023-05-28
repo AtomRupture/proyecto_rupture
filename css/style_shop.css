@@ -221,27 +221,26 @@ header{
   
   .slider {
     display: flex;
-    width: 100%; /* Ajusta este valor según la cantidad de imágenes que tengas */
+    width: 100%;
+    height:100%; /* Ajusta este valor según la cantidad de imágenes que tengas */
     transition: transform 0.4s ease-in-out;
   }
   
   .slider img {
     width: 100%;
     height: 860px;
+    object-fit: cover;
   }
 
   .slider-controls {
-    margin-top: 10px;
-    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
-  .prev-button,
-  .next-button {
-    padding: 5px 10px;
-    background-color: #ccc;
-    border: none;
-    border-radius: 4px;
-    margin-right: 5px;
-    cursor: pointer;
-  }
-  
+
