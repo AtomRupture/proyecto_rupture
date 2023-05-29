@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <script defer src="https://kit.fontawesome.com/49b40f8ce6.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../img/unnamed-removebg-preview.svg">
-    <script defer type="text/javascript" src="js/app.js"></script>
+    <script defer type="text/javascript" src="../js/app.js"></script>
     <title>Atom rupture</title>
 </head>
 <?php include './modulos/header.php' ?>
