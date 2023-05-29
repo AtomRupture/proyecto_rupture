@@ -20,7 +20,7 @@
                 <li><a>Planes</a></li>
                 <li><a>Desafios</a></li>
                 <li><a>Contactos</a></li>
-                <li><a>Tienda</a></li>
+                <li><a class="tienda" href="tienda.php">Tienda</a></li>
                 <li><button onclick="enviar_form()" class="bo"><p>Comience ya!</p></button></li>
                 <li><a class="b2" onclick=""><img src="img/login.svg" alt="" class="login"></a></li>
             </ul>
