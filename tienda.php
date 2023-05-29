@@ -37,7 +37,11 @@
 
 <section class="sec2">
 
+<div class="subt1">
 
+<h2>Definicion</h2>
+
+</div>
 
 
 </section>

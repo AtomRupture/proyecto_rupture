@@ -271,3 +271,30 @@ letter-spacing: 0em;
 text-align: left;
 
 }
+
+.subt1{
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  left: 0px;
+  top: 900px;
+  background-color: rgb(255, 255, 255) !important;
+  text-align: center;
+
+  display: flex;
+
+}
+
+.subt1 h1{
+  margin: 5% auto;
+  text-align: center;
+  align-items: center;
+
+  font-family: ubuntu;
+font-size: 50px;
+font-weight: 700;
+line-height: 61px;
+letter-spacing: 0em;
+text-align: center;
+
+}
