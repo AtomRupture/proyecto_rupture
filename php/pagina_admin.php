@@ -7,10 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <script defer src="https://kit.fontawesome.com/49b40f8ce6.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="./img/unnamed-removebg-preview.svg">
-    <script defer type="text/javascript" src="js/app.js"></script>
+    <link rel="shortcut icon" href="../img/unnamed-removebg-preview.svg">
+    <script defer type="text/javascript" src="../js/app.js"></script>
     <title>Atom rupture</title>
 </head>
 <body onscroll="Camb()">
@@ -25,7 +25,7 @@
                 <li><a>Desafios</a></li>
                 <li><a>Contactos</a></li>
                 <li><a>Tienda</a></li>
-                <li><button onclick="enviar_form()" class="bo"><p>Bienvenido, Admin!</p></button></li>
+                <li><button onclick="enviar_form()" class="bo"><p>Bienvenido</p></button></li>
                 <li><a class="b2" onclick=""><img src="img/login.svg" alt="" class="login"></a></li>
             </ul>
         </nav>
