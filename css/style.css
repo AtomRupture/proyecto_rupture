@@ -190,7 +190,6 @@ button p{
     font-weight: 700px;
     line-height: 22.98px;
     font-style: normal;
-    margin-top: 1rem;
     color: white;
     position: static;
     font-size: 45px;
@@ -354,10 +353,11 @@ button p{
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    height: 150vh;
+    height: 87vh;
     /* position: static; */
     align-items: center;
     display:grid;
+
 }
 .sec2-el{
     width: 60%;
@@ -367,6 +367,7 @@ button p{
     margin: 0px auto;
     white-space: nowrap;
     background-color: #a8222213;
+    position:absolute;
     
 
 }
@@ -766,7 +767,6 @@ hr{
 
     .text_pri2{
         font-size: 37px;
-        margin-top: -5rem;
         padding-left: 0rem;
         margin-left: -1.8rem;
 

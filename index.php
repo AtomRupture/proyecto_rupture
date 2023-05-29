@@ -108,6 +108,7 @@
 
                 <div class="right-title4">
                     <img src="img/unnamed-removebg-preview.svg">
+                    <img src="" alt="">
                 </div>
 
                 
