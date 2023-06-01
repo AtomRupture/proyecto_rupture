@@ -27,7 +27,7 @@ if (empty($var)){
         <div class="header-left">
           <button onclick="se()"><span class="material-icons-outlined">search</span></button>
           <div id="bus">
-            
+
           </div>
         </div>
         <!-- <div class="header-right">
@@ -97,7 +97,7 @@ if (empty($var)){
               <h3>Usuarios</h3>
               <span class="material-icons-outlined">groups</span>
             </div>
-            <h1>1500</h1>
+            <h1>12</h1>
           </div>
 
           <div class="card">

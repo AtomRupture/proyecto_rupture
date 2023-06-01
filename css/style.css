@@ -440,7 +440,6 @@ button p{
     color: white;
     position: static;
     align-items: center;
-    height: 110vh;
 }
 
 .cont-title-sec4{
@@ -501,6 +500,7 @@ hr{
     border: 2px solid #FFFFFF;
     text-align: center;
     transition: 0.5s;
+    margin-bottom: 2rem;
 }
 
 .columna-pago:hover{
