@@ -14,6 +14,7 @@
 
 <section class="sec1">
 
+<center>
 <div class="slider-container">
   <div class="slider">
     <img src="img/maxresdefault.jpg" alt="Imagen 1">
@@ -25,6 +26,7 @@
     <button class="next-button">Siguiente</button>
   </div>
 </div>
+</center>
 
 <div class="block">
 
@@ -35,16 +37,6 @@
 </section>
 
 
-<section class="sec2">
-
-<div class="subt1">
-
-<h2>Definicion</h2>
-
-</div>
-
-
-</section>
 
     
 </body>
