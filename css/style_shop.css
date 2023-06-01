@@ -51,19 +51,19 @@ button p{
   margin-top: 0.4rem;
 }
 .nav-list button:hover{
-  background-color: black;
-  border: #E40b0b solid;
+
+
   transition: border ease-in-out 250ms;
 }
 
 .nav-list a{
   cursor: pointer;
   padding-bottom: 0.2rem;
-  border: #E40b0b 0px;
+
 }
 
 .nav-list a:hover{
-  border: #E40b0b solid 4px;
+
   border-radius: 3px;
   transition: border ease-in-out 120ms;
   border-top: transparent;
@@ -137,7 +137,7 @@ fill: #E40b0b;
 .c-mus{
   display: none;
   background-color: transparent;
-  color: #E40b0b;
+  color: #ffffff;
   border: none !important;
   width: 5rem;
   cursor: pointer;
@@ -338,7 +338,7 @@ header{
 
   .sec1{
 
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/Fondo_index.png) no-repeat center center fixed;
+    background-color: #ffffff;
     background-size: cover !important;
     background-size: contain;
     height: 100vh;

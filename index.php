@@ -15,7 +15,7 @@
 </head>
 <?php include './php/modulos/header.php' ?>
 
-
+<!-- SECCIÓN 1 -->
     <section class="sec1">
 
         <div class="sec1-el">
@@ -33,6 +33,7 @@
             </div>
             </div>
         </div>
+
     </section>
 
     <div class="bot">
@@ -47,28 +48,37 @@
         </div>
     </div>
 
+<!--  SECCIÓN 2 -->
     <section class="sec2">
 
+        <h1>UNA OPORTUNIDAD ÚNICA</h1>
+        <hr>
+
         <div class="contenedor2">
-        <div class="sec2-el">
-        <h1 class="text_pri2">UNA OPORTUNIDAD UNICA</h1>
-        <div class="sec2-pd">
-        <h1 class="text_second2"><p class="">El asistente de entrenamiento que está</p> <p class="text_red">revolucionando</p> <p class="p-4">el mundo</p></h1>
-        </div>
-        <div class="bt">
-            <button class="vist-plns">
-                Visita nuestras clases
-            </button>
-    </div>
-        </div>
-
-
-        <div class="right-cont"></div>
-
+            <div class="slide-active">
+                <img src="">
+            </div>
+            <div class="slide-next">
+                <img src="">
+            </div>
+            <div class="slide">
+                <img src="">
+            </div>
+            <div class="slide">
+                <img src="">
+            </div>
+            <div class="slide-prev">
+                <img src="">
+            </div>
+            <div class="button-container">
+                <div class="button"><i class="fas fa-angle-left"></i></div>
+                <div class="button"><i class="fas fa-angle-right"></i></div>
+            </div>
         </div>
 
     </section>
 
+<!-- SECCIÓN 3 -->
     <section class="sec3">
 
         <div class="contenedor3">
@@ -94,6 +104,7 @@
 
     </section>
 
+<!-- SECCIÓN 4 -->
     <section class="sec4">
 
         <div class="cont4">
@@ -117,29 +128,60 @@
             </div>
             <hr>
 
-            <div class="cont-sec4">
-                <div class="box-1">  </div>
-                <div class="box-2"> 
-                    <div class="img-box2">
 
-                        <img class="imagen-box2" src="img/caja_sec4.jpg" alt="">
+        </div>
 
-                        <button class="bo"><p>Comience ya!</p></button>
-                        
-
-                    </div>    
+        <div class="container-pago">
+            <div class="fila-pago">
+                <div class="columna-pago co-pag1">
+                    <p>Iniciante</p>
+                    <h3>19$ <span>/ mes</span></h3>
+                    <ul>
+                        <li>1 entrenador  </li>
+                        <li>Contenido base  </li>
+                        <li>Acceso a clases iniciantes </li>
+                        <li>Descuentos mensuales</li>
+                        <li>Dietas predefinidas</li>
+                        <li>Rutinas predefinidas </li>
+                    </ul>
+                    <button class="btn-precios">Compralo</button>
                 </div>
-                <div class="box-3">  </div>
 
+                <div class="columna-pago co-pag2">
+                    <p>Avanzado</p>
+                    <h3>25$ <span>/ mes</span></h3>
+                    <ul>
+                        <li>1 entrenador </li>
+                        <li> Contenido personalizado</li>
+                        <li>Clases avanzadas </li>
+                        <li>Descuentos diarios</li>
+                        <li>Dietas predefinidas</li>
+                        <li>Rutinas personalizadas</li>
+                    </ul>
+                    <button class="btn-precios">Compralo</button>
+                </div>
+
+                <div class="columna-pago co-pag3">
+                    <p>Premium</p>
+                    <h3>30$ <span>/ mes</span></h3>
+                    <ul>
+                        <li>2 o más entrenadores </li>
+                        <li>Contenido especializado </li>
+                        <li>Clases avanzadas </li>
+                        <li>Descuentos totales</li>
+                        <li>Dietas personalizadas </li>
+                        <li>Rutinas personalizadas  </li>
+                    </ul>
+                    <button class="btn-precios">Compralo</button>
+                </div>
             </div>
-
-
         </div>
 
 
 
     </section>
 
+    
     <!-- <section class="sec5">
 
 <div class="cont5">
