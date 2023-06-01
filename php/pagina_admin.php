@@ -44,7 +44,7 @@ if (empty($var)){
           <div class="sidebar-brand">
             <button><span><img src="../img/admin-l.png" class="logo"></span></button><br> 
           </div>
-          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+          <span class="material-icons-outlined" id="X" onclick="closeSidebar()">close</span>
         </div>
 
         <ul class="sidebar-list">

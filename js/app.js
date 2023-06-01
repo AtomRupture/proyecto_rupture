@@ -7,7 +7,6 @@ const enviar_form = () =>{
 
 
 window.onload=function(){
-  document.getElementById("foxr").reset();
 
 const nav = document.querySelector(".nav");
 const abrir = document.querySelector(".a-mu");

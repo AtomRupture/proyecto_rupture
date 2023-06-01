@@ -325,6 +325,11 @@ body {
   
     #sidebar {
       display: none;
+
+    }
+
+    #X{
+      padding-top: 10rem;
     }
   
     .menu-icon {
@@ -601,6 +606,12 @@ padding: 10px;
   margin: 200px auto;
   text-align: center;
   align-items: center;
+}
+
+#X{
+  position: absolute;
+  right: 13.5rem;
+  font-size:35px;
 }
 
 input{
