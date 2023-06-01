@@ -344,7 +344,7 @@ button p{
 }
 
 .sec1{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/fondo_index.jpg) no-repeat center center fixed;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/fondo_index.jpg) no-repeat center center;
     background-size: cover !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -359,7 +359,7 @@ button p{
 /* -------------------------------------------------------------------------------------------- */
 
 .sec2{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/fondo_sec2.jpg) no-repeat center center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url(../img/fondo_seccion2.jpg) no-repeat center center;
     background-size: cover !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -377,17 +377,13 @@ button p{
     align-items: center;
 }
 
-.contenedor2{
-
-}
-
 
 /* -------------------------------------------------------------------------------------------- */
 /* SECCION NUMERO 3 */
 /* -------------------------------------------------------------------------------------------- */
 
 .sec3{
-    background-image: url(../img/fond_sec3.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/sec3.jpg) no-repeat center center;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -438,7 +434,7 @@ button p{
 /* -------------------------------------------------------------------------------------------- */
 
 .sec4{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/fondo_seccion4.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)),url(../img/fondo_seccion4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
