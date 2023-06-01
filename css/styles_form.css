@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'Material Icons Outlined';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialiconsoutlined/v109/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2) format('woff2');
+}
+
+.material-icons-outlined {
+  font-family: 'Material Icons Outlined';
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
 body{
   font-family: 'Ubuntu', sans-serif;
 	font-weight: 300;
@@ -19,6 +39,7 @@ header{
   height: 5.5rem;
 }
 
+
 .a-mu{
   display: block;
   background-color: transparent;
@@ -37,8 +58,10 @@ header{
   width: 5rem;
   cursor: pointer;
   font-size: 2rem;
-  padding-left: 1.5rem;
   padding-top: 0rem;
+  position: absolute;
+  z-index: 3;
+  padding-left: 3rem;
 }
 
 .nav{
@@ -50,16 +73,16 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
-  position: absolute;
+  gap: 3rem;
+  position: fixed;
   top: 0;
   right: 0;
-  bottom: 1;
+  bottom: 0;
   background-color: black;
   background-size: cover;
   padding: 2rem;
   box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
-  max-height: 40rem;
+  z-index: 2;
 }
 .nav.visible{
   opacity: 1;
@@ -77,15 +100,13 @@ header{
   margin: 1rem;
 }
 .nav-list{
-    display: flex;
-    list-style-type: none;
-    gap: 2.5rem;
-    font-weight: 700;
-    color: white;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    font-size: 15px;
-    z-index: 2;
+  display: flex;
+  list-style-type: none;
+  gap: 2.5rem;
+  font-weight: 700;
+  color: white;
+  padding-top: 5rem;
+  font-size: 15px;
     
 }
 
@@ -259,7 +280,7 @@ display: none;
   background-color: #020305;
   font-family: 'unicons';
   content: '\eb4f';
-  z-index: 20;
+  z-index: 1;
   top: -10px;
   left: -10px;
   line-height: 36px;
@@ -295,7 +316,7 @@ display: none;
   background-image: url('/img/subtle-prism.png');
   position: absolute;
   border-radius: 6px;
-  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 .card-back {
   transform: rotateY(180deg);

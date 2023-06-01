@@ -110,7 +110,7 @@ button p{
 }
 
 .logo{
-    max-width: 9rem;
+    max-width: 6rem;
     padding-left: 2.4rem;
 }
 
@@ -727,16 +727,14 @@ hr{
         flex-direction: column;
         align-items: center;
         gap: 1rem;
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
-        bottom: 1;
+        bottom: 0;
         background-color: black;
         background-size: cover;
-        height: 55rem;
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
-        max-height: 55rem;
     }
     .nav.visible{
         opacity: 1;
@@ -787,10 +785,11 @@ hr{
 
 
 
-@media screen and (max-width:700px){
+@media screen and (max-width:800px){
 
     .Text_princp{
         font-size: 30px;
+        padding-top: 22rem;
     }
 
     .text_second{
@@ -862,6 +861,40 @@ hr{
     .cont_items{
         display: block;
     }
+
+    .cont_items{
+        display:block;
+    }
+    
+        .contenedor{
+            margin-top: 3rem;
+            margin-bottom: 10rem;
+            height: 10rem;
+    
+        }
+    
+        .vist-plns{
+            margin-top: 3rem;
+           position: relative;
+        }
+    
+        .text_pri2{
+            position: relative;
+     
+        }
+        .sec2-el{
+            padding-top: 2rem;
+        }
+    
+    .nav{
+        gap: 6rem;
+    }
+
+    .nav-list{
+        gap: 5.5rem;
+    }
+    
+    
 }
 
 
@@ -892,35 +925,6 @@ hr{
     
 }
 
-@media screen and (max-width:800px){
-    .cont_items{
-        display:block;
-    }
-    
-        .contenedor{
-            margin-top: 3rem;
-            margin-bottom: 10rem;
-            height: 10rem;
-    
-        }
-    
-        .vist-plns{
-            margin-top: 3rem;
-           position: relative;
-        }
-    
-        .text_pri2{
-            position: relative;
-     
-        }
-        .sec2-el{
-            padding-top: 2rem;
-        }
-    
-    
-    
-    }
-    
     
 @keyframes line-1-animation{
     0%   {background-color: #E40b0b; width: 0%;}
