@@ -66,6 +66,7 @@ body {
     background-color: transparent !important;
     border: none;
     cursor: pointer;
+    margin-left: -6rem;
   }
 
   .nav{
@@ -308,6 +309,11 @@ body {
     align-items: center;
     justify-content: center;
   }
+
+  .bust{
+    margin-top: -1.5rem;
+    margin-left: 7.2rem;
+    }
   
   
   /* ---------- MEDIA QUERIES ---------- */

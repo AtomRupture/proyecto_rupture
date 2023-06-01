@@ -25,7 +25,7 @@ if (empty($var)){
           <span class="material-icons-outlined">menu</span>
         </div>
         <div class="header-left">
-          <button onclick="se()"><span class="material-icons-outlined">search</span></button>
+          <button onclick="se()"><span class="material-icons-outlined">search</span><h4 class="bust">Buscador...</h4></button>
           <div id="bus">
 
           </div>
