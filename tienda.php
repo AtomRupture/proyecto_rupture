@@ -99,7 +99,7 @@
         
         <div id="shop">
             
-            <div class="products ios apple" id="iphone-x">
+            <div class="product Whey pure" id="iphone-x">
                 <img class="product-image" src="./img/whey_pure.png">
                 <p class="product-name">Whey Pure 2lb</p>
                 <p class="product-description">Proteina limpia de 2LB</p>
