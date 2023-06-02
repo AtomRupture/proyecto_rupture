@@ -1,44 +1,21 @@
+$('.slide-nav').on('click', function(e) {
+  e.preventDefault();
+  // get current slide
+  var current = $('.flex--active').data('slide'),
+    // get button data-slide
+    next = $(this).data('slide');
 
-const slider = document.querySelector('.slider');
-const prevButton = document.querySelector('.prev-button');
-const nextButton = document.querySelector('.next-button');
-let count = 0;
-let autoSlideInterval;
+  $('.slide-nav').removeClass('active');
+  $(this).addClass('active');
 
-function slide() {
-  slider.style.transform = `translateX(-${count * 100}%)`;
-}
-
-function startAutoSlide() {
-  autoSlideInterval = setInterval(() => {
-    count++;
-    if (count > 2) {
-      count = 0;  // Ajusta este valor según la cantidad de imágenes que tengas
-    }
-    slide();
-  }, 5000);  // Ajusta este valor para controlar la velocidad del slider (en milisegundos)
-}
-
-function stopAutoSlide() {
-  clearInterval(autoSlideInterval);
-}
-
-prevButton.addEventListener('click', () => {
-  count--;
-  if (count < 0) {
-    count = 2;  // Ajusta este valor según la cantidad de imágenes que tengas
+  if (current === next) {
+    return false;
+  } else {
+    $('.slider__warpper').find('.flex__container[data-slide=' + next + ']').addClass('flex--preStart');
+    $('.flex--active').addClass('animate--end');
+    setTimeout(function() {
+      $('.flex--preStart').removeClass('animate--start flex--preStart').addClass('flex--active');
+      $('.animate--end').addClass('animate--start').removeClass('animate--end flex--active');
+    }, 800);
   }
-  slide();
-  stopAutoSlide();
 });
-
-nextButton.addEventListener('click', () => {
-  count++;
-  if (count > 2) {
-    count = 0;  // Ajusta este valor según la cantidad de imágenes que tengas
-  }
-  slide();
-  stopAutoSlide();
-});
-
-startAutoSlide();
