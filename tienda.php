@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style_shop.css">
-    <script defer type="text/javascript" src="./js/tienda.js"></script>
     <title>Tienda</title>
 </head>
 <body>
@@ -219,8 +218,9 @@
     </section>
 
 </section>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 
-
+<script defer type="text/javascript" src="./js/tienda.js"></script>
 
 
     
