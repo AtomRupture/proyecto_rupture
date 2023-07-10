@@ -13,7 +13,6 @@ element.style{
     display:none;
 }
 
-
 header{
     display: flex;
     align-items: center;
@@ -41,7 +40,6 @@ header{
     font-size: 15px;
     
 }
-
 
 .nav-list li button{
     text-decoration: none;
@@ -90,7 +88,6 @@ button p{
     
 }
 
-
 .b2{
     font-style: italic;
     background-color: transparent !important;
@@ -113,7 +110,6 @@ button p{
     max-width: 6rem;
     padding-left: 2.4rem;
 }
-
 
 .login{
     font-style: italic;
@@ -247,7 +243,6 @@ button p{
     transition: .50s;
     margin-top: -4rem;
     cursor: pointer;
-
   }
   .emp-ahr::after {
     content: "";
@@ -257,7 +252,6 @@ button p{
     transition: 0.5s;
     transform-origin: center;
   }
-  
   .emp-ahr::before {
     content: "";
     transform-origin: center;
@@ -266,16 +260,12 @@ button p{
     height: 40%;
     transition: 0.5s;
   }
-  
   .emp-ahr:hover::before, .emp-ahr:hover::after {
     transform: scale(0)
-  }
-  
+  } 
   .emp-ahr:hover {
     box-shadow: inset 0px 0px 25px #C30E0E;
   }
-
-
   #btn-mas{
     display: none;
 }
@@ -299,7 +289,6 @@ button p{
     transition: all 500ms ease;
 
 }
-
 .redes a:hover{
     background: none;
     color: none;
@@ -329,8 +318,6 @@ button p{
     transform: rotate(180deg);
     font-size: 45px;
 }
-
-
 
 ::-webkit-scrollbar{
     width:10px;
@@ -376,7 +363,6 @@ button p{
     text-align: center;
     align-items: center;
 }
-
 
 /* -------------------------------------------------------------------------------------------- */
 /* SECCION NUMERO 3 */
@@ -586,40 +572,7 @@ hr{
     color: white;
     position: static;
     align-items: center;
-    height: 100vh;
-}
-
-.cont-title-sec5{
-    display: flex;
-}
-
-.title-sec5{
-    font-size: 20px;
-    margin: 15px auto;
-    text-align: center;
-    align-items: center;
-    display: flex;
-}
-
-.left-title5{
-    float: left;
-    margin: auto;
-}
-
-.right-title5{
-    float: right;
-    margin: auto;
-}
-
-.left-title5 h1{
-    margin-top: 5px;
-}
-
-.right-title5 img{
-    margin-left: 10px;
-    width: 120px;
-}
-
+} 
 */
 
 /* -------------------------------------------------------------------------------------------- */

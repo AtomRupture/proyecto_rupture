@@ -108,10 +108,8 @@
     <section class="sec4">
 
         <div class="cont4">
-
             <div class="cont-title-sec4">
                 <div class="title-sec4">
-
                 <div class="left-title4">
                     <h1> EL CAMBIO </h1>
                     <h1> COMIENZA CON</h1>
@@ -121,14 +119,9 @@
                     <img src="img/unnamed-removebg-preview.svg">
                     <img src="" alt="">
                 </div>
-
-                
-
                 </div>
             </div>
             <hr>
-
-
         </div>
 
         <div class="container-pago">
@@ -177,40 +170,9 @@
             </div>
         </div>
 
-
-
     </section>
 
-    
-    <!-- <section class="sec5">
-
-<div class="cont5">
-
-    <div class="cont-title-sec5">
-        <div class="title-sec5">
-
-        <div class="left-title5">
-            <h1> PROGRAMAS EN TENDENCIA </h1>
-            <h2> Vive la experiencia de entrenar con <p>AtomRupture</p> a la hora que quieras y desde donde quieras.</h2>
-        </div>
-
-        <div class="right-title5">
-            <img src="img/unnamed-removebg-preview.svg">
-        </div>
-
-        
-
-        </div>
-    </div>
-    <hr>
-
-</div>
-
-<div class="box-1"> </div>
-<div class="box-2"> </div>
-<div class="box-3"> </div>
-
-</section> -->
+    <!-- SECCIÓN 5 -->
 
 </body>
 </html>
