@@ -90,135 +90,104 @@
 
 <section class="sec2">
 
-<div>   <center> <h1>Nuestros Productos</h1> </center>
+<div>   <center> <h1>Nuestros Productos</h1> 
         <h2>Definicion</h2>
-        
-        <button id='cart-button' class="trigger cart-button-style">Show Cart</button>
-        
-        
-        <div id="shop">
-            
-            <div class="product Whey pure" id="iphone-x">
-                <img class="product-image" src="./img/whey_pure.png">
-                <p class="product-name">Whey Pure 2lb</p>
-                <p class="product-description">Proteina limpia de 2LB</p>
-                <p class="product-price" value='155000'>155.000</p>
-                <button class="add-to-cart" id='test'>Añadir al carrito</button>
-            </div>
-            
-            <div class="products android samsung" id="samsung-s9">
-                <img class="product-image" src="http://via.placeholder.com/200x200">
-                <p class="product-name">Samsung S9</p>
-                <p class="product-description">The most powerful Android device on the planet.</p>
-                <p class="product-price" value='789'>789</p>
-                <button class="add-to-cart">ADD TO CART</button>
-            </div>
-            
-            <div class="products android google" id="pixel-2">
-                <img class="product-image" src="http://via.placeholder.com/200x200">
-                <p class="product-name">Pixel 2</p>
-                <p class="product-description">The perfect phone for a clean Android experience</p>
-                <p class="product-price" value='876'>876</p>
-                <button class="add-to-cart">ADD TO CART</button>
-            </div>
-            
-            <div class="products android oneplus" id="oneplus-6">
-                <img class="product-image" src="http://via.placeholder.com/200x200">
-                <p class="product-name">Oneplus 6</p>
-                <p class="product-description">The latest from a long line of affordable premium devices by Oneplus</p>
-                <p class="product-price" value='799'>799</p>
-                <button class="add-to-cart">ADD TO CART</button>
-            </div>
-            
-            <div class="products ios apple" id="iphone-8">
-                <img class="product-image" src="http://via.placeholder.com/200x200">
-                <p class="product-name">iPhone 8</p>
-                <p class="product-description">The little, less-stylish brother of the iPhone X.</p>
-                <p class="product-price" value='719'>719</p>
-                <button class="add-to-cart">ADD TO CART</button>
-            </div>
-            
-            <div class="products android huawei" id="huawei-p20">
-                <img class="product-image" src="http://via.placeholder.com/200x200">
-                <p class="product-name">Huawei P20</p>
-                <p class="product-description">A solid performer from the chinese giant Huawei.</p>
-                <p class="product-price" value='769'>769</p>
-                <button class="add-to-cart">ADD TO CART</button>
-            </div>
-            
-            <div class="products android lg" id="lg-g7">
-                <img class="product-image" src="http://via.placeholder.com/200x200">
-                <p class="product-name">LG G7 ThinQ</p>
-                <p class="product-description">The latest and most powerful smartphone from LG.</p>
-                <p class="product-price" value='699'>699</p>
-                <button class="add-to-cart">ADD TO CART</button>
-            </div>
-            
-            <div class="products android huawei" id="huawei-mate-10-pro">
-                <img class="product-image" src="http://via.placeholder.com/200x200">
-                <p class="product-name">Huawei Mate 10 Pro</p>
-                <p class="product-description">The most powerful Android device yet from Huawei.</p>
-                <p class="product-price" value='899'>899</p>
-                <button class="add-to-cart">ADD TO CART</button>
-            </div>
-        </div>
-        
-    </div>
-        <div id='cart-wrapper' class="slider close">
-            <div id='cart'>
-                <div id="cart-products-wrapper">
-                    <table id="cart-table">
-                    <thead id="cart-table-header">
-                         <th class="name-col">Product Name</th> 
-                         <th class="quantity-col">Quantity</th>       
-                         <th class="price-col">Price</th>
-                         <th class="updated-price-col">Updated Price</th>
-                         <th class="update-col">Update</th>
-                         <th class="remove-col">Remove</th>
-                    </thead>
-                    <tbody id="cart-table-body"></tbody>
-                    </table>
-                </div>
-            </div>
-            
-            <div id='amount-controls'>
-                <div id="cart-amount-wrapper">
-                    <table>
-                        <tbody>
-                            <tr id='subtotal-wrappper'>
-                                <td id="subtotal-label">Subtotal:</td>
-                                <td id="subtotal">0.00</td>
-                            </tr>
+        </center>
+  
+	
+	<body>
+		<ul class="l-items">
+			<li class="item">
+				<button class="item-add">Añadir</button>
+				<img src="./img/whey_pure.png" alt="">
+				<p class="item-description">Suplemento de proteína aislada del suero de la leche, con un nivel de pureza del 87%, que aporta solo 106 calorías y 26g de proteína.</p>
+				<h4 class="item-name">Whey Pure 2lb</h4>
+				<h5 class="item-price">$<span class="price">150.000</span></h5>
+			</li>
+			<li class="item">
+				<button class="item-add">Add to Cart</button>
+				<img src="http://placehold.it/270x270" alt="">
+				<p class="item-description">This is an item description. Interesting content about the item will go here.</p>
+				<h4 class="item-name">Awesome Swag</h4>
+				<h5 class="item-price">$<span class="price">15.00</span></h5>
+			</li>
+			<li class="item">
+				<button class="item-add">Add to Cart</button>
+				<img src="http://placehold.it/270x270" alt="">
+				<p class="item-description">This is an item description. Interesting content about the item will go here.</p>
+				<h4 class="item-name">An Item Name Here</h4>
+				<h5 class="item-price">$<span class="price">3.50</span></h5>
+			</li>
+			<li class="item">
+				<button class="item-add">Add to Cart</button>
+				<img src="http://placehold.it/270x270" alt="">
+				<p class="item-description">This is an item description. Interesting content about the item will go here.</p>
+				<h4 class="item-name">An Item Name Here</h4>
+				<h5 class="item-price">$<span class="price">5.00</span></h5>
+			</li>
+			<li class="item">
+				<button class="item-add">Add to Cart</button>
+				<img src="http://placehold.it/270x270" alt="">
+				<p class="item-description">This is an item description. Interesting content about the item will go here.</p>
+				<h4 class="item-name">Cool Item Name</h4>
+				<h5 class="item-price">$<span class="price">15.00</span></h5>
+			</li>
+			<li class="item">
+				<button class="item-add">Add to Cart</button>
+				<img src="http://placehold.it/270x270" alt="">
+				<p class="item-description">This is an item description. Interesting content about the item will go here.</p>
+				<h4 class="item-name">An Item Name Here</h4>
+				<h5 class="item-price">$<span class="price">15.00</span></h5>
+			</li>
+			<li class="item">
+				<button class="item-add">Add to Cart</button>
+				<img src="http://placehold.it/270x270" alt="">
+				<p class="item-description">This is an item description. Interesting content about the item will go here.</p>
+				<h4 class="item-name">An Item Name Here</h4>
+				<h5 class="item-price">$<span class="price">15.00</span></h5>
+			</li>
+			<li class="item">
+				<button class="item-add">Add to Cart</button>
+				<img src="http://placehold.it/270x270" alt="">
+				<p class="item-description">This is an item description. Interesting content about the item will go here.</p>
+				<h4 class="item-name">Expensive Item</h4>
+				<h5 class="item-price">$<span class="price">99.00</span></h5>
+			</li>
+			<li class="item">
+				<button class="item-add">Add to Cart</button>
+				<img src="http://placehold.it/270x270" alt="">
+				<p class="item-description">This is an item description. Interesting content about the item will go here.</p>
+				<h4 class="item-name">An Item Name Here</h4>
+				<h5 class="item-price">$<span class="price">25.00</span></h5>
+			</li>
+			<li class="item">
+				<button class="item-add">Add to Cart</button>
+				<img src="http://placehold.it/270x270" alt="">
+				<p class="item-description">This is an item description. Interesting content about the item will go here.</p>
+				<h4 class="item-name">An Item Name Here</h4>
+				<h5 class="item-price">$<span class="price">15.00</span></h5>
+			</li>
+		</ul>
+		<button class="hide" id="display-cart">Display Cart</button>
 
-                            <tr id='total-wrapper'>
-                                <td id="total-label">Total:</td>
-                                <td id="total">0.00</td>
-                            </tr>
+		<div class="shop-cart hide">
+			<h3 class="cart-total">Subtotal</h3>
+			<h5 class="cart-total-num">$<span class="price">45.00</span></h5>
+			<ul class="shop-cart-list">
+			</ul>
+			<div class="cart-promo">
+				<a href="" class="cart-item-promo">Enter Valid Promo Code</a>
+				<input type="text" class="cart-item-promocode" placeholder="">
+				<div class="cart-item-price">$<span class="price">0.00</span></div>
+			</div>
+			<button id="keep-shopping">Keep Shopping</button>
+			<button id="checkout"> Checkout </button>
+		</div>
+		
+		<script type="text/javascript" src="product-listing.js"></script>
+	</body>
 
-                            <tr id="promo-checkout">
-                                <td id="promo-wrapper">
-                                    <input id="promo" placeholder="Input Promo Code">
-                                    <button id="apply-promo">Apply Promo</button>
-                                </td>
 
-                                <td>
-                                    <button id="checkout">Checkout</button>
-                                </td>
-                                
-                                <td>
-                                    <button id="ks" class="keep-shopping">Keep Shopping</button>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-</section>
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 
 <script defer type="text/javascript" src="./js/tienda.js"></script>
 
