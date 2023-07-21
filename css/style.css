@@ -565,10 +565,14 @@ hr{
 /* -------------------------------------------------------------------------------------------- */
 
 .sec5{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/sec5.jpg) no-repeat center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: static;
+    align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #454443;
 }
 
 .img-slider{
