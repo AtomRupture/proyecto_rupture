@@ -172,7 +172,54 @@
 
     </section>
 
-    <!-- SECCIÓN 5 -->
+    <!-- SECCIÓN 5 --> 
+
+    <section class="sec5">
+        <div class="img-slider">
+            <div class="slide active">
+                <img src="img/1.jpg" alt="">
+                <div class="info">
+                    <h2>slide 01</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corporis consequuntur quam, in facere ipsum dolorum quis culpa, expedita quod quae, quasi mollitia unde doloribus itaque odit error minima doloremque.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/2.jpg" alt="">
+                <div class="info">
+                    <h2>slide 02</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corporis consequuntur quam, in facere ipsum dolorum quis culpa, expedita quod quae, quasi mollitia unde doloribus itaque odit error minima doloremque.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/3.jpg" alt="">
+                <div class="info">
+                    <h2>slide 03</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corporis consequuntur quam, in facere ipsum dolorum quis culpa, expedita quod quae, quasi mollitia unde doloribus itaque odit error minima doloremque.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/4.jpg" alt="">
+                <div class="info">
+                    <h2>slide 04</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corporis consequuntur quam, in facere ipsum dolorum quis culpa, expedita quod quae, quasi mollitia unde doloribus itaque odit error minima doloremque.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/5.jpg" alt="">
+                <div class="info">
+                    <h2>slide 05</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis corporis consequuntur quam, in facere ipsum dolorum quis culpa, expedita quod quae, quasi mollitia unde doloribus itaque odit error minima doloremque.</p>
+                </div>
+            </div>
+            <div class="navigation">
+                <div class="btn-carrusel active"></div>
+                <div class="btn-carrusel"></div>
+                <div class="btn-carrusel"></div>
+                <div class="btn-carrusel"></div>
+                <div class="btn-carrusel"></div>
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>
