@@ -415,7 +415,7 @@
 </div>
 </section>
 
-    <!-- SECCIÓN 6 --> 
+    <!-- SECCIÓN 6. --> 
 
 </body>
 </html>
