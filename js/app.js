@@ -51,32 +51,59 @@ function se(){
   window.location.href = "../php/Buscador.php";
 }
 
-// Carrusel sección 5
+// IMAGENES EN MOVIMIENTO SECCIÓN 2
+/*
+ JS to toggle scroll axis styles
+*/
+const control = document.getElementById("direction-toggle");
+const marquees = document.querySelectorAll(".marquee");
+const wrapper = document.querySelector(".wrapper");
 
-var slides = document.querySelectorAll('.slide');
-var btns = document.querySelectorAll('.btn-carrusel');
-let currentSlide = 1;
+control.addEventListener("click", () => {
+  control.classList.toggle("toggle--vertical");
+  wrapper.classList.toggle("wrapper--vertical");
+  [...marquees].forEach((marquee) =>
+    marquee.classList.toggle("marquee--vertical")
+  );
+});
 
-  // Para Navegación manual en el carrusel
-var manualNav = function(manual){
-  slides.forEach((slide) =>{
-    slide.classList.remove('active');
 
-    btns.forEach((btn) =>{
-      btn.classList.remove('active');
-    });
+// Tarjetas sección 5
+let activeIndex = 0;
+
+const groups = document.getElementsByClassName("card-group");
+
+const handleLoveClick = () => {
+  const nextIndex = activeIndex + 1 <= groups.length - 1 ? activeIndex + 1 : 0;
+  
+  const currentGroup = document.querySelector(`[data-index="${activeIndex}"]`),
+        nextGroup = document.querySelector(`[data-index="${nextIndex}"]`);
+        
+  currentGroup.dataset.status = "after";
+  
+  nextGroup.dataset.status = "becoming-active-from-before";
+  
+  setTimeout(() => {
+    nextGroup.dataset.status = "active";
+    activeIndex = nextIndex;
   });
-
-  slides[manual].classList.add('active');
-  btns[manual].classList.add('active')
 }
 
-btns.forEach((btn, i) =>{
-  btn.addEventListener("click", ()=>{
-    manualNav(i);
-    currentSlide = i;
+const handleHateClick = () => {
+  const nextIndex = activeIndex - 1 >= 0 ? activeIndex - 1 : groups.length - 1;
+  
+  const currentGroup = document.querySelector(`[data-index="${activeIndex}"]`),
+        nextGroup = document.querySelector(`[data-index="${nextIndex}"]`);
+  
+  currentGroup.dataset.status = "before";
+  
+  nextGroup.dataset.status = "becoming-active-from-after";
+  
+  setTimeout(() => {
+    nextGroup.dataset.status = "active";
+    activeIndex = nextIndex;
   });
-});
+}
 
 // ---------- CHARTS ----------
 
