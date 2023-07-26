@@ -104,7 +104,6 @@ const handleHateClick = () => {
     activeIndex = nextIndex;
   });
 }
-
 // ---------- CHARTS ----------
 
 // BAR CHART
