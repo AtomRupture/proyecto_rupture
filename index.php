@@ -417,5 +417,9 @@
 
     <!-- SECCIÓN 6. --> 
 
+    <section class="sec6">
+      
+    </section>
+
 </body>
 </html>

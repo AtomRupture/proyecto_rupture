@@ -372,7 +372,7 @@ button p{
     font-size: 1rem;
     line-height: 1.5;
     color: var(--color-text);
-    background-color: var(--color-bg);
+    background-color: rgb(30, 30, 30);
 }
 
 .marquee {
@@ -447,7 +447,7 @@ button p{
     place-items: center;
     width: var(--size);
     fill: var(--color-text);
-    background: var(--color-bg-accent);
+    background: rgb(217, 19, 16);
     aspect-ratio: 16/9;
     padding: calc(var(--size) / 10);
     border-radius: 0.5rem;
@@ -1327,3 +1327,9 @@ p    { ... }
 / Móviles en vertical
    ------------------------------------------------------------------------- 
    @media (max-width: 480px) { ... }*/
+
+
+/*seccion 6*/
+
+
+
