@@ -54,7 +54,7 @@ function se(){
 // IMAGENES EN MOVIMIENTO SECCIÓN 2
 /*
  JS to toggle scroll axis styles
-*/
+
 const control = document.getElementById("direction-toggle");
 const marquees = document.querySelectorAll(".marquee");
 const wrapper = document.querySelector(".wrapper");
@@ -66,6 +66,7 @@ control.addEventListener("click", () => {
     marquee.classList.toggle("marquee--vertical")
   );
 });
+*/
 
 
 // Tarjetas sección 5
