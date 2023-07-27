@@ -528,8 +528,7 @@
         <div class="footer-content-column">
           <div class="footer-logo">
             <a class="footer-logo-link" href="#">
-              <span class="hidden-link-text">LOGO</span>
-              <h1>LOGO</h1>
+              <img src="img/unnamed-removebg-preview.svg" alt="logo" class="logo"></a>
             </a>
           </div>
           <div class="footer-menu">
@@ -599,10 +598,20 @@
           </div>
         </div>
         <div class="footer-content-column">
+          
           <div class="footer-call-to-action">
-            <h2 class="footer-call-to-action-title"> Let's Chat</h2>
-            <p class="footer-call-to-action-description"> Have a support question?</p>
-            <a class="footer-call-to-action-button button" href="#" target="_self"> Get in Touch </a>
+          <div class="popup">
+  <form class="form">
+
+    <div class="note">
+      <label class="title">Subscribe for updates</label>
+      <span class="subtitle">Subscribe to this weekly news letter so you don’t miss out
+on the new hot tech topics.</span>
+    </div>
+    <input placeholder="Enter your e-mail" title="Enter your e-mail" name="email" type="email" class="input_field">
+    <button class="submit">Submit</button>
+  </form>
+</div>
           </div>
           <div class="footer-call-to-action">
             <h2 class="footer-call-to-action-title"> You Call Us</h2>
