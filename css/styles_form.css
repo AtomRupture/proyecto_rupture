@@ -1,14 +1,15 @@
 @font-face {
-  font-family: "Material Icons Outlined";
+  font-family: 'Material Icons Outlined';
   font-style: normal;
   font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/materialiconsoutlined/v109/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2) format("woff2");
+  src: url(https://fonts.gstatic.com/s/materialiconsoutlined/v109/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2) format('woff2');
 }
+
 .material-icons-outlined {
-  font-family: "Material Icons Outlined";
+  font-family: 'Material Icons Outlined';
   font-weight: normal;
   font-style: normal;
-  line-height: 2;
+  line-height: 1;
   letter-spacing: normal;
   text-transform: none;
   display: inline-block;
@@ -17,20 +18,19 @@
   direction: ltr;
   -webkit-font-smoothing: antialiased;
 }
-
-body {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
-  line-height: 1.7;
-  color: white;
-  background-color: #020000;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/fondo_formulario.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
+body{
+  font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	line-height: 1.7;
+	color: white;
+    background-color: #020000;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/fondo_formulario.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-header {
+header{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,7 +39,8 @@ header {
   height: 5.5rem;
 }
 
-.a-mu {
+
+.a-mu{
   display: block;
   background-color: transparent;
   color: white;
@@ -49,7 +50,7 @@ header {
   font-size: 2rem;
 }
 
-.c-mu {
+.c-mu{
   display: block;
   background-color: transparent;
   color: #E40b0b;
@@ -63,12 +64,12 @@ header {
   padding-left: 3rem;
 }
 
-.nav {
+.nav{
   opacity: 0;
   visibility: hidden;
 }
 
-.nav {
+.nav{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,23 +84,22 @@ header {
   box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
   z-index: 2;
 }
-
-.nav.visible {
+.nav.visible{
   opacity: 1;
   visibility: visible;
 }
 
-.nav-list {
+.nav-list{
   flex-direction: column;
   align-items: center;
   color: white;
+
 }
 
-.nav-list button {
+.nav-list button{
   margin: 1rem;
 }
-
-.nav-list {
+.nav-list{
   display: flex;
   list-style-type: none;
   gap: 2.5rem;
@@ -107,87 +107,94 @@ header {
   color: white;
   padding-top: 5rem;
   font-size: 15px;
+    
 }
 
-.nav-list li button {
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
+
+.nav-list li button{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
 }
 
-.nav-list button {
-  font-style: italic;
-  background-color: #E40b0b;
-  border: transparent;
-  border-radius: 50px;
-  width: 150px;
-  height: 42px;
+.nav-list button{
+    font-style: italic;
+    background-color: #E40b0b;
+    border: transparent;
+    border-radius: 50px;
+    width: 150px;
+    height: 42px;
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+    cursor: pointer;
+    margin-top: -0.5rem;
+    transition: .3s;
+    
+}
+
+.bo{
   font-weight: 700;
   font-size: 19px;
-  color: white;
-  cursor: pointer;
-  margin-top: -0.5rem;
-  transition: 0.3s;
 }
 
-.bo {
-  font-weight: 700;
-  font-size: 19px;
+.nav-list button:hover{
+    background-color: black;
+    border: #E40b0b solid;
+    transition: border ease-in-out 250ms;
 }
 
-.nav-list button:hover {
-  background-color: black;
-  border: #E40b0b solid;
-  transition: border ease-in-out 250ms;
+.nav-list a{
+    cursor: pointer;
+    padding-bottom: 0.2rem;
+    border: #E40b0b 0px;
 }
 
-.nav-list a {
-  cursor: pointer;
-  padding-bottom: 0.2rem;
-  border: #E40b0b 0px;
+.nav-list a:hover{
+    border: #E40b0b solid 4px;
+    border-radius: 3px;
+    transition: border ease-in-out 120ms;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    
 }
 
-.nav-list a:hover {
-  border: #E40b0b solid 4px;
-  border-radius: 3px;
-  transition: border ease-in-out 120ms;
-  border-top: transparent;
-  border-left: transparent;
-  border-right: transparent;
+
+.b2{
+    font-style: italic;
+    background-color: transparent !important;
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+    cursor: pointer;
+    max-width: 1rem;
+    margin-top: -1rem;
+    padding-right: 3rem;
+    transition: .4s;
 }
 
-.b2 {
-  font-style: italic;
-  background-color: transparent !important;
-  font-weight: 700;
-  font-size: 19px;
-  color: white;
-  cursor: pointer;
-  max-width: 1rem;
-  margin-top: -1rem;
-  padding-right: 3rem;
-  transition: 0.4s;
+.nav-list .b2:hover{
+    border: none;
+    
 }
 
-.nav-list .b2:hover {
-  border: none;
+.logo{
+    max-width: 9rem;
+    padding-left: 2.4rem;
 }
 
-.logo {
-  max-width: 9rem;
-  padding-left: 2.4rem;
-}
 
-.login {
-  font-style: italic;
-  background-color: transparent !important;
-  font-weight: 700;
-  font-size: 19px;
-  color: white;
-  cursor: pointer;
-  max-width: 5rem;
-  margin-top: -1rem;
-  margin-left: 2.3rem;
+.login{
+    font-style: italic;
+    background-color: transparent !important;
+    font-weight: 700;
+    font-size: 19px;
+    color: white;
+    cursor: pointer;
+    max-width: 5rem;
+    margin-top: -1rem;
+    margin-left: 2.3rem;
 }
 
 .b2:hover,
@@ -197,61 +204,60 @@ header {
   fill: #E40b0b;
 }
 
-.logo {
+
+.logo{
   max-width: 9rem;
   padding-left: 2.4rem;
 }
 
-::-webkit-scrollbar {
-  width: 10px;
+::-webkit-scrollbar{
+  width:10px;
   background-color: #40191c;
+  
+
 }
 
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb{
   background: #A21112;
   border-radius: 3rem;
 }
 
-a:hover {
-  text-decoration: none;
-}
 
+a:hover {
+	text-decoration: none;
+}
 .link {
   color: #c4c3ca;
 }
 
-.link:hover {
+.link:hover{
+
   color: #9492a1;
+
 }
 
 p {
   font-weight: 500;
 }
-
 h4 {
   font-weight: 600;
 }
-
-h6 span {
+h6 span{
   padding: 0 20px;
   font-weight: 700;
 }
-
-.section {
+.section{
   width: 100%;
 }
-
-.full-height {
+.full-height{
   min-height: 100vh;
 }
-
-[type=checkbox]:checked,
-[type=checkbox]:not(:checked) {
-  display: none;
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked){
+display: none;
 }
-
 .checkbox:checked + label,
-.checkbox:not(:checked) + label {
+.checkbox:not(:checked) + label{
   position: relative;
   display: block;
   text-align: center;
@@ -263,9 +269,8 @@ h6 span {
   cursor: pointer;
   background-color: #ffeba7;
 }
-
 .checkbox:checked + label:before,
-.checkbox:not(:checked) + label:before {
+.checkbox:not(:checked) + label:before{
   position: absolute;
   display: block;
   width: 36px;
@@ -273,8 +278,8 @@ h6 span {
   border-radius: 50%;
   color: #ffeba7;
   background-color: #020305;
-  font-family: "unicons";
-  content: "\eb4f";
+  font-family: 'unicons';
+  content: '\eb4f';
   z-index: 1;
   top: -10px;
   left: -10px;
@@ -283,11 +288,9 @@ h6 span {
   font-size: 24px;
   transition: all 0.5s ease;
 }
-
 .checkbox:checked + label:before {
   transform: translateX(44px) rotate(-270deg);
 }
-
 .card-3d-wrap {
   position: relative;
   width: 440px;
@@ -298,35 +301,30 @@ h6 span {
   perspective: 800px;
   margin-top: 60px;
 }
-
 .card-3d-wrapper {
   width: 100%;
   height: 100%;
-  position: absolute;
+  position:absolute;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  transition: all 600ms ease-out;
+  transition: all 600ms ease-out; 
 }
-
 .card-front, .card-back {
   width: 100%;
   height: 100%;
   background-color: #2b2e38;
-  background-image: url("/img/subtle-prism.png");
+  background-image: url('/img/subtle-prism.png');
   position: absolute;
   border-radius: 6px;
   transform-style: preserve-3d;
 }
-
 .card-back {
   transform: rotateY(180deg);
 }
-
 .checkbox:checked ~ .card-3d-wrap .card-3d-wrapper {
   transform: rotateY(180deg);
 }
-
-.center-wrap {
+.center-wrap{
   position: absolute;
   width: 100%;
   padding: 0 35px;
@@ -336,14 +334,12 @@ h6 span {
   z-index: 20;
   display: block;
 }
-
-.form-group {
+.form-group{ 
   position: relative;
   display: block;
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
-
 .form-style {
   padding: 13px 20px;
   padding-left: 55px;
@@ -360,16 +356,14 @@ h6 span {
   border: none;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
-  box-shadow: 0 4px 8px 0 rgba(21, 21, 21, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
 }
-
 .form-style:focus,
 .form-style:active {
   border: none;
   outline: none;
-  box-shadow: 0 4px 8px 0 rgba(21, 21, 21, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
 }
-
 .input-icon {
   position: absolute;
   top: 0;
@@ -379,16 +373,15 @@ h6 span {
   line-height: 48px;
   text-align: left;
   -webkit-transition: all 200ms linear;
-  transition: all 200ms linear;
+   transition: all 200ms linear;
 }
-
-.btn {
+.btn{  
   border-radius: 4px;
   height: 44px;
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
-  -webkit-transition: all 200ms linear;
+  -webkit-transition : all 200ms linear;
   transition: all 200ms linear;
   padding: 0 30px;
   letter-spacing: 1px;
@@ -399,28 +392,33 @@ h6 span {
   background-color: #e40b0b;
   color: #000000;
 }
-
-.btn:hover {
+.btn:hover{  
   background-color: #000000;
   color: #ffeba7;
-  box-shadow: 0 8px 24px 0 rgba(16, 39, 112, 0.2);
+  box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
 }
+
+
 
 /* -------------------------------------------------------------------------------------------- */
 /* No escribir debajo!!!!!!(solo media querys y keyframes) */
 /* -------------------------------------------------------------------------------------------- */
-@media screen and (max-width: 1000px) {
-  .logo {
+
+@media screen and (max-width:1000px){
+  .logo{
     max-width: 6rem;
   }
 }
-@media screen and (max-width: 400px) {
-  .logo {
+
+@media screen and (max-width:400px){
+  .logo{
     max-width: 5rem;
   }
 }
-@media screen and (width: 1200px) and (max-width: 2000px) {
-  .logo {
-    max-width: 5rem;
+
+@media screen and (width:1200px) and (max-width:2000px){
+  
+  .logo{
+      max-width: 5rem;
   }
 }
