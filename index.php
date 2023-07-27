@@ -313,6 +313,19 @@
 
     <section class="sec5">
 
+                <div class="cont-title-sec5">
+                <div class="title-sec5">
+                <div class="left-title5">
+                    <h1 style="color: whitesmoke;"> DIETAS ATÓMICAS EN</h1>
+                </div>
+
+                <div class="right-title5">
+                    <img src="img/unnamed-removebg-preview.svg">
+                    <img src="" alt="">
+                </div>
+                </div>
+            </div>
+
       <div class="card-swiper">
     <div class="card-groups">
       <div class="card-group" data-index="0" data-status="active">

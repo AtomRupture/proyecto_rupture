@@ -196,7 +196,7 @@ button p{
     font-size: 15px;
     line-height: 22.98px;
     font-style: normal;
-    margin-top: -8rem;
+    margin-top: -6rem;
     color: white;
     position: static;
 }
@@ -738,6 +738,33 @@ hr{
     height: 100vh;
     display: grid;
     place-items: center;
+}
+
+.cont-title-sec5{
+  display: flex;
+}
+
+.title-sec5{
+  font-size: 20px;
+  margin: -80px auto;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.left-title5{
+  float: left;
+  margin: auto;
+}
+
+.right-title5{
+  float: right;
+  margin: auto;
+}
+
+.right-title5 img{
+  margin-left: 10px;
+  width: 120px;
 }
 
 .card-groups,
