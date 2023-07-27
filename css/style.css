@@ -442,18 +442,18 @@ button p{
   }
   
   /* Element styles */
-  .marquee svg {
+  .marquee img {
     display: grid;
     place-items: center;
     width: var(--size);
     fill: var(--color-text);
-    background: rgb(217, 19, 16);
+    background: rgb(255, 255, 255);
     aspect-ratio: 16/9;
     padding: calc(var(--size) / 10);
     border-radius: 0.5rem;
   }
   
-  .marquee--vertical svg {
+  .marquee--vertical img {
     aspect-ratio: 1;
     width: calc(var(--size) / 1.5);
     padding: calc(var(--size) / 6);
@@ -509,7 +509,7 @@ button p{
     user-select: none;
   }
   
-  .toggle svg {
+  .toggle img {
     --size: 1.5rem;
     position: absolute;
     top: 50%;
@@ -521,7 +521,7 @@ button p{
     transition: transform 300ms cubic-bezier(0.25, 1, 0.5, 1);
   }
   
-  .toggle--vertical svg {
+  .toggle--vertical img {
     transform: translate(-50%, -50%) rotate(-90deg);
   }
   
