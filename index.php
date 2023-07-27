@@ -66,113 +66,113 @@
 
   <div class="marquee">
     <div class="marquee__group">
-      <svg>
-        <use xlink:href="#mcdonalds" />
-      </svg>
-      <svg>
-        <use xlink:href="#jordan" />
-      </svg>
-      <svg>
-        <use xlink:href="#aws" />
-      </svg>
-      <svg>
-        <use xlink:href="#spotify" />
-      </svg>
-      <svg>
-        <use xlink:href="#burger-king" />
-      </svg>
-      <svg>
-        <use xlink:href="#honda" />
-      </svg>
-      <svg>
-        <use xlink:href="#notion" />
-      </svg>
-      <svg>
-        <use xlink:href="#hulu" />
-      </svg>
+
+      <img src="./img/Nutramerican.png" alt="">
+      
+
+      <img src="./img/persona1.png" alt="">
+
+
+      <img src="./img/proscience.png" alt="">
+
+
+      <img src="./img/funat.png" alt="">
+
+
+      <img src="./img//Optimum_nutrition.png" alt="">
+
+
+      <img src="./img/proscience2.png" alt="">
+
+
+      <img src="./img/Muscletech.png" alt="">
+
+
+      <img src="./img/Dymatize.png" alt="">
+
     </div>
 
     <div aria-hidden="true" class="marquee__group">
-      <svg>
-        <use xlink:href="#mcdonalds" />
-      </svg>
-      <svg>
-        <use xlink:href="#jordan" />
-      </svg>
-      <svg>
-        <use xlink:href="#aws" />
-      </svg>
-      <svg>
-        <use xlink:href="#spotify" />
-      </svg>
-      <svg>
-        <use xlink:href="#burger-king" />
-      </svg>
-      <svg>
-        <use xlink:href="#honda" />
-      </svg>
-      <svg>
-        <use xlink:href="#notion" />
-      </svg>
-      <svg>
-        <use xlink:href="#hulu" />
-      </svg>
+
+      <img src="./img/Nutramerican.png" alt="">
+
+
+      <img src="./img/persona1.png" alt="">
+
+
+      <img src="./img/proscience.png" alt="">
+
+
+      <img src="./img/funat.png" alt="">
+
+
+      <img src="./img//Optimum_nutrition.png" alt="">
+
+
+      <img src="./img/proscience2.png" alt="">
+
+
+      <img src="./img/Muscletech.png" alt="">
+
+
+      <img src="./img/Dymatize.png" alt="">
+
     </div>
   </div>
 
   <div class="marquee marquee--reverse">
     <div class="marquee__group">
-      <svg>
-        <use xlink:href="#hulu" />
-      </svg>
-      <svg>
-        <use xlink:href="#notion" />
-      </svg>
-      <svg>
-        <use xlink:href="#honda" />
-      </svg>
-      <svg>
-        <use xlink:href="#burger-king" />
-      </svg>
-      <svg>
-        <use xlink:href="#spotify" />
-      </svg>
-      <svg>
-        <use xlink:href="#aws" />
-      </svg>
-      <svg>
-        <use xlink:href="#jordan" />
-      </svg>
-      <svg>
-        <use xlink:href="#mcdonalds" />
-      </svg>
+
+      <img src="./img/Dymatize.png" alt="">
+
+
+      <img src="./img/Muscletech.png" alt="">
+
+
+      <img src="./img/proscience2.png" alt="">
+
+
+      <img src="./img//Optimum_nutrition.png" alt="">
+
+
+      <img src="./img/funat.png" alt="">
+
+
+      <img src="./img/proscience.png" alt="">
+
+
+      <img src="./img/persona1.png" alt="">
+
+
+      <img src="./img/Nutramerican.png" alt="">
+
     </div>
 
     <div aria-hidden="true" class="marquee__group">
-      <svg>
-        <use xlink:href="#hulu" />
-      </svg>
-      <svg>
-        <use xlink:href="#notion" />
-      </svg>
-      <svg>
-        <use xlink:href="#honda" />
-      </svg>
-      <svg>
-        <use xlink:href="#burger-king" />
-      </svg>
-      <svg>
-        <use xlink:href="#spotify" />
-      </svg>
-      <svg>
-        <use xlink:href="#aws" />
-      </svg>
-      <svg>
-        <use xlink:href="#jordan" />
-      </svg>
-      <svg>
-        <use xlink:href="#mcdonalds" />
-      </svg>
+
+      <img src="./img/Dymatize.png" alt="">
+
+
+      <img src="./img/Muscletech.png" alt="">
+
+
+      <img src="./img/proscience2.png" alt="">
+
+
+      <img src="./img//Optimum_nutrition.png" alt="">
+
+
+      <img src="./img/funat.png" alt="">
+
+
+      <img src="./img/proscience.png" alt="">
+
+
+      <img src="./img/persona1.png" alt="">
+
+
+      <img src="./img/Nutramerican.png" alt="">
+
     </div>
   </div>
 </article>
