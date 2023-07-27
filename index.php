@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="./img/unnamed-removebg-preview.svg">
+    <link rel="stylesheet" href="css/style-responsive.css">
     <script defer type="text/javascript" src="js/app.js"></script>
     <title>Atom rupture</title>
 </head>

@@ -191,6 +191,7 @@ button p{
 
 .text_second{
     padding: 7rem;
+    padding-top: 9rem;
     text-align: center;
     font-weight: 700px;
     font-size: 15px;
@@ -395,7 +396,7 @@ button p{
     align-items: center;
     justify-content: space-around;
     gap: var(--gap);
-    min-width: 100%;
+    min-width: 180%;
     animation: scroll-x var(--duration) linear infinite;
   }
   
