@@ -197,7 +197,7 @@ button p{
     font-size: 15px;
     line-height: 22.98px;
     font-style: normal;
-    margin-top: -8rem;
+    margin-top: -6rem;
     color: white;
     position: static;
 }
@@ -443,18 +443,18 @@ button p{
   }
   
   /* Element styles */
-  .marquee svg {
+  .marquee img {
     display: grid;
     place-items: center;
     width: var(--size);
     fill: var(--color-text);
-    background: rgb(217, 19, 16);
+    background: rgb(255, 255, 255);
     aspect-ratio: 16/9;
     padding: calc(var(--size) / 10);
     border-radius: 0.5rem;
   }
   
-  .marquee--vertical svg {
+  .marquee--vertical img {
     aspect-ratio: 1;
     width: calc(var(--size) / 1.5);
     padding: calc(var(--size) / 6);
@@ -510,7 +510,7 @@ button p{
     user-select: none;
   }
   
-  .toggle svg {
+  .toggle img {
     --size: 1.5rem;
     position: absolute;
     top: 50%;
@@ -522,7 +522,7 @@ button p{
     transition: transform 300ms cubic-bezier(0.25, 1, 0.5, 1);
   }
   
-  .toggle--vertical svg {
+  .toggle--vertical img {
     transform: translate(-50%, -50%) rotate(-90deg);
   }
   
@@ -739,6 +739,33 @@ hr{
     height: 100vh;
     display: grid;
     place-items: center;
+}
+
+.cont-title-sec5{
+  display: flex;
+}
+
+.title-sec5{
+  font-size: 20px;
+  margin: -80px auto;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+
+.left-title5{
+  float: left;
+  margin: auto;
+}
+
+.right-title5{
+  float: right;
+  margin: auto;
+}
+
+.right-title5 img{
+  margin-left: 10px;
+  width: 120px;
 }
 
 .card-groups,

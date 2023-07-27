@@ -67,113 +67,113 @@
 
   <div class="marquee">
     <div class="marquee__group">
-      <svg>
-        <use xlink:href="#mcdonalds" />
-      </svg>
-      <svg>
-        <use xlink:href="#jordan" />
-      </svg>
-      <svg>
-        <use xlink:href="#aws" />
-      </svg>
-      <svg>
-        <use xlink:href="#spotify" />
-      </svg>
-      <svg>
-        <use xlink:href="#burger-king" />
-      </svg>
-      <svg>
-        <use xlink:href="#honda" />
-      </svg>
-      <svg>
-        <use xlink:href="#notion" />
-      </svg>
-      <svg>
-        <use xlink:href="#hulu" />
-      </svg>
+
+      <img src="./img/Nutramerican.png" alt="">
+
+
+      <img src="./img/abbott-logo.png" alt="">
+
+
+      <img src="./img/black_magic.png" alt="">
+
+
+      <img src="./img/megaplex.png" alt="">
+
+
+      <img src="./img//Optimum_nutrition.png" alt="">
+
+
+      <img src="./img/proscience2.png" alt="">
+
+
+      <img src="./img/Muscletech.png" alt="">
+
+
+      <img src="./img/Dymatize.png" alt="">
+
     </div>
 
     <div aria-hidden="true" class="marquee__group">
-      <svg>
-        <use xlink:href="#mcdonalds" />
-      </svg>
-      <svg>
-        <use xlink:href="#jordan" />
-      </svg>
-      <svg>
-        <use xlink:href="#aws" />
-      </svg>
-      <svg>
-        <use xlink:href="#spotify" />
-      </svg>
-      <svg>
-        <use xlink:href="#burger-king" />
-      </svg>
-      <svg>
-        <use xlink:href="#honda" />
-      </svg>
-      <svg>
-        <use xlink:href="#notion" />
-      </svg>
-      <svg>
-        <use xlink:href="#hulu" />
-      </svg>
+
+      <img src="./img/Nutramerican.png" alt="">
+
+
+      <img src="./img/abbott-logo.png" alt="">
+
+
+      <img src="./img/black_magic.png" alt="">
+
+
+      <img src="./img/megaplex.png" alt="">
+
+
+      <img src="./img//Optimum_nutrition.png" alt="">
+
+
+      <img src="./img/proscience2.png" alt="">
+
+
+      <img src="./img/Muscletech.png" alt="">
+
+
+      <img src="./img/Dymatize.png" alt="">
+
     </div>
   </div>
 
   <div class="marquee marquee--reverse">
     <div class="marquee__group">
-      <svg>
-        <use xlink:href="#hulu" />
-      </svg>
-      <svg>
-        <use xlink:href="#notion" />
-      </svg>
-      <svg>
-        <use xlink:href="#honda" />
-      </svg>
-      <svg>
-        <use xlink:href="#burger-king" />
-      </svg>
-      <svg>
-        <use xlink:href="#spotify" />
-      </svg>
-      <svg>
-        <use xlink:href="#aws" />
-      </svg>
-      <svg>
-        <use xlink:href="#jordan" />
-      </svg>
-      <svg>
-        <use xlink:href="#mcdonalds" />
-      </svg>
+
+      <img src="./img/Dymatize.png" alt="">
+
+
+      <img src="./img/Muscletech.png" alt="">
+
+
+      <img src="./img/proscience2.png" alt="">
+
+
+      <img src="./img//Optimum_nutrition.png" alt="">
+
+
+      <img src="./img/megaplex.png" alt="">
+
+
+      <img src="./img/black_magic.png" alt="">
+
+
+      <img src="./img/abbott-logo.png" alt="">
+
+
+      <img src="./img/Nutramerican.png" alt="">
+
     </div>
 
     <div aria-hidden="true" class="marquee__group">
-      <svg>
-        <use xlink:href="#hulu" />
-      </svg>
-      <svg>
-        <use xlink:href="#notion" />
-      </svg>
-      <svg>
-        <use xlink:href="#honda" />
-      </svg>
-      <svg>
-        <use xlink:href="#burger-king" />
-      </svg>
-      <svg>
-        <use xlink:href="#spotify" />
-      </svg>
-      <svg>
-        <use xlink:href="#aws" />
-      </svg>
-      <svg>
-        <use xlink:href="#jordan" />
-      </svg>
-      <svg>
-        <use xlink:href="#mcdonalds" />
-      </svg>
+
+      <img src="./img/Dymatize.png" alt="">
+
+
+      <img src="./img/Muscletech.png" alt="">
+
+
+      <img src="./img/proscience2.png" alt="">
+
+
+      <img src="./img//Optimum_nutrition.png" alt="">
+
+
+      <img src="./img/megaplex.png" alt="">
+
+
+      <img src="./img/black_magic.png" alt="">
+
+
+      <img src="./img/abbott-logo.png" alt="">
+
+
+      <img src="./img/Nutramerican.png" alt="">
+
     </div>
   </div>
 </article>
@@ -313,6 +313,19 @@
     <!-- SECCIÓN 5 --> 
 
     <section class="sec5">
+
+                <div class="cont-title-sec5">
+                <div class="title-sec5">
+                <div class="left-title5">
+                    <h1 style="color: whitesmoke;"> DIETAS ATÓMICAS EN</h1>
+                </div>
+
+                <div class="right-title5">
+                    <img src="img/unnamed-removebg-preview.svg">
+                    <img src="" alt="">
+                </div>
+                </div>
+            </div>
 
       <div class="card-swiper">
     <div class="card-groups">
