@@ -399,3 +399,14 @@ section {
     }
     
 }
+
+@media screen and (max-width:300px){
+    .sec4{
+        height: 350vh;
+    }
+
+    .sec6{
+        height: 230vh;
+    }
+    
+}
