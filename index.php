@@ -422,13 +422,12 @@
 
     <!-- SECCIÓN 6 --> 
     <section class="sec6">
-      
     <div class="wrapper2">
 	<div class="card2">
-		<div class="poster"><img src="https://i.postimg.cc/jjBSrfnQ/poster1-img.jpg" alt="Location Unknown"></div>
+		<div class="poster"><img src="img/adaptacion.jpg" alt="Location Unknown"></div>
 		<div class="details">
-			<h1>Location Unknown</h1>
-			<h2>2021 • PG • 1hr 38min</h2>
+			<h1>Adaptación</h1>
+			<h2>2023 • 4 videos</h2>
 			<div class="rating">
 				<i class="fas fa-star"></i>
 				<i class="fas fa-star"></i>
@@ -438,15 +437,15 @@
 				<span>4.2/5</span>
 			</div>
 			<div class="tags">
-				<span class="tag">Italian</span>
-				<span class="tag">Drama</span>
-				<span class="tag">Indie</span>
+				<span class="tag">Iniciante</span>
+				<span class="tag">Básico</span>
+				<span class="tag">Corto</span>
 			</div>
 			<p class="desc">
-				Marco, a disillusioned backpacker in his late 20s, embarks on a solitary journey in search for meaning.
+				Es importante iniciar con con un proceso de acondicionamiento que habitue tu cuerpo
 			</p>
 			<div class="cast">
-				<h3>Cast</h3>
+				<h3>Entrenadores</h3>
 				<ul>
 					<li><img src="https://i.postimg.cc/jqgkqhSb/cast-11.jpg" alt="Marco Andrews" title="Marco Andrews"></li>
 					<li><img src="https://i.postimg.cc/8P7X7r7r/cast-12.jpg" alt="Rebecca Floyd" title="Rebecca Floyd"></li>
@@ -457,10 +456,10 @@
 		</div>
 	</div>
 	<div class="card2">
-		<div class="poster"><img src="https://i.postimg.cc/GtxLYS7q/poster2-img.jpg" alt="Location Unknown"></div>
+		<div class="poster"><img src="img/resistencia.jpg" alt="Location Unknown"></div>
 		<div class="details">
-			<h1>Air</h1>
-			<h2>2020 • PG • 24min</h2>
+			<h1>Resistencia</h1>
+			<h2>2023 • 6 clases</h2>
 			<div class="rating">
 				<i class="fas fa-star"></i>
 				<i class="fas fa-star"></i>
@@ -470,15 +469,14 @@
 				<span>4/5</span>
 			</div>
 			<div class="tags">
-				<span class="tag">Romance</span>
-				<span class="tag">Comedy</span>
-				<span class="tag">Short</span>
+				<span class="tag">Iniciante</span>
+				<span class="tag">Corto</span>
 			</div>
 			<p class="desc">
 				Two strangers meet together on a plane flying to the alps.
 			</p>
 			<div class="cast">
-				<h3>Cast</h3>
+				<h3>Entrenadores</h3>
 				<ul>
 					<li><img src="https://i.postimg.cc/yY2QcYRp/cast-21.jpg" alt="Angelina Whyte" title="Angelina Whyte"></li>
 					<li><img src="https://i.postimg.cc/R0BgpsXc/cast-22.jpg" alt="Ivan Benson" title="Ivan Benson"></li>
@@ -487,10 +485,10 @@
 		</div>
 	</div>
 	<div class="card2">
-		<div class="poster"><img src="https://i.postimg.cc/yxH6DzPD/poster3-img.jpg" alt="Location Unknown"></div>
+		<div class="poster"><img src="img/calistenia.jpg" alt="Location Unknown"></div>
 		<div class="details">
-			<h1>End Credits</h1>
-			<h2>2021 • R • 1hr 41min</h2>
+			<h1>Calistenia</h1>
+			<h2>2023 • 10 clases</h2>
 			<div class="rating">
 				<i class="fas fa-star"></i>
 				<i class="fas fa-star"></i>
@@ -500,15 +498,15 @@
 				<span>4.7/5</span>
 			</div>
 			<div class="tags">
-				<span class="tag yellow">Teen</span>
-				<span class="tag">Comedy</span>
-				<span class="tag blue">Drama</span>
+				<span class="tag yellow">Jóvenes</span>
+				<span class="tag">Intermedio</span>
+				<span class="tag blue">Fuerza</span>
 			</div>
 			<p class="desc">
 				Alex, together with his best friends, goes on a road trip whilst experiencing friendship, self-discovery, and the bittersweet transition to adulthood.
 			</p>
 			<div class="cast">
-				<h3>Cast</h3>
+				<h3>Entrenadores</h3>
 				<ul>
 					<li><img src="https://i.postimg.cc/xd3twv4B/cast-31.jpg" alt="Jessica Enduro" title="Jessica Enduro"></li>
 					<li><img src="https://i.postimg.cc/C1MmSZy5/cast-32.jpg" alt="Charles Garcia" title="Charles Garcia"></li>
