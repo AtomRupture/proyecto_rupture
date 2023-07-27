@@ -27,7 +27,7 @@
             </div>
             <hr class="line-1">
             <div class="bt">
-                <button onclick="enviar_form()" class="emp-ahr">
+                <button class="emp-ahr">
                     EMPIEZA AHORA
                 </button>
             </div>
