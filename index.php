@@ -68,15 +68,15 @@
     <div class="marquee__group">
 
       <img src="./img/Nutramerican.png" alt="">
-      
-
-      <img src="./img/persona1.png" alt="">
 
 
-      <img src="./img/proscience.png" alt="">
+      <img src="./img/abbott-logo.png" alt="">
 
 
-      <img src="./img/funat.png" alt="">
+      <img src="./img/black_magic.png" alt="">
+
+
+      <img src="./img/megaplex.png" alt="">
 
 
       <img src="./img//Optimum_nutrition.png" alt="">
@@ -97,13 +97,13 @@
       <img src="./img/Nutramerican.png" alt="">
 
 
-      <img src="./img/persona1.png" alt="">
+      <img src="./img/abbott-logo.png" alt="">
 
 
-      <img src="./img/proscience.png" alt="">
+      <img src="./img/black_magic.png" alt="">
 
 
-      <img src="./img/funat.png" alt="">
+      <img src="./img/megaplex.png" alt="">
 
 
       <img src="./img//Optimum_nutrition.png" alt="">
@@ -135,13 +135,13 @@
       <img src="./img//Optimum_nutrition.png" alt="">
 
 
-      <img src="./img/funat.png" alt="">
+      <img src="./img/megaplex.png" alt="">
 
 
-      <img src="./img/proscience.png" alt="">
+      <img src="./img/black_magic.png" alt="">
 
 
-      <img src="./img/persona1.png" alt="">
+      <img src="./img/abbott-logo.png" alt="">
 
 
       <img src="./img/Nutramerican.png" alt="">
@@ -162,13 +162,13 @@
       <img src="./img//Optimum_nutrition.png" alt="">
 
 
-      <img src="./img/funat.png" alt="">
+      <img src="./img/megaplex.png" alt="">
 
 
-      <img src="./img/proscience.png" alt="">
+      <img src="./img/black_magic.png" alt="">
 
 
-      <img src="./img/persona1.png" alt="">
+      <img src="./img/abbott-logo.png" alt="">
 
 
       <img src="./img/Nutramerican.png" alt="">
