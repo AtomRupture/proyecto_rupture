@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="./img/unnamed-removebg-preview.svg">
+    <link rel="stylesheet" href="css/style-responsive.css">
     <script defer type="text/javascript" src="js/app.js"></script>
     <title>Atom rupture</title>
 </head>
@@ -312,6 +313,19 @@
     <!-- SECCIÓN 5 --> 
 
     <section class="sec5">
+
+                <div class="cont-title-sec5">
+                <div class="title-sec5">
+                <div class="left-title5">
+                    <h1 style="color: whitesmoke;"> DIETAS ATÓMICAS EN</h1>
+                </div>
+
+                <div class="right-title5">
+                    <img src="img/unnamed-removebg-preview.svg">
+                    <img src="" alt="">
+                </div>
+                </div>
+            </div>
 
       <div class="card-swiper">
     <div class="card-groups">
