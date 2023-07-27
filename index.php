@@ -8,13 +8,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script defer src="https://kit.fontawesome.com/49b40f8ce6.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./img/unnamed-removebg-preview.svg">
     <script defer type="text/javascript" src="js/app.js"></script>
     <title>Atom rupture</title>
 </head>
 <?php include './php/modulos/header.php' ?>
-
+<body onscroll="Camb()">
+  
 <!-- SECCIÓN 1 -->
     <section class="sec1">
 
@@ -637,5 +637,8 @@
     </footer>
   </div>
 
-</body>
+  </body>
 </html>
+
+<script src="https://kit.fontawesome.com/49b40f8ce6.js" crossorigin="anonymous"></script>
+<script defer src="./js/app.js"></script>
