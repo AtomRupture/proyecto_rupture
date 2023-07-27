@@ -82,7 +82,7 @@
       <img src="./img//Optimum_nutrition.png" alt="">
 
 
-      <img src="./img/proscience2.png" alt="">
+      <img src="./img/herbalife.png" alt="">
 
 
       <img src="./img/Muscletech.png" alt="">
@@ -109,7 +109,7 @@
       <img src="./img//Optimum_nutrition.png" alt="">
 
 
-      <img src="./img/proscience2.png" alt="">
+      <img src="./img/herbalife.png" alt="">
 
 
       <img src="./img/Muscletech.png" alt="">
@@ -129,7 +129,7 @@
       <img src="./img/Muscletech.png" alt="">
 
 
-      <img src="./img/proscience2.png" alt="">
+      <img src="./img/herbalife.png" alt="">
 
 
       <img src="./img//Optimum_nutrition.png" alt="">
@@ -156,7 +156,7 @@
       <img src="./img/Muscletech.png" alt="">
 
 
-      <img src="./img/proscience2.png" alt="">
+      <img src="./img/herbalife.png" alt="">
 
 
       <img src="./img//Optimum_nutrition.png" alt="">
