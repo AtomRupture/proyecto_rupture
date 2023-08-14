@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="./img/unnamed-removebg-preview.svg">
   <script defer type="text/javascript" src="js/app.js"></script>
+  <script defer type="text/javascript" src="js/base_nube.js"></script>
   <link rel="stylesheet" href="css/styles_form.css">
 </head>
 <body>
@@ -56,22 +57,22 @@
                   <div class="center-wrap">
 
                     <div class="section text-center">
-                      <form action="php/registro.php" method="post">
+                      <form action="php/registro.php" method="post" id="signupForm">
                         <h4 class="mb-3 pb-3">Registrate</h4>
                         <div class="form-group">
-                          <input type="text" class="form-style" placeholder="Full Name" name="nombre">
+                          <input type="text" class="form-style" placeholder="Full Name" name="nombre" id="name">
                           <i class="input-icon uil uil-user"></i>
                         </div>
                         <div class="form-group mt-2">
-                          <input type="tel" class="form-style" placeholder="Phone Number" name="telefono">
+                          <input type="tel" class="form-style" placeholder="Phone Number" name="telefono" id="tel">
                           <i class="input-icon uil uil-phone"></i>
                         </div>
                         <div class="form-group mt-2">
-                          <input type="email" class="form-style" placeholder="Email" name="correo">
+                          <input type="email" class="form-style" placeholder="Email" name="correo" id="email">
                           <i class="input-icon uil uil-at"></i>
                         </div>
                         <div class="form-group mt-2">
-                          <input type="password" class="form-style" placeholder="Password" name="pass">
+                          <input type="password" class="form-style" placeholder="Password" name="pass" id="password">
                           <i class="input-icon uil uil-lock-alt"></i>
                         </div>
                         <button type="submit" class="btn mt-4" name="send">Registrar</button>
