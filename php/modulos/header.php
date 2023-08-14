@@ -16,7 +16,7 @@
             <nav class="nav" id="nav">
                 <button class="c-mu" id="cerrar"><i class="fa-solid fa-x"></i></button>
             <ul class="nav-list">
-                <li><a>Clases</a></li>
+                <li><a class="clases" href="clases.php">Clases</a></li>
                 <li><a>Planes</a></li>
                 <li><a>Rutinas</a></li>
                 <li><a>Dietas</a></li>
