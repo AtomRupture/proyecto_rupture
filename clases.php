@@ -75,6 +75,281 @@
                 </div>
             </div>
           </section>
+          
+          <!-- 
+            - #MAIN CONTENT
+           --->
+
+           <div class="article">
+
+                <div class="about-card">
+                    <h2 class="card-title title-medium"> About</h2>
+
+                    <p class="body-medium card-text"> Un ingeniero de software apasionado con un gran fuerte en la ciencia computacional</p>
+
+                    <ul class="about-list">
+                        <li class="list-item">
+                        <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+
+                        <span class="label-medium"> Medellín, Colombia</span>
+                        </li>
+
+                        <li class="list-item">
+                        <span class="material-symbols-outlined" aria-hidden="true"> work </span>
+
+                        <span class="label-medium"> Sena </span>
+                        </li>
+
+                        
+                        <li class="list-item">
+                        <span class="material-symbols-outlined" aria-hidden="true"> captive_portal </span>
+
+                        <a href="htpps://example.com" class="label-medium"> https://example.com </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div>
+
+                    <!--- 
+                        - #PRIMARY TABS
+                    -->
+                        <div class="primary-tabs">
+                            <button class="tab-btn active" data-tab-btn="project">
+                                <span class="tab-text title-small"> Clases</span>
+                                
+                                <div class="state-layer"></div>
+                            </button>
+
+                            <button class="tab-btn" data-tab-btn="resume">
+                                <span class="tab-text title-small"> En progreso</span>
+                                
+                                <div class="state-layer"></div>
+                            </button>
+
+                            <button class="tab-btn" data-tab-btn="contact">
+                                <span class="tab-text title-small"> Terminadas</span>
+                                
+                                <div class="state-layer"></div>
+                            </button>
+
+                        </div>
+
+
+
+
+                    <!--- 
+                        - #PROJECT
+                    -->
+
+                    <section class="section tab-content active" data-tab-content="project">
+                        <div class="container">
+
+                            <div class="project-list">
+
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
+                                        <img src="./img/img_clases/project-1.png" alt="" width="334" height="100" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle">Web App</span>
+
+                                        <h3 class="title-large card-title"> Pixstock - Stock Media App</h3>
+                                    </div>
+
+                                    <a href="#" class="state-layer"></a>
+
+                                </div>
+
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
+                                        <img src="./img/img_clases/project-2.png" alt="" width="334" height="100" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle">Web App</span>
+
+                                        <h3 class="title-large card-title"> Cook.io - Recipe App</h3>
+                                    </div>
+
+                                    <a href="#" class="state-layer"></a>
+
+                                </div>
+                
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
+                                        <img src="./img/img_clases/project-3.png" alt="" width="334" height="100" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle">Web App</span>
+
+                                        <h3 class="title-large card-title"> GitFinder - Github User Finder </h3>
+                                    </div>
+
+                                    <a href="#" class="state-layer"></a>
+
+                                </div>
+
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
+                                        <img src="./img/img_clases/project-4.png" alt="" width="334" height="100" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle">Web App</span>
+
+                                        <h3 class="title-large card-title"> Weatherio - Live weather finder </h3>
+                                    </div>
+
+                                    <a href="#" class="state-layer"></a>
+
+                                </div>
+
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
+                                        <img src="./img/img_clases/project-5.png" alt="" width="334" height="100" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle">Web App</span>
+
+                                        <h3 class="title-large card-title"> Tvflix - Netflix Clone 2.0 </h3>
+                                    </div>
+
+                                    <a href="#" class="state-layer"></a>
+
+                                </div>
+
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
+                                        <img src="./img/img_clases/project-6.png" alt="" width="334" height="100" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle">Website</span>
+
+                                        <h3 class="title-large card-title"> Travelia - Travel Website </h3>
+                                    </div>
+
+                                    <a href="#" class="state-layer"></a>
+
+                                </div>
+                                
+
+                            </div>
+
+                        </div>
+                    </section>
+
+
+
+                    <!--- 
+                        - #RESUME
+                    -->
+
+                    <section class="section tab-content resume-tab" data-tab-content="resume">
+                        <div class="container">
+
+                            <div class="project-list">
+
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
+                                        <img src="./img/img_clases/project-1.png" alt="" width="334" height="100" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle">Web App</span>
+
+                                        <h3 class="title-large card-title"> Pixstock - Stock Media App</h3>
+                                    </div>
+
+                                    <a href="#" class="state-layer"></a>
+
+                                </div>
+
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
+                                        <img src="./img/img_clases/project-2.png" alt="" width="334" height="100" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle">Web App</span>
+
+                                        <h3 class="title-large card-title"> Cook.io - Recipe App</h3>
+                                    </div>
+
+                                    <a href="#" class="state-layer"></a>
+
+                                </div>
+                
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
+                                        <img src="./img/img_clases/project-3.png" alt="" width="334" height="100" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle">Web App</span>
+
+                                        <h3 class="title-large card-title"> GitFinder - Github User Finder </h3>
+                                    </div>
+
+                                    <a href="#" class="state-layer"></a>
+
+                                </div>                                
+
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!--- 
+                        - #CONTACT
+                    -->
+
+                    <section class="section tab-content contact-tab" data-tab-content="contact">
+                        <div class="container">
+
+                            <div class="project-list">
+
+                                <div class="card">
+
+                                    <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
+                                        <img src="./img/img_clases/project-1.png" alt="" width="334" height="100" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle">Web App</span>
+
+                                        <h3 class="title-large card-title"> Pixstock - Stock Media App</h3>
+                                    </div>
+
+                                    <a href="#" class="state-layer"></a>
+
+                                </div>
+                                
+
+                            </div>
+
+                        </div>
+                    </section>
+
+
+                </div>
+
+           </div>
+
         </article>
     </main>
 
