@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es-co">
 <head>
   <title> Iniciar sesión</title>
   <meta charset="utf-8">
