@@ -1,7 +1,6 @@
 <?php 
 error_reporting(0);
 include "../php/conexion.php";
-
 $sql1 = "SELECT COUNT(*) AS num_admins FROM usuarios WHERE tipo = 'admin'";
 $resultado = mysqli_query($conexion, $sql1);
 

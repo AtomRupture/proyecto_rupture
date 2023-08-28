@@ -1,27 +1,23 @@
 <?php 
 error_reporting(0);
 include "../php/conexion.php";
-
-$sql1 = "SELECT COUNT(*) AS num_admins FROM usuarios WHERE tipo = 'admin'";
-$resultado = mysqli_query($conexion, $sql1);
+$var = $_POST['pro'];
+if (empty($var)){
+  $var = "0";
+}
+$sql = "SELECT COUNT(*) AS num_admins FROM usuarios WHERE tipo = 'admin'";
+$resultado = mysqli_query($conexion, $sql);
 
 $fila = mysqli_fetch_assoc($resultado);
 
 $num_admins = $fila["num_admins"];
 
 $sql2 = "SELECT COUNT(*) AS num_user FROM usuarios WHERE tipo = 'user'";
-$resultado2 = mysqli_query($conexion, $sql2);
+$resultado2 = mysqli_query($conexion, $sql);
 
 $fila = mysqli_fetch_assoc($resultado2);
 
-$num_user = $fila["num_user"];
-
-$sql3 = "SELECT COUNT(*) AS num_pro FROM productos_a WHERE identificador = 'A'";
-$resultado3 = mysqli_query($conexion, $sql3);
-
-$fila = mysqli_fetch_assoc($resultado3);
-
-$num_pro = $fila["num_pro"];
+$num_yser = $fila["num_users"];
 
 ?>
 <!DOCTYPE html>
@@ -108,14 +104,14 @@ $num_pro = $fila["num_pro"];
               <h3>PRODUCTOS</h3>
               <span class="material-icons-outlined">inventory_2</span>
             </div>
-            <h1><?php echo $num_pro ?></h1>
+            <h1><?php echo $var ?></h1>
           </div>
           <div class="card">
             <div class="card-inner">
               <h3>Usuarios</h3>
               <span class="material-icons-outlined">groups</span>
             </div>
-            <h1><?php echo $num_user  ?></h1>
+            <h1>12</h1>
           </div>
 
           <div class="card">

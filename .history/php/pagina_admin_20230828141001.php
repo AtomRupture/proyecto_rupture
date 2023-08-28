@@ -1,7 +1,10 @@
 <?php 
 error_reporting(0);
 include "../php/conexion.php";
-
+$var = $_POST['pro'];
+if (empty($var)){
+  $var = "0";
+}
 $sql1 = "SELECT COUNT(*) AS num_admins FROM usuarios WHERE tipo = 'admin'";
 $resultado = mysqli_query($conexion, $sql1);
 
