@@ -501,7 +501,7 @@ display: none;
   -webkit-transition: all 200ms linear;
    transition: all 200ms linear;
 }
-.btn{
+.btn{  
   border-radius: 4px;
   height: 44px;
   font-size: 13px;
@@ -655,12 +655,10 @@ input[type="submit"]{
 }
 
 h4{
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
-.mt-4, .my-4 {
-  margin-top: 0.5rem!important;
-}
+
 
 
 

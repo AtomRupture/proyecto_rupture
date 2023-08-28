@@ -52,11 +52,7 @@ $var2 = $_POST['nomp'];
                       </div>
                       <br>
                       <div class="form-group">
-                        <input type="number" step="0.01" class="form-style" name="precio" placeholder="Precio">
-                      </div>
-                      <br>
-                      <div class="form-group"> 
-                        <input type="number" step="0.01" class="form-style" name="stock" placeholder="Stock">
+                        <input type="number" class="form-style" name="precio" placeholder="Precio">
                       </div>
                       <button type="submit" class="btn mt-4" name="enviar">Registrar</button>
                       </form>

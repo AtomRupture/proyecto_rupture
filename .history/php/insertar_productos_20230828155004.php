@@ -11,9 +11,8 @@
     $nombre_p = mysqli_real_escape_string($conexion, $nombre_p);
     $tipo = mysqli_real_escape_string($conexion, $tipo);
     $precio = mysqli_real_escape_string($conexion, $precio);
-    $stock = mysqli_real_escape_string($conexion, $stock);
 
-    $sql = "INSERT INTO productos_a(nombre_p, tipo, precio, stock) VALUES ('$nombre_p', '$tipo', '$precio', '$stock')";
+    $sql = "INSERT INTO productos_a(nombre_p, tipo, precio) VALUES ('$nombre_p', '$tipo', '$precio')";
 
     $resultado = mysqli_query($conexion, $sql);
 
