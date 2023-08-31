@@ -44,7 +44,7 @@ $var2 = $_POST['nomp'];
                       <h4 class="mb-4 pb-3">Registar productos
                       </h4>
                       <div class="form-group mt-2">
-                        <input type="text" class="form-style" name="nombre_p" placeholder="Nombre del producto">
+                        <input type="number" class="form-style" name="nombre_p" placeholder="Nombre del producto">
                       </div>
                       <br>
                       <div class="form-group">
@@ -52,11 +52,7 @@ $var2 = $_POST['nomp'];
                       </div>
                       <br>
                       <div class="form-group">
-                        <input type="number" step="0.01" class="form-style" name="precio" placeholder="Precio">
-                      </div>
-                      <br>
-                      <div class="form-group"> 
-                        <input type="number" step="0.01" class="form-style" name="stock" placeholder="Stock">
+                        <input type="text" class="form-style" name="desp" placeholder="Descripcion del producto">
                       </div>
                       <button type="submit" class="btn mt-4" name="enviar">Registrar</button>
                       </form>

@@ -176,7 +176,7 @@ body {
   .sidebar-list-item > a {
     text-decoration: none;
     color: #9e9ea4;
-    padding-right: 0rem;
+    padding-right: 7rem;
   }
   
   .sidebar-responsive {
@@ -501,7 +501,7 @@ display: none;
   -webkit-transition: all 200ms linear;
    transition: all 200ms linear;
 }
-.btn{
+.btn{  
   border-radius: 4px;
   height: 44px;
   font-size: 13px;
@@ -517,7 +517,6 @@ display: none;
   align-items: center;
   background-color: #e40b0b;
   color: #000000;
-  margin-bottom: 4rem;
 }
 .btn:hover{  
   background-color: #000000;
@@ -655,12 +654,10 @@ input[type="submit"]{
 }
 
 h4{
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
-.mt-4, .my-4 {
-  margin-top: 0.5rem!important;
-}
+
 
 
 

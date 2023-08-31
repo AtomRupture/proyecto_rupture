@@ -16,7 +16,7 @@ $fila = mysqli_fetch_assoc($resultado2);
 
 $num_user = $fila["num_user"];
 
-$sql3 = "SELECT COUNT(*) AS num_pro FROM productos_a";
+$sql3 = "SELECT COUNT(*) AS num_pro FROM productos_a WHERE identificador = 'A'";
 $resultado3 = mysqli_query($conexion, $sql3);
 
 $fila = mysqli_fetch_assoc($resultado3);
