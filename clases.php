@@ -20,8 +20,8 @@
 
     <header class="topbar">
         <a href="#" class="logo">
-            <img src="./img/img_clases/Logo_dark.png" alt="Atom" width="145" height="32" class="dark">
-            <img src="./img/img_clases/Logo_light.png" alt="Atom" width="145" height="32" class="light">
+            <img src="./img/unnamed-removebg-preview.svg" alt="Atom" width="95" height="24" class="dark">
+            <img src="./img/unnamed-removebg-preview.svg" alt="Atom" width="95" height="24" class="light">
         </a>
 
         <button class="icon-btn theme-btn" data-theme-btn>
@@ -50,7 +50,7 @@
 
                     <span class="label-large section-subtitle"> Usuario Atom</span>
 
-                    <h1 class="display-small">Jhon Pulgarin</h1>
+                    <h1 class="display-small">Usuario_01</h1>
 
                     <p class="body-large section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quidem voluptate voluptatem sequi hic dolor quo neque fuga corrupti sapiente, deserunt ex id impedit nesciunt nobis assumenda ducimus exercitationem? Amet!</p>
                     
@@ -58,7 +58,7 @@
                         <a href="mailto:jhon123@gmail.com" class="chip">
                         <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
 
-                        <span class="label-large">jhon123@gmail.com</span>
+                        <span class="label-large">user123@gmail.com</span>
 
                         <div class="state-layer"></div>
                         </a>
