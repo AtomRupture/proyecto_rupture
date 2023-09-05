@@ -8,31 +8,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="css/style_clases.css">
-    <script defer src="js/clases.js"></script>
     <title>Clases Rupture</title>
 </head>
 
-<body>
+<body onscroll="Camb()">
 
     <!-- 
         - #TOP BAR    
     --->
 
-    <header class="topbar">
-        <a href="#" class="logo">
-            <img src="./img/unnamed-removebg-preview.svg" alt="Atom" width="95" height="24" class="dark">
-            <img src="./img/unnamed-removebg-preview.svg" alt="Atom" width="95" height="24" class="light">
-        </a>
-
-        <button class="icon-btn theme-btn" data-theme-btn>
-            
-            <span class="material-symbols-outlined dark" aria-hidden="true"> dark_mode </span>
-
-            <span class="material-symbols-outlined light" aria-hidden="true"> light_mode </span>
-
-            <div class="state-layer"></div>
-        </button>
-    </header>
+    <?php include './php/modulos/header.php' ?>
     
     <main>
         <article>
@@ -77,7 +62,7 @@
           </section>
           
           <!-- 
-            - #MAIN CONTENT
+            - #MAIN CONTENT - CLASES
            --->
 
            <div class="article">
@@ -352,6 +337,9 @@
 
         </article>
     </main>
+
+    <script defer src="js/app.js"></script>
+    <script defer src="js/clases.js"></script>
 
 </body>
 </html>
