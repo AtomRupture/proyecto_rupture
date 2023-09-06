@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/ee3d08c0a8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style_shop.css">
+	<script src="tienda.js" async></script>
     <title>Tienda</title>
 </head>
 <body>
@@ -88,7 +90,7 @@
 
 </section> <br><br>
 
-<section class="sec2">
+<section class="contenedor">
 
 <div>   <center> <h1>Nuestros Productos</h1> 
         <h2>Definicion</h2>
@@ -96,102 +98,127 @@
   
 	
 	<body>
-		<ul class="l-items">
-			<li class="item">
-				<button class="item-add">Añadir</button>
-				<img src="./img/whey_pure.png" alt="">
-				<p class="item-description">Suplemento de proteína aislada del suero de la leche, con un nivel de pureza del 87%, que aporta solo 106 calorías y 26g de proteína.</p>
-				<h4 class="item-name">Whey Pure 2lb</h4>
-				<h5 class="item-price">$<span class="price">150.000</span></h5>
-			</li>
-			<li class="item">
-				<button class="item-add">Add to Cart</button>
-				<img src="http://placehold.it/270x270" alt="">
-				<p class="item-description">This is an item description. Interesting content about the item will go here.</p>
-				<h4 class="item-name">Awesome Swag</h4>
-				<h5 class="item-price">$<span class="price">15.00</span></h5>
-			</li>
-			<li class="item">
-				<button class="item-add">Add to Cart</button>
-				<img src="http://placehold.it/270x270" alt="">
-				<p class="item-description">This is an item description. Interesting content about the item will go here.</p>
-				<h4 class="item-name">An Item Name Here</h4>
-				<h5 class="item-price">$<span class="price">3.50</span></h5>
-			</li>
-			<li class="item">
-				<button class="item-add">Add to Cart</button>
-				<img src="http://placehold.it/270x270" alt="">
-				<p class="item-description">This is an item description. Interesting content about the item will go here.</p>
-				<h4 class="item-name">An Item Name Here</h4>
-				<h5 class="item-price">$<span class="price">5.00</span></h5>
-			</li>
-			<li class="item">
-				<button class="item-add">Add to Cart</button>
-				<img src="http://placehold.it/270x270" alt="">
-				<p class="item-description">This is an item description. Interesting content about the item will go here.</p>
-				<h4 class="item-name">Cool Item Name</h4>
-				<h5 class="item-price">$<span class="price">15.00</span></h5>
-			</li>
-			<li class="item">
-				<button class="item-add">Add to Cart</button>
-				<img src="http://placehold.it/270x270" alt="">
-				<p class="item-description">This is an item description. Interesting content about the item will go here.</p>
-				<h4 class="item-name">An Item Name Here</h4>
-				<h5 class="item-price">$<span class="price">15.00</span></h5>
-			</li>
-			<li class="item">
-				<button class="item-add">Add to Cart</button>
-				<img src="http://placehold.it/270x270" alt="">
-				<p class="item-description">This is an item description. Interesting content about the item will go here.</p>
-				<h4 class="item-name">An Item Name Here</h4>
-				<h5 class="item-price">$<span class="price">15.00</span></h5>
-			</li>
-			<li class="item">
-				<button class="item-add">Add to Cart</button>
-				<img src="http://placehold.it/270x270" alt="">
-				<p class="item-description">This is an item description. Interesting content about the item will go here.</p>
-				<h4 class="item-name">Expensive Item</h4>
-				<h5 class="item-price">$<span class="price">99.00</span></h5>
-			</li>
-			<li class="item">
-				<button class="item-add">Add to Cart</button>
-				<img src="http://placehold.it/270x270" alt="">
-				<p class="item-description">This is an item description. Interesting content about the item will go here.</p>
-				<h4 class="item-name">An Item Name Here</h4>
-				<h5 class="item-price">$<span class="price">25.00</span></h5>
-			</li>
-			<li class="item">
-				<button class="item-add">Add to Cart</button>
-				<img src="http://placehold.it/270x270" alt="">
-				<p class="item-description">This is an item description. Interesting content about the item will go here.</p>
-				<h4 class="item-name">An Item Name Here</h4>
-				<h5 class="item-price">$<span class="price">15.00</span></h5>
-			</li>
-		</ul>
-		<button class="hide" id="display-cart">Display Cart</button>
+	
+        <!-- Contenedor de elementos -->
 
-		<div class="shop-cart hide">
-			<h3 class="cart-total">Subtotal</h3>
-			<h5 class="cart-total-num">$<span class="price">45.00</span></h5>
-			<ul class="shop-cart-list">
-			</ul>
-			<div class="cart-promo">
-				<a href="" class="cart-item-promo">Enter Valid Promo Code</a>
-				<input type="text" class="cart-item-promocode" placeholder="">
-				<div class="cart-item-price">$<span class="price">0.00</span></div>
-			</div>
-			<button id="keep-shopping">Keep Shopping</button>
-			<button id="checkout"> Checkout </button>
-		</div>
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Whey Pure</span>
+                <img src="img/whey_pure.png" alt="" class="img-item">
+                <span class="precio-item">$120.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Proteina Isolate</span>
+                <img src="img/burner_stack.png" alt="" class="img-item">
+                <span class="precio-item">$155.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Knock Nap</span>
+                <img src="img/burner_stack.png" alt="" class="img-item">
+                <span class="precio-item">$35.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">La Night</span>
+                <img src="img/burner_stack.png" alt="" class="img-item">
+                <span class="precio-item">$18.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Silver All</span>
+                <img src="img/burner_stack.png" alt="" class="img-item">
+                <span class="precio-item">$32.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Skin Glam</span>
+                <img src="img/burner_stack.png" alt="" class="img-item">
+                <span class="precio-item">$18.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Midimix</span>
+                <img src="img/burner_stack.png" alt="" class="img-item">
+                <span class="precio-item">$54.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Sir Blue</span>
+                <img src="img/burner_stack.png" alt="" class="img-item">
+                <span class="precio-item">$32.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Middlesteel</span>
+                <img src="img/burner_stack.png" alt="" class="img-item">
+                <span class="precio-item">$42.800</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+                <!-- 
+                <div class="carrito-item">
+                    <img src="img/boxengasse.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Box Engasse</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$15.000,00</span>
+                    </div>
+                   <span class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </span>
+                </div>
+                <div class="carrito-item">
+                    <img src="img/skinglam.png" width="80px" alt="">
+                    <div class="carrito-item-detalles">
+                        <span class="carrito-item-titulo">Skin Glam</span>
+                        <div class="selector-cantidad">
+                            <i class="fa-solid fa-minus restar-cantidad"></i>
+                            <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                            <i class="fa-solid fa-plus sumar-cantidad"></i>
+                        </div>
+                        <span class="carrito-item-precio">$18.000,00</span>
+                    </div>
+                   <button class="btn-eliminar">
+                        <i class="fa-solid fa-trash"></i>
+                   </button>
+                </div>
+                 -->
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
 		
 		<script type="text/javascript" src="product-listing.js"></script>
 	</body>
+	
 
 
 
 <script defer type="text/javascript" src="./js/tienda.js"></script>
 
 
-    
 </body>
 </html>
