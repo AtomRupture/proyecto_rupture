@@ -71,10 +71,6 @@
 
 }
 
-[data-theme ="light"]{
-}
-
-
 [data-theme = "dark"]{
     color-scheme: dark;
 
@@ -151,7 +147,7 @@ textarea {resize: none;}
 
 html{
     font-family: 'Ubuntu', sans-serif;
-    font-size: var(--base-font-size);
+    font-size: var(--base-font-size); /*62.5%*/
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
@@ -160,7 +156,7 @@ html{
 body{
     background-color: var(--background);
     color: var(--on-background);
-    font-size: var(--body-large);
+    font-size: var(--body-large); /*1.6rem*/
 }
 
 header{
@@ -169,7 +165,8 @@ header{
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
-    height: 5.5rem;
+    margin: -6px 0 0 -7px;
+    height: 7.5rem;
     position: fixed;
     z-index: 9999;
 }
@@ -186,8 +183,7 @@ header{
     gap: 2.5rem;
     font-weight: 700;
     color: white;
-    padding-top: 2rem;
-    padding-left: 1rem;
+    margin: 20px 25px 0 0;
     font-size: 15px;   
 }
 
@@ -257,7 +253,7 @@ button p{
 }
 
 .logo{
-    max-width: 6rem;
+    max-width: 8rem;
     margin-left: 2.7rem;
 }
 
@@ -550,7 +546,7 @@ button p{
 .hero {padding-block-start: calc(var(--top-bar-height) + 24px);}
 
 .hero .container{
-    display: grid;
+    display: flex;
     align-items: center;
     gap: 24px;
 }
@@ -618,60 +614,23 @@ button p{
     gap: 12px;
 }
 
+::-webkit-scrollbar{
+    width:10px;
+    background-color: #40191c;
 
-/* --------------------------------------------MEDIA QUERYS-------------------------------------- */
+}
 
-/**
-*Responsive hasta 768px
-*/
-
-@media (min-width: 768px) {
-    
-    .article{
-        position: relative;
-        display: grid;
-        grid-template-columns: 0.5fr 1fr;
-        align-items: flex-start;
-    }
-
-    .about-card,
-    .primary-tabs{
-        position: sticky;
-        top: 64px;
-    }
-
-    .primary-tabs{
-        z-index: 2;
-    }
-
-
-    .hero .container{ grid-template-columns: 0.2fr 1fr;}
+::-webkit-scrollbar-thumb{
+    background: #A21112;
+    border-radius: 3rem;
 }
 
 
-/**
-*Responsive hasta 1200px
-*/
+/* --------------------------------------------MEDIA QUERYS-------------------------------------- */
 
-@media (min-width: 1200px) {
-    
-    .container,
-    .article{
-        max-width: 1120px;
-        margin-inline: auto;
-    }
+@media (min-width: 768px) {
 
-    
-    .about-card{ margin-inline: 8px;}
-
-
-    .contact-tab .container{
-        display: grid;
-        align-items: flex-start;
-        grid-template-columns: 0.6fr 1fr;
-        gap: 24px;
-    }
-   
+    .hero .container{ grid-template-columns: 0.2fr 1fr;}
 }
 
 @media screen and (max-width:1200px){

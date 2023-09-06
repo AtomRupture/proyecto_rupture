@@ -37,7 +37,7 @@
 
                     <h1 class="display-small">Usuario_01</h1>
 
-                    <p class="body-large section-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quidem voluptate voluptatem sequi hic dolor quo neque fuga corrupti sapiente, deserunt ex id impedit nesciunt nobis assumenda ducimus exercitationem? Amet!</p>
+                    <p class="body-large section-text">Bienvenido a las clases atom!</p>
                     
                     <div class="btn-wrapper">
                         <a href="mailto:jhon123@gmail.com" class="chip">
@@ -48,10 +48,6 @@
                         <div class="state-layer"></div>
                         </a>
 
-                        <a href="tel:3000000009" class="chip">
-                        <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
-
-                        <span class="label-large">3000000009</span>
                         
                         <div class="state-layer"></div>
                         </a>
@@ -67,33 +63,7 @@
 
            <div class="article">
 
-                <div class="about-card">
-                    <h2 class="card-title title-medium"> About</h2>
 
-                    <p class="body-medium card-text"> Un ingeniero de software apasionado con un gran fuerte en la ciencia computacional</p>
-
-                    <ul class="about-list">
-                        <li class="list-item">
-                        <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
-
-                        <span class="label-medium"> Medellín, Colombia</span>
-                        </li>
-
-                        <li class="list-item">
-                        <span class="material-symbols-outlined" aria-hidden="true"> work </span>
-
-                        <span class="label-medium"> Sena </span>
-                        </li>
-
-                        
-                        <li class="list-item">
-                        <span class="material-symbols-outlined" aria-hidden="true"> captive_portal </span>
-
-                        <a href="htpps://example.com" class="label-medium"> https://example.com </a>
-                        </li>
-
-                    </ul>
-                </div>
 
                 <div>
 
