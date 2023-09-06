@@ -24,7 +24,7 @@
                 <li><button onclick="enviar_form()" class="bo"><p>Comience ya!</p></button></li>
                 <li><a class="b2" onclick=""><img src="img/login.svg" alt="" class="login"></a></li>
             </ul>
-        </nav>
+            </nav>
     </header>
 </body>
 </html>

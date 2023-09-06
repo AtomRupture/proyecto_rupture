@@ -177,6 +177,8 @@ button p{
 .contenedor{
     margin:8rem auto;
 }
+
+/* SECCIÓN 1 */
 .Text_princp{
     display: grid;
     text-align: center;
@@ -282,13 +284,27 @@ button p{
   .emp-ahr:hover {
     box-shadow: inset 0px 0px 25px #C30E0E;
   }
+
+.sec1{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/fondo_index.jpg) no-repeat center center;
+    background-size: cover !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    height: 150vh;
+
+}
+
+  /*BOTÓN INFERIOR DE REDES */
+  
   #btn-mas{
     display: none;
 }
 .bot{
     position: fixed;
     bottom: 15px;
-    right: 20px;
+    left: 20px;
     z-index: 9999;
 }
 .redes a, .btn-mas label{
@@ -336,6 +352,8 @@ button p{
     font-size: 45px;
 }
 
+/** SCROLL PERSONALIZADA **/
+
 ::-webkit-scrollbar{
     width:10px;
     background-color: #40191c;
@@ -347,15 +365,18 @@ button p{
     border-radius: 3rem;
 }
 
-.sec1{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/fondo_index.jpg) no-repeat center center;
-    background-size: cover !important;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: contain;
-    height: 150vh;
+/** BOTÓN ACTIVO UP */
+.go-top-container{
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  z-index: -1;
+}
 
+.go-top-button{
+  width: 0rem;
 }
 
 /* -------------------------------------------------------------------------------------------- */

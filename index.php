@@ -7,10 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/49b40f8ce6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="./img/unnamed-removebg-preview.svg">
     <link rel="stylesheet" href="css/style-responsive.css">
-    <script defer type="text/javascript" src="js/app.js"></script>
     <title>Atom rupture</title>
 </head>
 <?php include './php/modulos/header.php' ?>
@@ -36,21 +36,9 @@
         </div>
 
     </section>
-
-    <div class="bot">
-        <input type="checkbox" id="btn-mas">
-        <div class="redes">
-            <a href="#" class="fa-brands fa-instagram"></a>
-            <a href="#" class="fa-brands fa-facebook"></a>
-            <a href="#" class="fa-brands fa-whatsapp"></a>
-        </div>
-        <div class="btn-mas">
-            <label for="btn-mas" class="far fa-arrow-alt-circle-up"></label>
-        </div>
-    </div>
     
 <!--  SECCIÓN 2 -->
-    <section class="sec2">
+<section class="sec2">
 
 
 
@@ -517,7 +505,27 @@
 </div>
   </section>
 
-      <!-- FOOTER --> 
+      <!-- ----------------BOTÓN REDES---------------- -->
+      <div class="bot">
+        <input type="checkbox" id="btn-mas">
+        <div class="redes">
+            <a href="#" class="fa-brands fa-instagram"></a>
+            <a href="#" class="fa-brands fa-facebook"></a>
+            <a href="#" class="fa-brands fa-whatsapp"></a>
+        </div>
+        <div class="btn-mas">
+            <label for="btn-mas" class="far fa-arrow-alt-circle-up"></label>
+        </div>
+    </div>
+
+    <!-- --------------------BOTÓN ACTIVO UP-------------------- -->
+    <div class="go-top-container">
+      <div class="go-top-button">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+    </div>
+
+      <!-- ------------FOOTER----------------- --> 
 
       <div class="pg-footer">
     <footer class="footer">
@@ -658,8 +666,6 @@ on the new hot tech topics.</span>
     </footer>
   </div>
 
+  <script defer type="text/javascript" src="js/app.js"></script>
   </body>
 </html>
-
-<script src="https://kit.fontawesome.com/49b40f8ce6.js" crossorigin="anonymous"></script>
-<script defer src="./js/app.js"></script>
