@@ -166,7 +166,7 @@ header{
     background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
     margin: -6px 0 0 -7px;
-    height: 7.5rem;
+    height: 8rem;
     position: fixed;
     z-index: 9999;
 }
@@ -183,7 +183,7 @@ header{
     gap: 2.5rem;
     font-weight: 700;
     color: white;
-    margin: 20px 25px 0 0;
+    margin: 30px 25px 0 0;
     font-size: 15px;   
 }
 
