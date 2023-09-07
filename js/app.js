@@ -2,6 +2,8 @@ const enviar_form = () =>{
     this.location = "login.php";
 }
 
+
+//HAMBURGUESA
 window.onload=function(){
 
 const nav = document.querySelector(".nav");
@@ -16,7 +18,7 @@ cerrar.addEventListener("click", () => {
     nav.classList.remove("visible");
 })
 
-
+//CAMBIAR HEADER DE COLOR AL BAJAR
 window.addEventListener("scroll", function() {
   var H = document.getElementById("headt"); // el objeto que quieres cambiar de color
   var y = window.scrollY; // la posición vertical de la página
@@ -29,7 +31,7 @@ window.addEventListener("scroll", function() {
 
 }
 
-
+//SIDEBAR
 var sidebarOpen = false;
 var sidebar = document.getElementById("sidebar");
 
@@ -50,6 +52,25 @@ function closeSidebar() {
 function se(){
   window.location.href = "../php/Buscador.php";
 }
+
+//BOTÓN UP
+window.onscroll = function(){
+  if(document.documentElement.scrollTop >100){
+    document.querySelector('.go-top-container')
+    .classList.add('show');
+  }else{
+    document.querySelector('.go-top-container')
+    .classList.remove('show');
+  }
+}
+
+document.querySelector('.go-top-container')
+.addEventListener('click', ()=>{
+  window.scrollTo({
+    top:0,
+    behavior: 'smooth'
+  });
+});
 
 // IMAGENES EN MOVIMIENTO SECCIÓN 2
 /*
