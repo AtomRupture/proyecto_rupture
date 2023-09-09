@@ -1,0 +1,175 @@
+
+.section-wrap {
+    padding: 2rem 3.6rem;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+
+/* ===============================
+    footer navigation area start
+================================= */
+
+.section-footer {
+    background: var(--purple-dark-1);
+    height: 40vh;
+}
+
+.footer-wrap {
+    margin-top: 0.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer-wrap>div {
+    -ms-flex-preferred-size: 320px;
+    flex-basis: 320px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.footer-wrap>.footer-menu,
+.footer-wrap>.top-products-links,
+.footer-wrap>.useful-links {
+    -ms-flex-preferred-size: 190px;
+    flex-basis: 190px;
+}
+
+.footer-wrap>div>h2 {
+    padding-bottom: 0.4rem;
+    position: relative;
+    color: var(--color-light-1);
+    font-size: 1.4rem;
+}
+
+.footer-wrap>div>h2::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    height: 0.2rem;
+    width: 3.8rem;
+    background: var(--color-gray-2);
+    border-radius: 0.1rem;
+}
+
+.footer-wrap>div>div>p {
+    padding-top: 0.6rem;
+    color: var(--color-light-1);
+    font-size: 1.1rem;
+}
+
+.footer-wrap>div>div {
+    padding-top: 0.2rem;
+}
+
+.footer-wrap>div>div>p>a {
+    color: var(--color-light-1);
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.footer-wrap>div>div>p>a:hover {
+    color: orange;
+}
+
+.master-cards .payment-cards {
+    margin-top: 0.6rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.payment-cards .payment-link {
+    margin: 0.6rem 1rem 0 0;
+}
+
+.payment-cards .payment-link a {
+    text-decoration: none;
+
+}
+
+.payment-link a span {
+    color: var(--color-light-1);
+    font-size: 3rem;
+}
+
+.social-media-links {
+    margin-top: 0.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.social-media-links .f-links {
+    margin-right: 0.8rem;
+}
+
+.social-media-links .f-links a {
+    text-decoration: none;
+}
+
+.social-media-links .f-links a span {
+    color: var(--color-light-1);
+    font-size: 1.2rem;
+}
+
+/* =============================
+    footer navigation area end
+=============================== */
+
+
+
+/* ========================
+    copyright area start
+========================== */
+
+footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: var(--purple-dark-1);
+    border-top: 1px solid var(--color-dark-5);
+}
+
+footer p {
+    color: var(--color-light-1);
+    font-size: 1.2rem;
+}
+
+footer p a {
+    color: #9fcf3d;
+    text-decoration: none;
+}
+
+/* ======================
+    copyright area end
+======================== */
+
+/* ===================
+    Footer Area End
+===================== */

@@ -7,11 +7,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/ee3d08c0a8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style_shop.css">
+    
 	<script src="tienda.js" async></script>
     <title>Tienda</title>
 </head>
-<body>
 <?php include './php/modulos/header_tienda.php' ?>
+<body>
+
 
 <section class="sec1">
 
@@ -221,4 +223,7 @@
 
 
 </body>
+
+<?php include './php/modulos/footer_def.php' ?>
+
 </html>
