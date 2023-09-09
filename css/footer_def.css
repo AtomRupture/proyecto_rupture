@@ -7,6 +7,77 @@
 }
 
 
+/* =======================
+    subscribe area start
+========================= */
+
+.subscribe-area {
+    background: var(--purple-dark-1);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid var(--color-dark-5);
+}
+
+.subscribe-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.subscribe-wrap .subscribe-text p {
+    color: var(--color-light-1);
+    font-size: 1.4rem;
+}
+
+.subscribe-wrap .subscribe-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 3rem;
+    width: 30rem;
+}
+
+.subscribe-input input {
+    width: 65%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+}
+
+.subscribe-input button {
+    width: 35%;
+    height: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: var(--color-red-2);
+    font-size: 1.2rem;
+    color: var(--color-light-1);
+    border: 2px solid var(--color-light-1);
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.subscribe-input button:hover {
+    background: var(--purple-dark-1);
+}
+
+/* =====================
+    subscribe area end
+======================= */
+
 
 
 /* ===============================
@@ -20,8 +91,8 @@
 
 .footer-wrap {
     margin-top: 0.8rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    display: webkit-box;
+    display: ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
