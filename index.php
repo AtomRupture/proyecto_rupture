@@ -514,7 +514,7 @@
             <a href="#" class="fa-brands fa-whatsapp"></a>
         </div>
         <div class="btn-mas">
-            <label for="btn-mas" class="far fa-arrow-alt-circle-up"></label>
+            <label for="btn-mas" class="fa-solid fa-circle-plus"></label>
         </div>
     </div>
 
