@@ -11,7 +11,7 @@
     <title>Tienda</title>
 </head>
 <body>
-<?php include './php/modulos/header_tienda.php' ?>
+<?php include './php/modulos/header.php' ?>
 
 <section class="sec1">
 
