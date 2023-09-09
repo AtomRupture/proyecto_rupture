@@ -11,6 +11,7 @@
 	<script src="tienda.js" async></script>
     <title>Tienda</title>
 </head>
+
 <?php include './php/modulos/header_tienda.php' ?>
 <body>
 
