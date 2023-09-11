@@ -110,55 +110,55 @@
             <div class="item">
                 <span class="titulo-item">Whey Pure</span>
                 <img src="img/whey_pure.png" alt="" class="img-item">
-                <span class="precio-item">$120.000</span>
+                <span class="precio-item">$140.000</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
             <div class="item">
-                <span class="titulo-item">Proteina Isolate</span>
+                <span class="titulo-item">Burner Stack</span>
                 <img src="img/burner_stack.png" alt="" class="img-item">
+                <span class="precio-item">$140.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item"> Isolate</span>
+                <img src="img/isolate.png" alt="" class="img-item">
+                <span class="precio-item">$435.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Best protein</span>
+                <img src="img/best_protein.png" alt="" class="img-item">
+                <span class="precio-item">$199.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Creatine Power</span>
+                <img src="img/creatine_megaplex.png" alt="" class="img-item">
+                <span class="precio-item">$60.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Nitro Shock</span>
+                <img src="img/nitro_shock.png" alt="" class="img-item">
+                <span class="precio-item">$99.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Legacy</span>
+                <img src="img/legacy.png" alt="" class="img-item">
+                <span class="precio-item">$110.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Proteina Titan</span>
+                <img src="img/titan.jpg" alt="" class="img-item">
+                <span class="precio-item">$60.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">BiPro Classic</span>
+                <img src="img/bipro.png" alt="" class="img-item">
                 <span class="precio-item">$155.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Knock Nap</span>
-                <img src="img/burner_stack.png" alt="" class="img-item">
-                <span class="precio-item">$35.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">La Night</span>
-                <img src="img/burner_stack.png" alt="" class="img-item">
-                <span class="precio-item">$18.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Silver All</span>
-                <img src="img/burner_stack.png" alt="" class="img-item">
-                <span class="precio-item">$32.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Skin Glam</span>
-                <img src="img/burner_stack.png" alt="" class="img-item">
-                <span class="precio-item">$18.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Midimix</span>
-                <img src="img/burner_stack.png" alt="" class="img-item">
-                <span class="precio-item">$54.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Sir Blue</span>
-                <img src="img/burner_stack.png" alt="" class="img-item">
-                <span class="precio-item">$32.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Middlesteel</span>
-                <img src="img/burner_stack.png" alt="" class="img-item">
-                <span class="precio-item">$42.800</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
         </div>

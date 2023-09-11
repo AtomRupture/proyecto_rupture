@@ -38,7 +38,7 @@ if(isset($_POST['enviar'])){
             $_SESSION['nombre'] = $name;
             $_SESSION['correo'] = $correo;
 
-            header('location:pagina_usuario.php');
+            header('location:user/user_index.php');
 
         }
 

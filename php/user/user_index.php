@@ -1,22 +1,51 @@
+<?php
+
+    session_start();
+    error_reporting(0);
+
+    $varsesion = $_SESSION['nombre'];
+
+    if($varsesion == null || $varsesion = ''){
+        echo "No tiene permiso para ingresar";
+        die();
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="es-co">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/49b40f8ce6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="./img/unnamed-removebg-preview.svg">
-    <link rel="stylesheet" href="css/style-responsive.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="shortcut icon" href="../../img/unnamed-removebg-preview.svg">
+    <link rel="stylesheet" href="../../css/style-responsive.css">
     <title>Atom rupture</title>
 </head>
 
 <body onscroll="Camb()">
 
-<?php include './php/modulos/header.php' ?>
+<header id="headt"> 
+           <a href="user_index.php"> <img src="../../img/unnamed-removebg-preview.svg" alt="logo" class="logo"></a>
+            <button class="a-mu" id="abrir"><i class="fa-solid fa-bars"></i></button>
+            <nav class="nav" id="nav">
+                <button class="c-mu" id="cerrar"><i class="fa-solid fa-x"></i></button>
+            <ul class="nav-list">
+                <li><a class="clases" href="../../clases.php">Clases</a></li>
+                <li><a>Planes</a></li>
+                <li><a>Rutinas</a></li>
+                <li><a>Dietas</a></li>
+                <li><a class="tienda" href="../../tienda.php">Tienda</a></li>
+                <li><button onclick="enviar_form()" class="bo"><p>Comience ya!</p></button></li>
+                <li><a class="b2" onclick=""><img src="../../img/login.svg" alt="" class="login"></a></li>
+            </ul>
+            </nav>
+    </header>
   
 <!-- SECCIÓN 1 -->
     <section class="sec1">
@@ -26,7 +55,7 @@
                 <div class="contenedor">
                 <h1 class="Text_princp">BIENVENIDO A ATOM RUPTURE</h1>
             <div class="btt">
-                <h2 class="text_second">Tu casa, tu gimnasio</h2>
+                <h2 class="text_second"><?php echo $_SESSION['nombre'];?></h2>
             </div>
             <hr class="line-1">
             <div class="bt">
@@ -58,55 +87,55 @@
   <div class="marquee">
     <div class="marquee__group">
 
-      <img src="./img/Nutramerican.png" alt="">
+      <img src="../../img/Nutramerican.png" alt="">
 
 
-      <img src="./img/abbott-logo.png" alt="">
+      <img src="../../img/abbott-logo.png" alt="">
 
 
-      <img src="./img/black_magic.png" alt="">
+      <img src="../../img/black_magic.png" alt="">
 
 
-      <img src="./img/megaplex.png" alt="">
+      <img src="../../img/megaplex.png" alt="">
 
 
-      <img src="./img//Optimum_nutrition.png" alt="">
+      <img src="../../img//Optimum_nutrition.png" alt="">
 
 
-      <img src="./img/herbalife.png" alt="">
+      <img src="../../img/herbalife.png" alt="">
 
 
-      <img src="./img/Muscletech.png" alt="">
+      <img src="../../img/Muscletech.png" alt="">
 
 
-      <img src="./img/Dymatize.png" alt="">
+      <img src="../../img/Dymatize.png" alt="">
 
     </div>
 
     <div aria-hidden="true" class="marquee__group">
 
-      <img src="./img/Nutramerican.png" alt="">
+      <img src="../../img/Nutramerican.png" alt="">
 
 
-      <img src="./img/abbott-logo.png" alt="">
+      <img src="../../img/abbott-logo.png" alt="">
 
 
-      <img src="./img/black_magic.png" alt="">
+      <img src="../../img/black_magic.png" alt="">
 
 
-      <img src="./img/megaplex.png" alt="">
+      <img src="../../img/megaplex.png" alt="">
 
 
-      <img src="./img//Optimum_nutrition.png" alt="">
+      <img src="../../img//Optimum_nutrition.png" alt="">
 
 
-      <img src="./img/herbalife.png" alt="">
+      <img src="../../img/herbalife.png" alt="">
 
 
-      <img src="./img/Muscletech.png" alt="">
+      <img src="../../img/Muscletech.png" alt="">
 
 
-      <img src="./img/Dymatize.png" alt="">
+      <img src="../../img/Dymatize.png" alt="">
 
     </div>
   </div>
@@ -114,55 +143,55 @@
   <div class="marquee marquee--reverse">
     <div class="marquee__group">
 
-      <img src="./img/Dymatize.png" alt="">
+      <img src="../../img/Dymatize.png" alt="">
 
 
-      <img src="./img/Muscletech.png" alt="">
+      <img src="../../img/Muscletech.png" alt="">
 
 
-      <img src="./img/herbalife.png" alt="">
+      <img src="../../img/herbalife.png" alt="">
 
 
-      <img src="./img//Optimum_nutrition.png" alt="">
+      <img src="../../img//Optimum_nutrition.png" alt="">
 
 
-      <img src="./img/megaplex.png" alt="">
+      <img src="../../img/megaplex.png" alt="">
 
 
-      <img src="./img/black_magic.png" alt="">
+      <img src="../../img/black_magic.png" alt="">
 
 
-      <img src="./img/abbott-logo.png" alt="">
+      <img src="../../img/abbott-logo.png" alt="">
 
 
-      <img src="./img/Nutramerican.png" alt="">
+      <img src="../../img/Nutramerican.png" alt="">
 
     </div>
 
     <div aria-hidden="true" class="marquee__group">
 
-      <img src="./img/Dymatize.png" alt="">
+      <img src="../../img/Dymatize.png" alt="">
 
 
-      <img src="./img/Muscletech.png" alt="">
+      <img src="../../img/Muscletech.png" alt="">
 
 
-      <img src="./img/herbalife.png" alt="">
+      <img src="../../img/herbalife.png" alt="">
 
 
-      <img src="./img//Optimum_nutrition.png" alt="">
+      <img src="../../img//Optimum_nutrition.png" alt="">
 
 
-      <img src="./img/megaplex.png" alt="">
+      <img src="../../img/megaplex.png" alt="">
 
 
-      <img src="./img/black_magic.png" alt="">
+      <img src="../../img/black_magic.png" alt="">
 
 
-      <img src="./img/abbott-logo.png" alt="">
+      <img src="../../img/abbott-logo.png" alt="">
 
 
-      <img src="./img/Nutramerican.png" alt="">
+      <img src="../../img/Nutramerican.png" alt="">
 
     </div>
   </div>
@@ -208,7 +237,7 @@
                 </div>
 
                 <div class="right-title4">
-                    <img src="img/unnamed-removebg-preview.svg">
+                    <img src="../../img/unnamed-removebg-preview.svg">
                     <img src="" alt="">
                 </div>
                 </div>
@@ -275,7 +304,7 @@
                 </div>
 
                 <div class="right-title5">
-                    <img src="img/unnamed-removebg-preview.svg">
+                    <img src="../../img/unnamed-removebg-preview.svg">
                     <img src="" alt="">
                 </div>
                 </div>
@@ -378,7 +407,7 @@
     <section class="sec6">
     <div class="wrapper2">
 	<div class="card2">
-		<div class="poster"><img src="img/adaptacion.jpg" alt="Location Unknown"></div>
+		<div class="poster"><img src="../../img/adaptacion.jpg" alt="Location Unknown"></div>
 		<div class="details">
 			<h1>Adaptación</h1>
 			<h2>2023 • 4 videos</h2>
@@ -403,14 +432,13 @@
 				<ul>
 					<li><img src="https://i.postimg.cc/jqgkqhSb/cast-11.jpg" alt="Marco Andrews" title="Marco Andrews"></li>
 					<li><img src="https://i.postimg.cc/8P7X7r7r/cast-12.jpg" alt="Rebecca Floyd" title="Rebecca Floyd"></li>
-					<li><img src="https://i.postimg.cc/2SvHwRFk/cast-13.jpg
-" alt="Antonio Herrera" title="Antonio Herrera"></li>
+					<li><img src="https://i.postimg.cc/2SvHwRFk/cast-13.jpg" alt="Antonio Herrera" title="Antonio Herrera"></li>
 				</ul>
 			</div>
 		</div>
 	</div>
 	<div class="card2">
-		<div class="poster"><img src="img/resistencia.jpg" alt="Location Unknown"></div>
+		<div class="poster"><img src="../../img/resistencia.jpg" alt="Location Unknown"></div>
 		<div class="details">
 			<h1>Resistencia</h1>
 			<h2>2023 • 6 clases</h2>
@@ -439,7 +467,7 @@
 		</div>
 	</div>
 	<div class="card2">
-		<div class="poster"><img src="img/calistenia.jpg" alt="Location Unknown"></div>
+		<div class="poster"><img src="../../img/calistenia.jpg" alt="Location Unknown"></div>
 		<div class="details">
 			<h1>Calistenia</h1>
 			<h2>2023 • 10 clases</h2>
@@ -502,7 +530,7 @@
         <div class="footer-content-column">
           <div class="footer-logo">
             <a class="footer-logo-link" href="#">
-              <img src="img/unnamed-removebg-preview.svg" alt="logo" class="logo"></a>
+              <img src="../../img/unnamed-removebg-preview.svg" alt="logo" class="logo"></a>
             </a>
           </div>
           <div class="footer-menu">
@@ -632,6 +660,6 @@ on the new hot tech topics.</span>
     </footer>
   </div>
 
-  <script defer type="text/javascript" src="js/app.js"></script>
+  <script defer type="text/javascript" src="../../js/app.js"></script>
   </body>
 </html>
