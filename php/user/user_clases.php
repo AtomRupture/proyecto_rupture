@@ -1,3 +1,18 @@
+<?php
+
+    session_start();
+    error_reporting(0);
+
+    $varsesion = $_SESSION['nombre'];
+    $varsesioncorreo = $_SESSION['correo'];
+
+    if($varsesion == null || $varsesion = ''){
+        echo "No tiene permiso para ingresar";
+        die();
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="es" data-theme="dark">
 
@@ -51,15 +66,15 @@
 
                     <span class="label-large section-subtitle"> Usuario Atom</span>
 
-                    <h1 class="display-small">Usuario_01</h1>
+                    <h1 class="display-small"><?php echo $_SESSION['nombre'];?></h1>
 
                     <p class="body-large section-text">Bienvenido a las clases atom!</p>
                     
                     <div class="btn-wrapper">
-                        <a href="mailto:jhon123@gmail.com" class="chip">
+                        <a href="mailto:<?php $_SESSION['correo'];?>" class="chip">
                         <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
 
-                        <span class="label-large">user123@gmail.com</span>
+                        <span class="label-large"><?php echo $_SESSION['correo'];?></span>
 
                         <div class="state-layer"></div>
                         </a>

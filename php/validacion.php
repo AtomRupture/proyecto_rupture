@@ -18,12 +18,14 @@ if(isset($_POST['enviar'])){
         $fila = mysqli_fetch_row($admin);
         $ced = $fila[0];
         $name = $fila[1];
-        $correo = $fila[2];
-        $pass = $fila[3];
-        $tipo = $fila[4];
+        $telefono = $fila[2];
+        $correo = $fila[3];
+        $pass = $fila[4];
+        $tipo = $fila[5];
         session_start();
         $_SESSION['id_usuario'] = $ced;
         $_SESSION['nombre'] = $name;
+        $_SESSION['telefono'] = $telefono;
         $_SESSION['correo'] = $correo;
         $_SESSION['pass'] = $pass;
         $_SESSION['tipo'] = $tipo;
@@ -32,14 +34,27 @@ if(isset($_POST['enviar'])){
     }elseif(mysqli_num_rows($user)>0){
 
             $fila = mysqli_fetch_row($user);
+            $ced = $fila[0];
             $name = $fila[1];
-            $correo = $fila[2];
+            $telefono = $fila[2];
+            $correo = $fila[3];
+            $pass = $fila[4];
+            $tipo = $fila[5];
             session_start();
+            $_SESSION['id_usuario'] = $ced;
             $_SESSION['nombre'] = $name;
+            $_SESSION['telefono'] = $telefono;
             $_SESSION['correo'] = $correo;
+            $_SESSION['pass'] = $pass;
+            $_SESSION['tipo'] = $tipo;
 
             header('location:user/user_index.php');
 
+        }else{
+            echo "<script>
+                alert('Problemas para iniciar sesión');
+                location.replace('../login.php');
+            </script>";
         }
 
     mysqli_close($conexion);
