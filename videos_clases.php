@@ -31,8 +31,14 @@ You can do whatever you want with the code. However if you love my content, you 
 
             </div>
         </section>
+        
+        <footer>
+            Pedro
+        </footer>
     </main>
+
     <script src="js/videos_clases.js"></script>
+
 </body>
 
 </html>
