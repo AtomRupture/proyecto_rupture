@@ -625,6 +625,50 @@ button p{
     border-radius: 3rem;
 }
 
+/* --------------------------------------------------------------------------------*/
+
+.emp-ahr{
+    display: inline;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 3px solid #C30E0E;
+    padding: 1rem;
+    border-radius: 3rem;
+    width: 38rem;
+    font-weight: 700;
+    line-height: 27.58px;
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    position: static;
+    transition: .50s;
+    cursor: pointer;
+  }
+  .emp-ahr::after {
+    content: "";
+    position: static;
+    width: 95%;
+    height: 40%;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  .emp-ahr::before {
+    content: "";
+    transform-origin: center;
+    position: static;
+    width: 95%;
+    height: 40%;
+    transition: 0.5s;
+  }
+  .emp-ahr:hover::before, .emp-ahr:hover::after {
+    transform: scale(0)
+  } 
+  .emp-ahr:hover {
+    box-shadow: inset 0px 0px 25px #C30E0E;
+  }
+
 
 /* --------------------------------------------MEDIA QUERYS-------------------------------------- */
 

@@ -33,7 +33,7 @@ You can do whatever you want with the code. However if you love my content, you 
         </section>
         
         <footer>
-            Pedro
+            Pedro   
         </footer>
     </main>
 
