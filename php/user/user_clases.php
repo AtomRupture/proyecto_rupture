@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./img/unnamed-removebg-preview.svg">
+    <link rel="shortcut icon" href="../../img/unnamed-removebg-preview.svg">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <link rel="stylesheet" href="css/style_clases.css">
+    <link rel="stylesheet" href="../../css/style_clases.css">
     <title>Clases Rupture</title>
 </head>
 
@@ -18,7 +18,22 @@
         - #TOP BAR    
     --->
 
-    <?php include './php/modulos/header.php' ?>
+    <header id="headt"> 
+           <a href="user_index.php"> <img src="../../img/unnamed-removebg-preview.svg" alt="logo" class="logo"></a>
+            <button class="a-mu" id="abrir"><i class="fa-solid fa-bars"></i></button>
+            <nav class="nav" id="nav">
+                <button class="c-mu" id="cerrar"><i class="fa-solid fa-x"></i></button>
+            <ul class="nav-list">
+                <li><a class="clases" href="user_clases.php">Clases</a></li>
+                <li><a>Planes</a></li>
+                <li><a>Rutinas</a></li>
+                <li><a>Dietas</a></li>
+                <li><a class="tienda" href="../../tienda.php">Tienda</a></li>
+                <li><button onclick="enviar_form()" class="bo"><p>Comience ya!</p></button></li>
+                <li><a class="b2" onclick=""><img src="../../img/login.svg" alt="" class="login"></a></li>
+            </ul>
+            </nav>
+    </header>
     
     <main>
         <article>
@@ -29,7 +44,7 @@
           <section class="section hero">
             <div class="container">
                 <figure class="hero-banner img-holder" style="--width:240; --height:240;">
-                    <img src="./img/img_clases/profile.png"  width="240" height="240" alt="Jhon Pulgarin" class="img-cover">
+                    <img src="../../img/img_clases/profile.png"  width="240" height="240" alt="Jhon Pulgarin" class="img-cover">
                 </figure>
                 
                 <div class="hero-content">
@@ -104,10 +119,10 @@
 
                             <div class="project-list">
 
-                                <div class="card" onclick="alerta()">
+                                <div class="card">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
-                                        <img src="./img/img_clases/project-1.png" alt="" width="334" height="100" class="img-cover">
+                                        <img src="../../img/img_clases/project-1.png" alt="" width="334" height="100" class="img-cover">
                                     </figure>
 
                                     <div class="card-content">
@@ -123,7 +138,7 @@
                                 <div class="card">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
-                                        <img src="./img/img_clases/project-2.png" alt="" width="334" height="100" class="img-cover">
+                                        <img src="../../img/img_clases/project-2.png" alt="" width="334" height="100" class="img-cover">
                                     </figure>
 
                                     <div class="card-content">
@@ -139,7 +154,7 @@
                                 <div class="card">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
-                                        <img src="./img/img_clases/project-3.png" alt="" width="334" height="100" class="img-cover">
+                                        <img src="../../img/img_clases/project-3.png" alt="" width="334" height="100" class="img-cover">
                                     </figure>
 
                                     <div class="card-content">
@@ -155,7 +170,7 @@
                                 <div class="card">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
-                                        <img src="./img/img_clases/project-4.png" alt="" width="334" height="100" class="img-cover">
+                                        <img src="../../img/img_clases/project-4.png" alt="" width="334" height="100" class="img-cover">
                                     </figure>
 
                                     <div class="card-content">
@@ -171,7 +186,7 @@
                                 <div class="card">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
-                                        <img src="./img/img_clases/project-5.png" alt="" width="334" height="100" class="img-cover">
+                                        <img src="../../img/img_clases/project-5.png" alt="" width="334" height="100" class="img-cover">
                                     </figure>
 
                                     <div class="card-content">
@@ -187,7 +202,7 @@
                                 <div class="card">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
-                                        <img src="./img/img_clases/project-6.png" alt="" width="334" height="100" class="img-cover">
+                                        <img src="../../img/img_clases/project-6.png" alt="" width="334" height="100" class="img-cover">
                                     </figure>
 
                                     <div class="card-content">
@@ -220,7 +235,7 @@
                                 <div class="card">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
-                                        <img src="./img/img_clases/project-1.png" alt="" width="334" height="100" class="img-cover">
+                                        <img src="../../img/img_clases/project-1.png" alt="" width="334" height="100" class="img-cover">
                                     </figure>
 
                                     <div class="card-content">
@@ -236,7 +251,7 @@
                                 <div class="card">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
-                                        <img src="./img/img_clases/project-2.png" alt="" width="334" height="100" class="img-cover">
+                                        <img src="../../img/img_clases/project-2.png" alt="" width="334" height="100" class="img-cover">
                                     </figure>
 
                                     <div class="card-content">
@@ -252,7 +267,7 @@
                                 <div class="card">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
-                                        <img src="./img/img_clases/project-3.png" alt="" width="334" height="100" class="img-cover">
+                                        <img src="../../img/img_clases/project-3.png" alt="" width="334" height="100" class="img-cover">
                                     </figure>
 
                                     <div class="card-content">
@@ -282,7 +297,7 @@
                                 <div class="card">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
-                                        <img src="./img/img_clases/project-1.png" alt="" width="334" height="100" class="img-cover">
+                                        <img src="../../img/img_clases/project-1.png" alt="" width="334" height="100" class="img-cover">
                                     </figure>
 
                                     <div class="card-content">
@@ -310,27 +325,20 @@
     </main>
 
     <script>
-        function alerta(){
+        function mostrar(){
             Swal.fire({
-                title: '<strong>Registrate</strong>',
-                icon: 'info',
-                html:
-                    'Para acceder debes <br> <b> registrarte</b>',
-                showCloseButton: true,
-                showCancelButton: true,
-                focusConfirm: false,
-                confirmButtonText:
-                    '<a href="./login.php"><i class="fa fa-thumbs-up"></i> Vamos!</a>',
-                confirmButtonAriaLabel: 'Thumbs up, great!',
-                cancelButtonText:
-                    '<i class="fa fa-thumbs-down"></i>',
-                cancelButtonAriaLabel: 'Thumbs down'
-                });
+            title: 'Haz parte!',
+            text: 'Registrate como usuario Atomyy.',
+            imageUrl: 'https://unsplash.it/400/200',
+            imageWidth: 400,
+            imageHeight: 200,
+            imageAlt: 'Custom image',
+        })
         }
     </script>
 
-    <script defer src="js/app.js"></script>
-    <script defer src="js/clases.js"></script>
+    <script defer src="../../js/app.js"></script>
+    <script defer src="../../js/clases.js"></script>
 
 </body>
 </html>
