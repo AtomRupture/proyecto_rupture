@@ -30,7 +30,7 @@
             </div>
             <hr class="line-1">
             <div class="bt">
-                <button class="emp-ahr" onclick="enviar_form()">
+                <button class="emp-ahr" onclick="enviar_form();">
                     EMPIEZA AHORA
                 </button>
             </div>
