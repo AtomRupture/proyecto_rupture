@@ -1,0 +1,264 @@
+
+
+@media screen and (max-width: 440px) {
+    .customer-review .review-items {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .remove-message-wrap .remove-message-button {
+        margin-top: 1rem;
+    }
+
+    .footer-wrap>div {
+        padding-left: 1rem;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+
+    .footer-wrap>.footer-menu,
+    .footer-wrap>.top-products-links,
+    .footer-wrap>.useful-links {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .bg-slide-btn {
+        bottom: 2rem;
+        right: 2rem;
+    }
+
+    nav .icon-links {
+        margin-right: 0.6rem;
+    }
+
+    .icon-links div {
+        margin-right: 1.1rem;
+    }
+
+    .icon-links div span {
+        font-size: 1rem;
+    }
+
+    nav .nav-items {
+        right: 1.8rem;
+    }
+
+    #toggle-bar {
+        height: 1.4rem;
+        width: 1.2rem;
+    }
+
+    #toggle-bar .toggler {
+        height: 2px;
+    }
+
+    #toggle-bar .toggler::before {
+        height: 2px;
+    }
+
+    #toggle-bar .toggler::after {
+        height: 2px;
+    }
+
+    .search-box.active-search-box {
+        -webkit-transform: translateX(-52%);
+        -ms-transform: translateX(-52%);
+        transform: translateX(-52%);
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    #hero p {
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    #hero .button .btn {
+        height: 3rem;
+        width: 7rem;
+    }
+
+    #hero .button .btn a {
+        font-size: 1.1rem;
+    }
+
+    .section-about .about-wrap {
+        padding: 1.2rem;
+    }
+
+    .section-services .service-wrap {
+        padding: 1.2rem;
+    }
+
+    .hot-deals .hot-deals-title h1 {
+        font-size: 2rem;
+    }
+
+    .contact-section {
+        height: 1100px;
+    }
+
+    .contact-area .contact-info {
+        width: 80%;
+        margin-left: 1.2rem;
+    }
+
+    .form-area .form-wrap {
+        width: 90%;
+        height: auto;
+    }
+
+    .contact-info>div>p {
+        font-size: 1.2rem;
+    }
+
+    .contact-area .contact-form {
+        width: 100%;
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .subscribe-wrap .subscribe-text p {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+
+    .buying-details-wrap .shop-title {
+        padding-top: 2.4rem;
+    }
+
+    .buying-details-area .buying-details-wrap {
+        padding: 2rem 0.8rem;
+    }
+
+    .close-buy-area {
+        top: 0.6rem;
+        right: 1rem;
+    }
+
+    .buying-details-footer .calculate-buying-details div {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 370px) {
+    .product-cart-menu .cart-menu-items {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .cart-menu-items h2 {
+        margin-top: 0.8rem;
+    }
+
+    .cart-content .cart-details h2 {
+        font-size: 1.4rem;
+    }
+
+    .cart-content .cart-details p {
+        font-size: 1rem;
+    }
+
+    .cart-content .cart-details button {
+        font-size: 0.8rem;
+        padding: 0.6rem 0.8rem;
+    }
+
+    .cart-contents-header .total-cart-items p {
+        font-size: 1.2rem;
+    }
+
+    .total-buying-item p {
+        font-size: 1.2rem;
+    }
+
+    .customer-review .review-items {
+        margin-top: 0.4rem;
+    }
+
+    .calculate-buying-details div h2 {
+        width: 150px;
+        font-size: 1.2rem;
+    }
+
+    .calculate-buying-details div p {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 340px) {
+    nav .search-box {
+        width: 96%;
+    }
+
+    .icon-links div {
+        margin-right: 1rem;
+    }
+
+    .section-wrap {
+        padding: 2rem 0.4rem;
+    }
+
+    .review-content .review-text {
+        font-size: 0.9rem;
+    }
+
+    .contact-section {
+        height: 980px;
+    }
+
+    .form-area .form-wrap {
+        top: -86%;
+        width: 96%;
+    }
+
+    .contact-area .contact-info {
+        width: 80%;
+        margin-left: 1rem;
+    }
+
+    .form-wrap .title h1 {
+        font-size: 2rem;
+    }
+
+    .contact-info>h2 {
+        font-size: 1.6rem;
+    }
+
+    .contact-info>div>p {
+        font-size: 1rem;
+    }
+
+    .contact-info>div>span {
+        font-size: 1.2rem;
+    }
+
+    .input-area label {
+        font-size: 1rem;
+    }
+
+    .message-area label {
+        font-size: 1rem;
+    }
+
+    .subscribe-wrap .subscribe-text p {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.7rem;
+    }
+
+}
