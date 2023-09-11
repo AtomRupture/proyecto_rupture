@@ -1,3 +1,5 @@
+"use strict";
+
 const enviar_form = () =>{
     this.location = "login.php";
 }
