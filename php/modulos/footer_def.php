@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/footer_def.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/footer_responsive.css">
 
     <script defer type="text/javascript" src="./js/script.js"></script>
     <title>Document</title>
@@ -21,11 +21,11 @@
             <div class="section-wrap">
                 <div class="subscribe-wrap">
                     <div class="subscribe-text">
-                        <p>Subscribe to get all product updates first</p>
+                        <p>Subscribete para ser el primero en recibir actualizaciones.</p>
                     </div>
                     <form class="subscribe-input">
-                        <input type="email" placeholder="Enter your email" required>
-                        <button type="submit">Subscribe</button>
+                        <input type="email" placeholder="Ingresa tu correo" required>
+                        <button type="submit">Subscribete</button>
                     </form>
                 </div>
             </div>
