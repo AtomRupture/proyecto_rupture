@@ -12,7 +12,7 @@
     <title>Tienda</title>
 </head>
 
-<?php include './php/modulos/header_tienda.php' ?>
+<?php include './php/modulos/header.php' ?>
 <body>
 
 
