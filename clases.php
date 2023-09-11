@@ -120,7 +120,7 @@
 
                                 </div>
 
-                                <div class="card">
+                                <div class="card" onclick="alerta()">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
                                         <img src="./img/img_clases/project-2.png" alt="" width="334" height="100" class="img-cover">
@@ -136,7 +136,7 @@
 
                                 </div>
                 
-                                <div class="card">
+                                <div class="card" onclick="alerta()">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
                                         <img src="./img/img_clases/project-3.png" alt="" width="334" height="100" class="img-cover">
@@ -152,7 +152,7 @@
 
                                 </div>
 
-                                <div class="card">
+                                <div class="card" onclick="alerta()">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
                                         <img src="./img/img_clases/project-4.png" alt="" width="334" height="100" class="img-cover">
@@ -168,7 +168,7 @@
 
                                 </div>
 
-                                <div class="card">
+                                <div class="card" onclick="alerta()">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
                                         <img src="./img/img_clases/project-5.png" alt="" width="334" height="100" class="img-cover">
@@ -184,7 +184,7 @@
 
                                 </div>
 
-                                <div class="card">
+                                <div class="card" onclick="alerta()">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
                                         <img src="./img/img_clases/project-6.png" alt="" width="334" height="100" class="img-cover">
@@ -217,7 +217,7 @@
 
                             <div class="project-list">
 
-                                <div class="card">
+                                <div class="card" onclick="alerta()">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
                                         <img src="./img/img_clases/project-1.png" alt="" width="334" height="100" class="img-cover">
@@ -233,7 +233,7 @@
 
                                 </div>
 
-                                <div class="card">
+                                <div class="card" onclick="alerta()">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
                                         <img src="./img/img_clases/project-2.png" alt="" width="334" height="100" class="img-cover">
@@ -249,7 +249,7 @@
 
                                 </div>
                 
-                                <div class="card">
+                                <div class="card" onclick="alerta()">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
                                         <img src="./img/img_clases/project-3.png" alt="" width="334" height="100" class="img-cover">
@@ -279,7 +279,7 @@
 
                             <div class="project-list">
 
-                                <div class="card">
+                                <div class="card" onclick="alerta()">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
                                         <img src="./img/img_clases/project-1.png" alt="" width="334" height="100" class="img-cover">
