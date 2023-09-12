@@ -1,3 +1,18 @@
+<?php
+
+    session_start();
+    error_reporting(0);
+
+    $varsesion = $_SESSION['nombre'];
+    $varsesioncorreo = $_SESSION['correo'];
+
+    if($varsesion == null || $varsesion = ''){
+        echo "No tiene permiso para ingresar";
+        die();
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="es" data-theme="dark">
 
@@ -51,15 +66,15 @@
 
                     <span class="label-large section-subtitle"> Usuario Atom</span>
 
-                    <h1 class="display-small">Usuario_01</h1>
+                    <h1 class="display-small"><?php echo $_SESSION['nombre'];?></h1>
 
                     <p class="body-large section-text">Bienvenido a las clases atom!</p>
                     
                     <div class="btn-wrapper">
-                        <a href="mailto:jhon123@gmail.com" class="chip">
+                        <a href="mailto:<?php $_SESSION['correo'];?>" class="chip">
                         <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
 
-                        <span class="label-large">user123@gmail.com</span>
+                        <span class="label-large"><?php echo $_SESSION['correo'];?></span>
 
                         <div class="state-layer"></div>
                         </a>
@@ -119,7 +134,8 @@
 
                             <div class="project-list">
 
-                                <div class="card">
+                                
+                                <div class="card" onclick="mostrar()">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
                                         <img src="../../img/img_clases/project-1.png" alt="" width="334" height="100" class="img-cover">
@@ -132,8 +148,8 @@
                                     </div>
 
                                     <a href="#" class="state-layer"></a>
-
                                 </div>
+                                
 
                                 <div class="card">
 
@@ -326,13 +342,17 @@
 
     <script>
         function mostrar(){
-            Swal.fire({
-            title: 'Haz parte!',
-            text: 'Registrate como usuario Atomyy.',
-            imageUrl: 'https://unsplash.it/400/200',
-            imageWidth: 400,
-            imageHeight: 200,
-            imageAlt: 'Custom image',
+        Swal.fire({
+        title: 'Haz parte!',
+        text: 'Registrate como usuario Atomyy.',
+        imageUrl: '../../img/img_clases/project-1.png',
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: 'Custom image',
+                showCancelButton: true,
+        confirmButtonText:
+                    '<a href="../user/videos_clases/clase1.php"><i class="fa fa-thumbs-up"></i> Vamos!</a>',
+                confirmButtonAriaLabel: 'Thumbs up, great!'
         })
         }
     </script>
