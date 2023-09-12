@@ -10,9 +10,10 @@
 </head>
 
 <body>
+    
     <main class="container">
         <section class="main-video">
-            <video src="../../videos/manipulate text background.mp4" controls autoplay></video>
+            <video src="../../../videos/manipulate text background.mp4" controls autoplay></video>
             <h3 class="title">Title of the playing Video.</h3>
         </section>
 
@@ -25,11 +26,11 @@
         </section>
         
         <footer>
-            Pedro   
+            
         </footer>
     </main>
 
-    <script src="../../../js/videos_clases.js"></script>
+    <script src="js_videos/videos_clases.js"></script>
 
 </body>
 
