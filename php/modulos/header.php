@@ -25,8 +25,13 @@
             <ul class="nav-list">
                 <li><a class="clases" href="clases.php">Clases</a></li>
                 <li><a>Planes</a></li>
+<<<<<<< HEAD
                 <li><a href="rutinas.php">Rutinas</a></li>
                 <li><a>Dietas</a></li>
+=======
+                <li><a>Rutinas</a></li>
+                <li><a class="dietas" href="dietas.php">Dietas</a></li>
+>>>>>>> 310bad6421ff2f504c83b38b53f58f8ed9786b2a
                 <li><a class="tienda" href="tienda.php">Tienda</a></li>
                 <li><button onclick="enviar_form()" class="bo"><p>Comience ya!</p></button></li>
                 <li><a class="b2" id="op" onclick="openMenu()"><img src="img/login.svg" alt="" class="login"></a></li>
