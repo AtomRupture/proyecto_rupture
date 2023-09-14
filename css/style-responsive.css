@@ -287,7 +287,7 @@ section {
 
 
     .sec4{
-        height: 230vh;
+        height: 280vh;
     }
 
 
@@ -452,13 +452,32 @@ section {
     
 }
 
-@media screen and (max-width:300px){
+@media screen and (max-width:420px){
     .sec4{
-        height: 350vh;
+        height: 210vh;
     }
 
     .sec6{
         height: 230vh;
     }
+    
+}
+
+
+
+@media screen and (max-width:400px){
+    .sec4{
+        height: 275vh;
+    }
+
+    
+}
+
+
+@media screen and (max-width:390px){
+    .sec4{
+        height: 265vh;
+    }
+
     
 }

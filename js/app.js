@@ -77,13 +77,8 @@ window.onscroll = function(){
   }
 }
 
-document.querySelector('.go-top-container')
-.addEventListener('click', ()=>{
-  window.scrollTo({
-    top:0,
-    behavior: 'smooth'
-  });
-});
+document.querySelector('.go-top-container').addEventListener('click', ()=>{ window.scrollTo({ top:0, behavior: 'smooth' }); });
+
 
 // IMAGENES EN MOVIMIENTO SECCIÓN 2
 /*
