@@ -56,12 +56,94 @@ header{
     float: right;
 }
 
+.sub-menu-warp {
+  position: absolute;
+  top: 5.4rem;
+  right: -13rem;
+  width: 25rem;
+  max-height: 41rem;
+  overflow: hidden;
+  transition: max-height .5s;
+  display: none;
+}
+
+.sub-menu-warp.open-menu {
+  display: flex; 
+}
+
+
+
+.sub-menu{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+  margin: 0.1rem;
+  height: 90vh;
+  width: 45%;
+}
+
+.sub-menu hr{
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background: #ccc;
+  margin: 15px 0 10px; 
+}
+
+
+.user-info h3{
+  font-weight: 500;
+}
+
+.user-info{
+  display: flex;
+  align-items: center;
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-left: -2rem;
+}
+
+.sub-menu-link{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin: 8px 80px 70px;
+  flex-direction: column;
+  /* align-content: center; */
+  justify-content: flex-end;
+}
+
+.sub-menu-link p {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.sub-menu h2{
+  margin-top: 6rem;
+  margin-left: -5rem;
+  transition: .5s;
+}
+
+.sub-menu-link:hover span{
+transform: scale(1.3);
+}
+
+.sub-menu-link:hover p{
+  font-weight: 600 !important;
+}
+
+
+
 .nav-list li button{
     text-decoration: none;
     color: white;
     cursor: pointer;
 }
 
+.material-symbols-outlined {
+  font-size: 4rem !important;
+}
 .nav-list button{
 
     font-style: italic;
@@ -135,7 +217,7 @@ button p{
     cursor: pointer;
     max-width: 5rem;
     margin-top: -1rem;
-    margin-left: -0.9rem;
+    margin-left: 1.0rem;
 }
 
 .b2:hover,

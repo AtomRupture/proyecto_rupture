@@ -1,8 +1,19 @@
 "use strict";
+// alert("header test");
+
 
 const enviar_form = () =>{
     this.location = "login.php";
 }
+
+const openMenu = () => {
+  let open = document.querySelector(".sub-menu-warp");
+  if (open) {
+    open.classList.toggle("open-menu");
+  }
+}
+
+
 
 
 //HAMBURGUESA
