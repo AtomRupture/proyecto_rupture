@@ -207,9 +207,9 @@ header{
     gap: 3rem;
     font-weight: 700;
     color: white;
-    padding-top: 1rem !important;
+    padding-top: 1rem;
     padding-left: 24rem;
-    padding-right: 0rem;
+    padding-right: 100rem;
     font-size: 15px;
     float: left;
 }
@@ -426,7 +426,7 @@ header{
     font-size: 100%;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    min-height: 100vh;
+    min-height: 109vh;
   }
   
   .flex__container {
@@ -637,12 +637,16 @@ header{
 
 
 .contenedor{
+    /* max-width: 1200px; */
+    /* padding: 10px; */
     margin: auto;
     display: flex;
     justify-content: space-between;
     /* oculto lo que queda fuera del .contenedor */
     contain: paint;
+    height: 120vh;
 }
+
 /* SECCION CONTENEDOR DE ITEMS */
 .contenedor .contenedor-items{
     margin-top: 30px;
@@ -700,13 +704,13 @@ header{
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: auto;
-    position: sticky !important;
-    top: 0;
+    position: absolute !important;
+    top: 47rem !important;
+    left: 25rem !important;
     transition: .3s;
     /* Estilos para ocultar */
     margin-right: -100%;
-    opacity: 0;
-    
+    opacity: 1;
 }
 .carrito .header-carrito{
     background-color: #000;

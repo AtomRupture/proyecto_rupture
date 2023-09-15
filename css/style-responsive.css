@@ -78,7 +78,7 @@ section {
         right: -1rem;
         top: -6rem;
         height: 90vh;
-        z-index: 0;
+        z-index: 1;
       }
       .sub-menu-link{
         margin: 8px 80px 140px;
