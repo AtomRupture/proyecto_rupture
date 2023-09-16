@@ -183,7 +183,7 @@
     }
 
     .logo{
-        max-width: 8rem;
+        max-width: 7rem;
         padding-left: 2.4rem;
     }
 

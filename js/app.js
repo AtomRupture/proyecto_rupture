@@ -1,7 +1,3 @@
-"use strict";
-alert("header test");
-
-
 const enviar_form = () =>{
     this.location = "login.php";
 }
