@@ -328,7 +328,6 @@
         }
     </script>
 
-    <script defer src="js/app.js"></script>
     <script defer src="js/clases.js"></script>
 
 </body>

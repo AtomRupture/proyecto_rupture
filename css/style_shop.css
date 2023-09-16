@@ -207,9 +207,9 @@ header{
     gap: 3rem;
     font-weight: 700;
     color: white;
-    padding-top: 1rem;
+    padding-top: 1rem !important;
     padding-left: 24rem;
-    padding-right: 100rem;
+    padding-right: 0rem;
     font-size: 15px;
     float: left;
 }
@@ -637,8 +637,6 @@ header{
 
 
 .contenedor{
-    max-width: 1200px;
-    padding: 10px;
     margin: auto;
     display: flex;
     justify-content: space-between;
