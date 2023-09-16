@@ -33,8 +33,12 @@
 </div>
 
 <div class="personaje">
-<img src="img/rutinas/personaje_frontal.svg"  id="img_change" alt="">
+<img src="img/rutinas/personaje_frontal.svg" usemap="#image-wrap" id="img_change" alt="">
 </div>
+
+<map name="image-wrap">
+    <area shape="poly" coords="481,587,471,571,468,552,468,538,468,525,471,510,477,495,481,481,491,468,500,461,509,455,517,460,528,461,545,461,564,467,567,482,563,495,551,506,542,520,536,535,533,548,519,563,509,574,497,581" href="index.php" alt="">
+</map>
 
 <? 
     include 'php/modulos/footer_def.php';
