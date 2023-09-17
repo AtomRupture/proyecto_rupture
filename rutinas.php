@@ -33,18 +33,32 @@
 </div>
 
 <div class="personaje">
-<img src="img/rutinas/personaje_frontal.svg" usemap="#image-wrap" id="img_change" alt="">
+<img src="img/rutinas/personaje_frontal.svg" class="map" id="img_change" alt="" usemap="#human">
 </div>
 
-<map name="image-wrap">
-    <area shape="poly" coords="481,587,471,571,468,552,468,538,468,525,471,510,477,495,481,481,491,468,500,461,509,455,517,460,528,461,545,461,564,467,567,482,563,495,551,506,542,520,536,535,533,548,519,563,509,574,497,581" href="index.php" alt="">
+<map name="human">
+
+    <area shape="rect" coords="56,375,104,473" title="bicep" href="" alt="">
+
 </map>
 
-<? 
-    include 'php/modulos/footer_def.php';
-?>
+<!---     
+<div class="button-p">
+    <i class="fa-solid fa-dumbbell"></i>
+</div>
+-->
 
-<script src="js/rutinas.js"></script>
+
+<script type="text/javascript" src="js/rutinas.js"></script>
+
+<!--- LIBRERÍAS JQUERY PARA LA SELECCIÓN DE LOS MÚSCULOS -->
+<script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.maphilight.min.js"></script>
+
+<!--- UTILIZACIÓN DE LA LIBRERÍA MAPHILIGHT PARA EL HOVER -->
+<script type="text/javascript">
+    $('.map').maphilight()
+</script>
 
 </body>
 </html>

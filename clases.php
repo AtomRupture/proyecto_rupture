@@ -36,7 +36,7 @@
 
                     <span class="label-large section-subtitle"> Usuario Atom</span>
 
-                    <h1 class="display-small">Usuario_01</h1>
+                    <h1 class="display-small">...</h1>
 
                     <p class="body-large section-text">Bienvenido a las clases atom!</p>
                     
@@ -44,7 +44,7 @@
                         <a href="mailto:jhon123@gmail.com" class="chip">
                         <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
 
-                        <span class="label-large">user123@gmail.com</span>
+                        <span class="label-large">...@gmail.com</span>
 
                         <div class="state-layer"></div>
                         </a>
