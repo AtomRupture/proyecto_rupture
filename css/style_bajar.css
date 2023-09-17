@@ -1,11 +1,19 @@
 .secti1{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/vegetales.jpg) no-repeat center center;
     background-size: cover !important;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: contain;
     height: 150vh;
+
 }
+.secti1-el{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
 
 .secti2{
     background-size: cover !important;
@@ -156,6 +164,12 @@ margin-bottom:1.3rem;
     justify-content: center;
     padding: var(--spacing-xxl) var(--spacing-l);
     height: 100vh;
+    background-size: cover !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    height: 150vh;
   }
   
   .card-grid{

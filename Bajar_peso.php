@@ -16,15 +16,22 @@
  
 <section class="secti1">
 
-<div id="overlay">
-    
-    <video class="visible-desktop" id="hero-vid" poster="./video/video_bajarp.mp4" autoplay loop muted>
-        <source type="video/webm" src="./video/video_bajarp.mp4"></source>
-        <source type="video/mp4" src="./video/video_bajarp.mp4"></source>
-    </video>
-    <div id="state" class="visible-desktop"><span class="fa fa-pause"></span></div>
-    <img id="hero-pic" class="hidden-desktop" src="https://www.markhillard.com/sandbox/media/polina.jpg" alt="">
+<div class="secti1-el">
+    <div class="b3">
+        <div class="contenedor">
+        <h1 class="Text_princp">¿QUIERES PERDER PESO?</h1>
+    <div class="btt">
+        <h2 class="text_second">Pierdelo deliciosamente</h2>
+    </div>
+    <hr class="line-1">
+    <div class="bt">
+        <button class="emp-ahr" >  <a href="#"></a>
+            DESLIZA AHORA
+        </button>
+    </div>
+    </div>
 </div>
+
 </section>
 
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
@@ -34,29 +41,29 @@
     <a class="card" href="./Recetas/receta1_bajarp.php">
       <div class="card__background" style="background-image: url(./img/ensalada_tomate.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Bajar peso</p>
+        <p class="card__category">Perder peso</p>
         <h3 class="card__heading">Ensalada de tomate</h3>
       </div>
     </a>
-    <a class="card" href="#">
-      <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+    <a class="card" href="./Recetas/receta2_bajarp.php">
+      <div class="card__background" style="background-image: url(./img/pollo_receta2.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Category</p>
-        <h3 class="card__heading">Example Card Heading</h3>
+        <p class="card__category">Perder peso</p>
+        <h3 class="card__heading">Pollo al estilo mediterraneo</h3>
       </div>
     </a>
-    <a class="card" href="#">
-      <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+    <a class="card" href="./Recetas/receta3_bajarp.php">
+      <div class="card__background" style="background-image: url(./img/lentejas.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Category</p>
-        <h3 class="card__heading">Example Card Heading</h3>
+        <p class="card__category">Perder peso</p>
+        <h3 class="card__heading">Lentejas guisadas</h3>
       </div>
     </li>
-    <a class="card" href="#">
-      <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
+    <a class="card" href="./Recetas/receta4_bajarp.php">
+      <div class="card__background" style="background-image: url(./img/batido.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Category</p>
-        <h3 class="card__heading">Example Card Heading</h3>
+        <p class="card__category">Perder peso</p>
+        <h3 class="card__heading">Batido de manzana verde con kiwi</h3>
       </div>
     </a>
   <div>

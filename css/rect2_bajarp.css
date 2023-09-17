@@ -81,7 +81,7 @@ body {
   
   .pie-image {
     grid-area: pie-image;
-    background: url("../img/ensalada_tomate.jpg") no-repeat right center/cover;
+    background: url("../img/receta_pollo.jpg") no-repeat right center/cover;
   }
   
   .pie-name {
