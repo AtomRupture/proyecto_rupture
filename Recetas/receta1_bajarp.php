@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/rect1_bajarp.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Ensalada de tomate</title>
 </head>
+<?php include '../php/modulos/header.php' ?>
 <body>
 
 <div class="main-content">
@@ -92,4 +94,5 @@ Es importante escoger siempre tomates jugosos pero a la vez carnosos y firmes, p
 </div>
     
 </body>
+<?php include '../php/modulos/footer_def.php'?>
 </html>
