@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 .sect1{
     background-size: cover !important;
     -webkit-background-size: cover;
@@ -6,12 +7,10 @@
     background-size: contain;
     height: 100vh;
 }
-
-@import url("https://fonts.googleapis.com/css?family=Raleway");
 body {
   margin: 0;
   padding: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .flex-container {

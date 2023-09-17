@@ -259,7 +259,7 @@
             <ul class="nav-list">
                 <li><a class="clases" href="clases.php">Clases</a></li>
                 <li><a>Planes</a></li>
-                <li><a href="rutinas.php">Rutinas</a></li>
+                <li><a href="landing_rutinas.php">Rutinas</a></li>
                 <li><a class="dietas" href="dietas.php">Dietas</a></li>
                 <li><a class="tienda" href="tienda.php">Tienda</a></li>
                 <li><button onclick="enviar_form()" class="bo"><p>Comience ya!</p></button></li>
