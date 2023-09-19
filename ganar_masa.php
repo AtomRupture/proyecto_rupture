@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style_bajar.css">
+    <link rel="stylesheet" href="css/style_ganar.css">
     <script src="js/dietas.js"></script>
 	
     
-    <title>Bajar Peso</title>
+    <title>Ganar Masa</title>
 </head>
 <?php include './php/modulos/header.php' ?>
 <body>
@@ -19,9 +19,9 @@
 <div class="secti1-el">
     <div class="b3">
         <div class="contenedor">
-        <h1 class="Text_princp">¿QUIERES PERDER PESO?</h1>
+        <h1 class="Text_princp">¿QUIERES GANAR MASA?</h1>
     <div class="btt">
-        <h2 class="text_second">Pierdelo deliciosamente</h2>
+        <h2 class="text_second">Ganalo de manera efectiva</h2>
     </div>
     <hr class="line-1">
     <div class="bt">
@@ -38,31 +38,31 @@
 
 <section class="hero-section">
   <div class="card-grid">
-    <a class="card" href="./Recetas/receta1_bajarp.php">
-      <div class="card__background" style="background-image: url(./img/ensalada_tomate.jpg)"></div>
+    <a class="card" href="./Recetas/receta1_ganarp.php">
+      <div class="card__background" style="background-image: url(./img/pollo_receta1.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Ensalada de tomate</h3>
+        <p class="card__category">Ganar masa</p>
+        <h3 class="card__heading">Pollo al horno, con vegetales asados y quinoa</h3>
       </div>
     </a>
-    <a class="card" href="./Recetas/receta2_bajarp.php">
-      <div class="card__background" style="background-image: url(./img/pollo_receta2.jpg)"></div>
+    <a class="card" href="./Recetas/receta2_ganarp.php">
+      <div class="card__background" style="background-image: url(./img/banano1.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Pollo al estilo mediterraneo</h3>
+        <p class="card__category">Ganar masa</p>
+        <h3 class="card__heading">Batido cremoso de proteína</h3>
       </div>
     </a>
     <a class="card" href="./Recetas/receta3_bajarp.php">
       <div class="card__background" style="background-image: url(./img/lentejas.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
+        <p class="card__category">Ganar masa</p>
         <h3 class="card__heading">Lentejas guisadas</h3>
       </div>
     </li>
     <a class="card" href="./Recetas/receta4_bajarp.php">
       <div class="card__background" style="background-image: url(./img/batido.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
+        <p class="card__category">Ganar masa</p>
         <h3 class="card__heading">Batido de manzana verde con kiwi</h3>
       </div>
     </a>
