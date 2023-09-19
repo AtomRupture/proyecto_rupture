@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/style_rutinas.css">
     <link rel="shortcut icon" href="./img/unnamed-removebg-preview.svg">
     <link rel="stylesheet" href="css/style-responsive.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Atom rupture</title>
 </head>
 <body>
@@ -38,7 +39,7 @@
 
 <map name="human">
 
-    <area shape="rect" coords="56,375,104,473" title="bicep" href="" alt="">
+    <area onclick="mostrar()" shape="rect" coords="53,377,110,480" title="bicep" href="" alt="">
 
 </map>
 
@@ -57,8 +58,34 @@
 
 <!--- UTILIZACIÓN DE LA LIBRERÍA MAPHILIGHT PARA EL HOVER -->
 <script type="text/javascript">
+        $.fn.maphilight.defaults = {
+	stroke: true,
+	strokeColor: 'ff0000',
+	strokeOpacity: 4,
+	strokeWidth: 2.5,
+}
+
     $('.map').maphilight()
+
 </script>
 
+<script>
+        function mostrar(){
+        Swal.fire({
+        title: 'Haz parte!',
+        text: 'Registrate como usuario Atomyy.',
+        imageUrl: '../../img/img_clases/project-1.png',
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: 'Custom image',
+                showCancelButton: true,
+        confirmButtonText:
+                    '<a href="../user/videos_clases/clase1.php"><i class="fa fa-thumbs-up"></i> Vamos!</a>',
+                confirmButtonAriaLabel: 'Thumbs up, great!'
+        })
+        }
+        
+    </script>
+        
 </body>
 </html>
