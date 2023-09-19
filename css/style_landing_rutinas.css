@@ -27,6 +27,37 @@ h1 {
 	margin-bottom: 15px;
 }
 
+.a-mu{
+    display: none;
+}
+
+.a-mus{
+    display: block;
+    background-color: transparent;
+    color: white;
+    border: none !important;
+    width: 5rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.c-mu{
+    display: none;
+}
+
+.c-mus{
+    display: none;
+    background-color: transparent;
+    color: #E40b0b;
+    border: none !important;
+    width: 5rem;
+    cursor: pointer;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-top: 0rem;
+}
+
+
 .showcase {
 	height: 100vh;
 	display: flex;
@@ -123,4 +154,17 @@ h1 {
 
 .btn:hover {
 	transform: scale(0.98);
+}
+
+@media screen and (max-width: 820px){
+	.nav-list {
+		right: 0.5rem !important;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	.nav.visible {
+		width: 53% !important;
+	}
+
 }

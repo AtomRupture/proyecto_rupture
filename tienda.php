@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/ee3d08c0a8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style_shop.css">
-    
+    <link rel="stylesheet" href="css/style-responsive.css">
 	<script src="tienda.js" async></script>
     <title>Tienda</title>
 </head>
@@ -151,16 +151,16 @@
             </div>
             <div class="item">
                 <span class="titulo-item">Proteina Titan</span>
-                <img src="img/titan.jpg" alt="" class="img-item">
+                <img src="./img/titan.png" alt="" class="img-item">
                 <span class="precio-item">$60.000</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
-            <div class="item">
-                <span class="titulo-item">BiPro Classic</span>
+            <!-- <div class="item"> -->
+                <!-- <span class="titulo-item">BiPro Classic</span>
                 <img src="img/bipro.png" alt="" class="img-item">
                 <span class="precio-item">$155.000</span>
                 <button class="boton-item">Agregar al Carrito</button>
-            </div>
+            </div> -->
         </div>
         <!-- Carrito de Compras -->
         <div class="carrito" id="carrito">

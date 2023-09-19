@@ -1,5 +1,18 @@
+<?php
+
+    session_start();
+    error_reporting(0);
+
+    $varsesion = $_SESSION['nombre'];
+
+    if($varsesion == null || $varsesion = ''){
+        echo "No tiene permiso para ingresar";
+        die();
+    }
+
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-co">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +23,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/49b40f8ce6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="\proyecto_rupture\css\style-responsive.css">
     <style>
             
         header{
@@ -244,16 +256,15 @@
             position: relative;
             z-index: 2;
         }
-        
         </style>
-    <script defe src="\proyecto_rupture\js\app.js"></script>
+    <script defer src="\proyecto_rupture\js\app.js"></script>
     <title>Header</title>
 </head>
-<!-- <?php 
+<?php 
 
-// include "../conexion.php";
+include "../conexion.php";
 
-?> -->
+?>
 <body>
 <body onscroll="Camb()">
     <header id="headt"> 
@@ -262,12 +273,11 @@
             <nav class="nav" id="nav">
                 <button class="c-mu" id="cerrar"><i class="fa-solid fa-x"></i></button>
             <ul class="nav-list">
-                <li><a class="clases" href="clases.php">Clases</a></li>
+                <li><a class="clases" href="\proyecto_rupture\clases.php">Clases</a></li>
                 <li><a>Planes</a></li>
-                <li><a href="landing_rutinas.php">Rutinas</a></li>
-                <li><a class="dietas" href="dietas.php">Dietas</a></li>
-                <li><a class="tienda" href="tienda.php">Tienda</a></li>
-                <li><button onclick="enviar_form()" class="bo"><p>Comience ya!</p></button></li>
+                <li><a href="\proyecto_rupture\landing_rutinas.php">Rutinas</a></li>
+                <li><a class="dietas" href="\proyecto_rupture\dietas.php">Dietas</a></li>
+                <li><a class="tienda" href="\proyecto_rupture\tienda.php">Tienda</a></li>
                 <li><a class="b2" id="op" onclick="openMenu()"><img src="\proyecto_rupture\img\login.svg" alt="" class="login"></a></li>
                 <div class="sub-menu-warp">
                     <div class="sub-menu">
@@ -281,21 +291,14 @@
                                     manage_accounts
                                 </span>
                                 <p>Configuracion</p>
-                            </a>
+                                </a>
                             <br>
                             <a href="#" class="sub-menu-link">
                             <span class="material-symbols-outlined">
-                                login
-                            </span>
-                                <p>Iniciar sesion</p>
-                            </a>
-                            <br>
-                            <!-- <a href="#" class="sub-menu-link">
-                            <span class="material-symbols-outlined">
                                 logout
                             </span>
-                                <p>Cerrar sesion</p> !!!este boton solo debe aplicarse en la pagina de user!!!
-                            </a> -->
+                                <p>Cerrar sesion</p>
+                            </a>
                             </div>
                         </div>
                     </div>
