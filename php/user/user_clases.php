@@ -33,22 +33,7 @@
         - #TOP BAR    
     --->
 
-    <header id="headt"> 
-           <a href="user_index.php"> <img src="../../img/unnamed-removebg-preview.svg" alt="logo" class="logo"></a>
-            <button class="a-mu" id="abrir"><i class="fa-solid fa-bars"></i></button>
-            <nav class="nav" id="nav">
-                <button class="c-mu" id="cerrar"><i class="fa-solid fa-x"></i></button>
-            <ul class="nav-list">
-                <li><a class="clases" href="user_clases.php">Clases</a></li>
-                <li><a>Planes</a></li>
-                <li><a>Rutinas</a></li>
-                <li><a>Dietas</a></li>
-                <li><a class="tienda" href="../../tienda.php">Tienda</a></li>
-                <li><button onclick="enviar_form()" class="bo"><p>Comience ya!</p></button></li>
-                <li><a class="b2" onclick=""><img src="../../img/login.svg" alt="" class="login"></a></li>
-            </ul>
-            </nav>
-    </header>
+    <?php include "../modulos/header-af.php" ?>
     
     <main>
         <article>

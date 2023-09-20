@@ -268,14 +268,14 @@ include "../conexion.php";
 <body>
 <body onscroll="Camb()">
     <header id="headt"> 
-           <a href="\proyecto_rupture\index.php"> <img src="\proyecto_rupture\img\unnamed-removebg-preview.svg" alt="logo" class="logo"></a>
+           <a href="../user/user_index.php"> <img src="\proyecto_rupture\img\unnamed-removebg-preview.svg" alt="logo" class="logo"></a>
             <button class="a-mu" id="abrir"><i class="fa-solid fa-bars"></i></button>
             <nav class="nav" id="nav">
                 <button class="c-mu" id="cerrar"><i class="fa-solid fa-x"></i></button>
             <ul class="nav-list">
-                <li><a class="clases" href="\proyecto_rupture\clases.php">Clases</a></li>
+                <li><a class="clases" href="../user/user_clases.php">Clases</a></li>
                 <li><a>Planes</a></li>
-                <li><a href="\proyecto_rupture\landing_rutinas.php">Rutinas</a></li>
+                <li><a href="../user/user_landrutinas.php">Rutinas</a></li>
                 <li><a class="dietas" href="\proyecto_rupture\dietas.php">Dietas</a></li>
                 <li><a class="tienda" href="\proyecto_rupture\tienda.php">Tienda</a></li>
                 <li><a class="b2" id="op" onclick="openMenu()"><img src="\proyecto_rupture\img\login.svg" alt="" class="login"></a></li>
