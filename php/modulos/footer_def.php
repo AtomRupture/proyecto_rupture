@@ -6,8 +6,157 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="\proyecto_rupture\css\footer_def.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
 
+            :root {
+                --color-neutral-10: #0e0c0c;
+                --color-neutral-0: #171717;
+                --color-neutral-30: #a8a29e;
+                --color-neutral-40: #f5f5f5;
+
+            }
+
+            footer img{
+                max-width: 5rem;
+                margin-bottom: 1rem;
+            }
+            footer {
+                z-index: 4;
+                width: 100%;
+                color: var(--color-neutral-40);
+            }
+
+            .footer-link {
+                text-decoration: none;
+            }
+
+            #footer_content {
+                background-color: var(--color-neutral-10);
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                padding: 3rem 3.5rem;
+            }
+
+            #footer_contacts h1 {
+                margin-bottom: 0.75rem;
+            }
+
+            #footer_social_media {
+                display: flex;
+                gap: 2rem;
+                margin-top: 1.5rem;
+            } 
+
+            #footer_social_media .footer-link {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 2.5rem;
+                width: 2.5rem;
+                color: var(--color-neutral-40);
+                border-radius: 50%;
+                transition: all 0.4s;
+            }
+
+            #footer_social_media .footer-link i {
+                font-size: 1.25rem;    
+            }
+
+            #footer_social_media .footer-link:hover {
+                opacity: 0.8;
+            }
+
+            #instagram {
+                background-color:#C30E0E;
+            }
+
+            #facebook {
+                background-color: #C30E0E;
+            }
+
+            #whatsapp {
+                background-color: #C30E0E;
+            }
+
+            .footer-list {
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                list-style: none;
+            }
+
+            .footer-list .footer-link {
+                color: var(--color-neutral-30);
+                transition: all 0.4s;
+            }
+
+            .footer-list .footer-link:hover {
+                color: #7f37c9;
+            }
+
+            #footer_subscribe {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            #footer_subscribe p {
+                color: var(--color-neutral-30);
+            }
+
+            #input_group {
+                display: flex;
+                align-items: center;
+                background-color: var(--color-neutral-0);
+                border-radius: 4px;
+            }
+
+            #input_group input {
+                all: unset;
+                padding: 0.75rem;
+                width: 100%;
+            }
+
+            #input_group button {
+                background-color: #C30E0E;
+                border: none;
+                color: var(--color-neutral-40);
+                padding: 0px 1.25rem;
+                font-size: 1.125rem;
+                height: 100%;
+                border-radius: 0px 4px 4px 0px;
+                cursor: pointer;
+                transition: all 0.4s;
+            }
+
+            #input_group button:hover {
+                opacity: 0.8;
+            }
+
+            #footer_copyright {
+                display: flex;
+                justify-content: center;
+                background-color: var(--color-neutral-0);
+                font-size: 0.9rem;
+                padding: 1.5rem;
+                font-weight: 100;
+            }
+
+            @media screen and (max-width: 768px) {
+                #footer_content {
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 2rem;
+                }
+            }
+
+            @media screen and (max-width: 426px) {
+                #footer_content {
+                    grid-template-columns: repeat(1, 1fr);
+                    padding: 3rem 2rem;
+                }
+            }
+    </style>
     <title>Responsive Footer</title>
 </head>
 <body>
@@ -17,8 +166,9 @@
     <footer>
         <div id="footer_content">
             <div id="footer_contacts">
-                <h1>Logo</h1>
-                <p>It's all about your dreams.</p>
+                <img src="\proyecto_rupture\img\unnamed.png">
+                <h2>ATOM RUPTURE</h2>
+                <p>Tu casa, tu gimnasio</p>
 
                 <div id="footer_social_media">
                     <a href="#" class="footer-link" id="instagram">
@@ -37,40 +187,34 @@
             
             <ul class="footer-list">
                 <li>
-                    <h3>Blog</h3>
+                    <h3>Legal</h3>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Tech</a>
+                    <a href="#" class="footer-link">Terminos y condiciones</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Adventures</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Music</a>
+                    <a href="#" class="footer-link">Membresias</a>
                 </li>
             </ul>
 
             <ul class="footer-list">
                 <li>
-                    <h3>Products</h3>
+                    <h3>Nosotros</h3>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">App</a>
+                    <a href="#" class="footer-link">Que es atom rupture?</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Desktop</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Cloud</a>
+                    <a href="#" class="footer-link">Planes a futuro</a>
                 </li>
             </ul>
 
             <div id="footer_subscribe">
-                <h3>Subscribe</h3>
+                <h3>Unete!</h3>
 
                 <p>
-                    Enter your e-mail to get notified about
-                    our news solutions
+                    Ingresa tu correo para estar al tanto 
+                    de la familia rupture :)
                 </p>
 
                 <div id="input_group">
@@ -84,7 +228,7 @@
 
         <div id="footer_copyright">
             &#169
-            2023 all rights reserved
+            2023 todos los derechos reservados
         </div>
     </footer>
 </body>
