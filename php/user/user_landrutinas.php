@@ -23,13 +23,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/49b40f8ce6.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <link rel="shortcut icon" href="../../img/unnamed-removebg-preview.svg">
+    <link rel="shortcut icon" href="\proyecto_rupture\img\unnamed.png">
     <link rel="stylesheet" href="../../css/style_landing_rutinas.css">
     <title>Rutinas</title>
 </head>
 <body>
 
-<?php include '../modulos/header-af.php' ?>
+<?php include '../modulos/header.php' ?>
 
 <section class="showcase">
 			<div class="video-container">
