@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/49b40f8ce6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="shortcut icon" href="\proyecto_rupture\img\short-ico.svg">
     <link rel="stylesheet" href="\proyecto_rupture\css\style-responsive.css">
+    <link rel="shortcut icon" href="\proyecto_rupture\img\unnamed.png">
     <style>
             
         header{

@@ -22,6 +22,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/49b40f8ce6.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="\proyecto_rupture\img\unnamed.png">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="shortcut icon" href="../../img/unnamed-removebg-preview.svg">
     <link rel="stylesheet" href="../../css/style-responsive.css">
