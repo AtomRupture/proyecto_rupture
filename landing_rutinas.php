@@ -19,14 +19,14 @@
 
 <section class="showcase">
 			<div class="video-container">
-				<video src="video/fondo_landing2.mp4" autoplay muted loop></video>
+				<video src="video/landing_rutinas.mp4" autoplay muted loop></video>
 			</div>
 			<div class="content">
 				<h1>Rutinas Atom</h1>
 				<h4>Oportunidad para el cambio</h4>
                 <div class="bt">
                 <button class="emp-ahr" onclick="alerta();">
-                    EMPIEZA AHORA
+                    REGISTRATE
                 </button>
             </div>
 			</div>
