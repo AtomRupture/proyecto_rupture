@@ -45,7 +45,8 @@
             </div>
 			</div>
 		</section>
-
+        
+        <?php include '../modulos/footer_def.php' ?>
         
         <script>
         function mostrar(){

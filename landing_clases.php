@@ -32,6 +32,8 @@
 			</div>
 </section>
 
+<?php include './php/modulos/footer_def.php' ?>
+
         <script>
         function alerta(){
             Swal.fire({
