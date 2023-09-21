@@ -53,13 +53,16 @@
 
 <map name="human">
 
-    <area shape="rect" coords="53,377,110,480" title="bicep" href="" alt="">
-    <area shape="rect" coords="390,377,447,480" title="bicep" href="" alt="">
+    <area shape="rect" coords="53,377,110,480" title="bicep" href="bicep.php" alt="">
+    <area shape="rect" coords="390,377,447,480" title="bicep" href="bicep.php" alt="">
     <area shape="rect" coords="376,250,457,350" title="hombro" href="" alt="">
     <area shape="rect" coords="45,250,118,350" title="hombro" href="" alt="">
     <area shape="rect" coords="190,385,310,550" title="abdomen" href="" alt="">
     <area shape="rect" coords="140,275,350,380" title="pecho" href="" alt="">
     <area shape="rect" coords="15,510,80,660" title="antebrazo" href="" alt="">
+    <area shape="rect" coords="432,510,490,660" title="antebrazo" href="" alt="">
+    <area shape="rect" coords="116,720,230,1260" title="pierna" href="" alt="">
+    <area shape="rect" coords="276,720,390,1260" title="pierna" href="" alt="">
 
 
 </map>

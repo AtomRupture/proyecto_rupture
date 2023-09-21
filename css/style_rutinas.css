@@ -81,9 +81,26 @@ body{
   }
   
 .personaje{
+    opacity: 0;
     display: flex;
     width: 500px;
     margin: -50px auto;
+    animation-name: character;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes character{
+  0%{
+    opacity: 0;
+    transform: scale(2) translateY(75px);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+
 }
 
 /*
