@@ -283,7 +283,7 @@
                                 <p>Configuracion</p>
                             </a>
                             <br>
-                            <a href="#" class="sub-menu-link">
+                            <a href="../proyecto_rupture/login.php" class="sub-menu-link">
                             <span class="material-symbols-outlined">
                                 login
                             </span>

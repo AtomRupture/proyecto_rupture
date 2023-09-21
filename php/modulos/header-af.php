@@ -293,7 +293,7 @@ include "../conexion.php";
                                 <p>Configuracion</p>
                                 </a>
                             <br>
-                            <a href="#" class="sub-menu-link">
+                            <a href="../user/cierre_sesion.php" class="sub-menu-link">
                             <span class="material-symbols-outlined">
                                 logout
                             </span>
