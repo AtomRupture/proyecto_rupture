@@ -274,7 +274,7 @@ include "../conexion.php";
                 <button class="c-mu" id="cerrar"><i class="fa-solid fa-x"></i></button>
             <ul class="nav-list">
                 <li><a class="clases" href="../user/user_clases.php">Clases</a></li>
-                <li><a>Planes</a></li>
+                <li><a href="\proyecto_rupture\php\user\user_index.php#p">Planes</a></li>
                 <li><a href="../user/user_landrutinas.php">Rutinas</a></li>
                 <li><a class="dietas" href="\proyecto_rupture\dietas.php">Dietas</a></li>
                 <li><a class="tienda" href="\proyecto_rupture\tienda.php">Tienda</a></li>

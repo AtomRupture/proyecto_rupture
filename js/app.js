@@ -1,15 +1,15 @@
-const enviar_form = () =>{
-    this.location = "login.php";
-}
 
-const openMenu = () => {
+
+function openMenu(){
   let open = document.querySelector(".sub-menu-warp");
   if (open) {
     open.classList.toggle("open-menu");
   }
 }
 
-
+function enviar_form(){
+  this.location = "login.php";
+}
 
 
 //HAMBURGUESA
@@ -39,6 +39,10 @@ window.addEventListener("scroll", function() {
 });
 
 }
+
+function enviarclass(){
+this.location = "user_clases.php"
+};
 
 //SIDEBAR
 var sidebarOpen = false;

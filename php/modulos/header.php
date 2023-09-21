@@ -263,7 +263,7 @@
                 <button class="c-mu" id="cerrar"><i class="fa-solid fa-x"></i></button>
             <ul class="nav-list">
                 <li><a class="clases" href="clases.php">Clases</a></li>
-                <li><a>Planes</a></li>
+                <li><a href="\proyecto_rupture\index.php#plan">Planes</a></li>
                 <li><a href="landing_rutinas.php">Rutinas</a></li>
                 <li><a class="dietas" href="dietas.php">Dietas</a></li>
                 <li><a class="tienda" href="tienda.php">Tienda</a></li>

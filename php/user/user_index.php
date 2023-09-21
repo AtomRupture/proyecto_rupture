@@ -44,7 +44,7 @@
             </div>
             <hr class="line-1">
             <div class="bt">
-                <button class="emp-ahr" onclick="enviar_form()">
+                <button class="emp-ahr" onclick="enviarclass()">
                     EMPIEZA AHORA
                 </button>
             </div>
@@ -211,7 +211,7 @@
     </section>
 
 <!-- SECCIÓN 4 -->
-    <section class="sec4">
+    <section class="sec4" id="p">
 
         <div class="cont4">
             <div class="cont-title-sec4">

@@ -11,8 +11,10 @@
 }
 
 body {
+  display: grid;
     font-family: 'Ubuntu', sans-serif;
-	line-height: 1.5;
+	  line-height: 1.5;
+    grid-template-rows: repeat(1, 1fr) !important;
 }
 
 a {
