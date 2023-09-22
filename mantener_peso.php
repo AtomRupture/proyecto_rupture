@@ -52,18 +52,18 @@
         <h3 class="card__heading">Ensalada de garbanzos</h3>
       </div>
     </a>
-    <a class="card" href="./Recetas/receta3_ganarp.php">
-      <div class="card__background" style="background-image: url(./img/polloest.jpg)"></div>
+    <a class="card" href="./Recetas/receta3_mantenerp.php">
+      <div class="card__background" style="background-image: url(./img/filete1.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Ganar masa</p>
-        <h3 class="card__heading">Estofado de pollo</h3>
+        <p class="card__category">Mantener peso</p>
+        <h3 class="card__heading">Filete de atun con boniato</h3>
       </div>
     </li>
-    <a class="card" href="./Recetas/receta4_ganarp.php">
-      <div class="card__background" style="background-image: url(./img/pastapollo1.jpg)"></div>
+    <a class="card" href="./Recetas/receta4_mantenerp.php">
+      <div class="card__background" style="background-image: url(./img/albondigasf.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Ganar masa</p>
-        <h3 class="card__heading">Pasta cremosa de pollo</h3>
+        <p class="card__category">Mantener peso</p>
+        <h3 class="card__heading">Bocadillo de albondigas</h3>
       </div>
     </a>
   <div>
