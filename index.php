@@ -197,7 +197,7 @@
     </section>
 
 <!-- SECCIÓN 4 -->
-    <section class="sec4" id="plane">
+    <section class="sec4" id="plan">
 
         <div class="cont4">
             <div class="cont-title-sec4">
