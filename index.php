@@ -9,12 +9,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/49b40f8ce6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/loader.css">
     <link rel="shortcut icon" href="\proyecto_rupture\img\unnamed.png">
     <link rel="stylesheet" href="css/style-responsive.css">
     <title>Atom rupture</title>
 </head>
 
 <body onscroll="Camb()">
+
 
 <?php include './php/modulos/header.php' ?>
   
@@ -494,9 +496,5 @@
       <!-- ------------FOOTER----------------- --> 
       <?php include './php/modulos/footer_def.php' ?>
   
-
-  <script defersrc="./js/app.js">
-          document.querySelector('.go-top-container').addEventListener('click', ()=>{ window.scrollTo({ top:0, behavior: 'smooth' }); });
-  </script>
   </body>
 </html>

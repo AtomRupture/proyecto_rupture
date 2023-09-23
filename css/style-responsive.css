@@ -9,6 +9,7 @@ section {
   }
   
 
+
   @media screen and (max-width: 1200px){
     .a-mu{
         display: block;
@@ -31,6 +32,11 @@ section {
         padding-left: 0rem;
         padding-top: 0rem;
     }
+
+    .loader{
+        top: calc(67vh - 75px)!important;
+        left: calc(40vh - 75px)!important;
+      }
 
     .nav{
         opacity: 0;
@@ -130,6 +136,7 @@ section {
         font-size: 30px;
         padding-top: 22rem;
     }
+    
     .sec6{
         height: 195vh;
     }
@@ -457,6 +464,12 @@ section {
         height: 210vh;
     }
 
+    .loader{
+        top: calc(50vh - 75px)!important;
+        left: calc(22vh - 75px)!important;
+      }
+
+
     .sec6{
         height: 230vh;
     }
@@ -478,6 +491,19 @@ section {
     .sec4{
         height: 265vh;
     }
+    .loader{
+        top: calc(72vh - 75px)!important;
+        left: calc(37vh - 75px)!important;
+      }
+
 
     
+}
+
+@media screen and (max-width:360px){
+
+    .loader{
+        top: calc(70vh - 75px)!important;
+        left: calc(35vh - 75px)!important;
+      }
 }
