@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/49b40f8ce6.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/alert.js"></script>
     <link rel="shortcut icon" href="./img/unnamed-removebg-preview.svg">
     <link rel="stylesheet" href="css/style_landing_rutinas.css">
     <title>Clases</title>

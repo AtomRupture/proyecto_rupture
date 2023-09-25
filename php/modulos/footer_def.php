@@ -156,6 +156,35 @@
                     padding: 3rem 2rem;
                 }
             }
+                    div:where(.swal2-container).swal2-center>.swal2-popup {
+        background-color: black !important;
+        }
+
+        div:where(.swal2-icon).swal2-info{
+        border-color:  #A21112 !important;
+        color: #A21112 !important;
+        }
+
+        div:where(.swal2-container) h2:where(.swal2-title) {
+        color: white !important;
+        }
+
+        div:where(.swal2-container) .swal2-html-container{
+        color: white !important;
+        }
+
+        div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
+        background-color: #E40b0b !important ;
+        }
+        a {
+        text-decoration: none;
+        color: black;
+        }
+
+
+        div:where(.swal2-container) img:where(.swal2-image){
+            background: url("https://th.bing.com/th/id/OIP._ehnMv6LdATGvAXZW-VzfQHaEE?pid=ImgDet&rs=1") !important;
+        }
     </style>
     <title>Responsive Footer</title>
 </head>

@@ -221,6 +221,19 @@ margin-bottom:1.3rem;
       filter 200ms linear,
       transform 200ms linear;
   }
+
+  ::-webkit-scrollbar{
+    width:10px;
+    background-color: #40191c;
+    z-index: 99;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background: #A21112;
+    border-radius: 3rem;
+}
+
   
   .card:hover .card__background{
     transform: scale(1.05) translateZ(0);

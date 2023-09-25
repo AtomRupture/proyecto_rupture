@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Rollos de pollo rellenos</title>
 </head>
+<?php
+error_reporting(0);
+include '../php/modulos/loader.php' ?>
 <?php include '../php/modulos/header.php' ?>
+
 <body>
 
 <div class="main-content">

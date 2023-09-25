@@ -74,6 +74,20 @@ body {
     background-color: #0005;
 }
 
+::-webkit-scrollbar{
+    width:10px;
+    background-color: #40191c;
+    z-index: 99;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background: #A21112;
+    border-radius: 3rem;
+}
+
+
+
 .video-playlist .videos::-webkit-scrollbar-thumb {
     border-radius: .4rem;
     background-color: #fff;

@@ -106,10 +106,28 @@ h1 {
 	z-index: 2;
 }
 
+::-webkit-scrollbar{
+  width:10px;
+  background-color: #40191c;
+  z-index: 99;
+
+}
+
+::-webkit-scrollbar-thumb{
+  background: #A21112;
+  border-radius: 3rem;
+}
+
 .btn {
 	display: inline-block;
 	margin-top: 25px;
 }
+
+.swal2-image{
+  background-color: red !important;
+  background-image: url(https://th.bing.com/th/id/OIP._ehnMv6LdATGvAXZW-VzfQHaEE?pid=ImgDet&rs=1) !important;
+}
+
 
 .emp-ahr{
     display: inline-block;

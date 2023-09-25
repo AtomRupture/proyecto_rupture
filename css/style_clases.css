@@ -538,15 +538,80 @@ header{
     gap: 12px;
 }
 
+
 ::-webkit-scrollbar{
     width:10px;
     background-color: #40191c;
+    z-index: 99;
 
 }
 
 ::-webkit-scrollbar-thumb{
     background: #A21112;
     border-radius: 3rem;
+}
+
+/** BOTÓN ACTIVO UP */
+.go-top-container{
+  position: fixed;
+  bottom: -10px;
+  right: 1px;
+  width: 50px;
+  height: 50px;
+  z-index: 999;
+}
+
+.go-top-button{
+  width: 0rem;
+  height: 0rem;
+  background: #d31717;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .2s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+.go-top-button i{
+  position: absolute;
+  font-size: 25px;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  color: whitesmoke;
+  transition: .2s;
+}
+
+.show{
+  z-index: 999;
+}
+
+.show .go-top-button{
+  animation: popup .3s ease-in-out;
+  width: 50px;
+  height: 50px;
+  z-index: 999;
+}
+
+.show i{
+  transform:translate(-50%,-50%) scale(1);
+}
+
+@keyframes popup{
+  0%{
+    width: 0rem;
+    height: 0rem;
+  }
+  50%{
+    width: 85px;
+    height: 85px;
+  }
+  100%{
+    width: 50px;
+    height: 50px;
+  }
 }
 
 /* --------------------------------------------------------------------------------*/
