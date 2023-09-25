@@ -45,25 +45,25 @@
         <h3 class="card__heading">Rollo de pollo relleno</h3>
       </div>
     </a>
-    <a class="card" href="./Recetas/receta2_ganarp.php">
-      <div class="card__background" style="background-image: url(./img/banano1.jpg)"></div>
+    <a class="card" href="./Recetas/receta2_subirp.php">
+      <div class="card__background" style="background-image: url(./img/sandwich.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Ganar masa</p>
-        <h3 class="card__heading">Batido cremoso de proteína</h3>
+        <p class="card__category">Subir peso</p>
+        <h3 class="card__heading">Sandwich de ternera</h3>
       </div>
     </a>
-    <a class="card" href="./Recetas/receta3_ganarp.php">
-      <div class="card__background" style="background-image: url(./img/polloest.jpg)"></div>
+    <a class="card" href="./Recetas/receta3_subirp.php">
+      <div class="card__background" style="background-image: url(./img/pastasal.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Ganar masa</p>
-        <h3 class="card__heading">Estofado de pollo</h3>
+        <p class="card__category">Subir peso</p>
+        <h3 class="card__heading">Pasta con salchichas</h3>
       </div>
     </li>
-    <a class="card" href="./Recetas/receta4_ganarp.php">
-      <div class="card__background" style="background-image: url(./img/pastapollo1.jpg)"></div>
+    <a class="card" href="./Recetas/receta4_subirp.php">
+      <div class="card__background" style="background-image: url(./img/hamb.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Ganar masa</p>
-        <h3 class="card__heading">Pasta cremosa de pollo</h3>
+        <p class="card__category">Subir peso</p>
+        <h3 class="card__heading">Hamburguesas rellenas de mozzarella</h3>
       </div>
     </a>
   <div>
