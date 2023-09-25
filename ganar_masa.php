@@ -52,18 +52,18 @@
         <h3 class="card__heading">Batido cremoso de proteína</h3>
       </div>
     </a>
-    <a class="card" href="./Recetas/receta3_bajarp.php">
-      <div class="card__background" style="background-image: url(./img/lentejas.jpg)"></div>
+    <a class="card" href="./Recetas/receta3_ganarp.php">
+      <div class="card__background" style="background-image: url(./img/polloest.jpg)"></div>
       <div class="card__content">
         <p class="card__category">Ganar masa</p>
-        <h3 class="card__heading">Lentejas guisadas</h3>
+        <h3 class="card__heading">Estofado de pollo</h3>
       </div>
     </li>
-    <a class="card" href="./Recetas/receta4_bajarp.php">
-      <div class="card__background" style="background-image: url(./img/batido.jpg)"></div>
+    <a class="card" href="./Recetas/receta4_ganarp.php">
+      <div class="card__background" style="background-image: url(./img/pastapollo1.jpg)"></div>
       <div class="card__content">
         <p class="card__category">Ganar masa</p>
-        <h3 class="card__heading">Batido de manzana verde con kiwi</h3>
+        <h3 class="card__heading">Pasta cremosa de pollo</h3>
       </div>
     </a>
   <div>

@@ -261,6 +261,7 @@
     <script defer src="\proyecto_rupture\js\app.js"></script>
     <title>Header</title>
 </head>
+<?php include './php/modulos/loader.php' ?>
 <?php 
 
 include "../conexion.php";

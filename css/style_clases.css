@@ -679,4 +679,30 @@ header{
          left: -1rem;
          top: 4rem;
         }
+        .loader{
+            top: calc(60vh - 75px)!important;
+            left: calc(37vh - 75px)!important;
+          }
+}
+
+
+@media screen and (max-width:390px){
+    .sec4{
+        height: 265vh;
+    }
+    .loader{
+        top: calc(60vh - 75px);
+        left: calc(37vh - 75px);
+      }
+
+
+    
+}
+
+@media screen and (max-width:360px){
+
+    .loader{
+        top: calc(60vh - 75px);
+        left: calc(35vh - 75px);
+      }
 }
