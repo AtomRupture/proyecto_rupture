@@ -19,7 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/css_rutinas/style_hombro.css">
+    <link rel="stylesheet" href="../../css/css_rutinas/style_pierna.css">
     <script src="../../js/dietas.js"></script>
     <title>Bajar Peso</title>
 </head>

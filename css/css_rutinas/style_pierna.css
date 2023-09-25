@@ -1,0 +1,256 @@
+.secti1{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../img/pierna.jpg) no-repeat center center;
+    background-size: cover !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    height: 150vh;
+  }
+  .secti1-el{
+      display: flex;
+      align-items: center;
+      text-align: center;
+  }
+  
+  
+  .secti2{
+      background-size: cover !important;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: contain;
+      height: 150vh;
+  }
+  
+  @import url("https://fonts.googleapis.com/css?family=Poiret+One|Josefin+Sans");
+  
+  html,body {
+  color:#fddaec;
+  font-family:"Josefin Sans", sans-serif;
+  font-size:100%;
+  height:100%;
+  line-height:1.45;
+  }
+  
+  
+  /* Video Overlay */
+  
+  #overlay {
+  background-color:rgba(0,0,0,.65);
+  height:100%;
+  left:0;
+  position:relative;
+  top:0;
+  transition:background-color 300ms ease;
+  width:100%;
+  }
+  
+  .fade { background-color:rgba(0,0,0,.85) !important; }
+  
+  
+  /* Hero Video + Fallback */
+  
+  #hero-vid {
+  backface-visibility:hidden;
+  background:url("../.mp4") no-repeat scroll 0 0 #000;
+  background-size:cover;
+  bottom:0;
+  height:auto;
+  min-height:100%;
+  min-width:100%;
+  perspective:1000;
+  position:fixed;
+  right:0;
+  width:auto;
+  z-index:-1;
+  }
+  
+  #hero-pic {
+  display:block;
+  height:auto;
+  width:100%;
+  }
+  
+  #state {
+  bottom:0;
+  cursor:pointer;
+  font-size:2.25rem;
+  left:0;
+  line-height:1;
+  padding:2rem 2.5rem 1.65rem;
+  position:absolute;
+  }
+  
+  
+  /* Content Styles */
+  
+  
+  
+  
+  
+  #content {
+  background-color:#151515;
+  padding:2.5rem;
+  position:relative;
+  z-index:1;
+  }
+  
+  #content p {
+  font-size:1.25rem;
+  letter-spacing:.02rem;
+  margin-bottom:1.3rem;
+  }
+  
+  
+  /* Media Queries */
+  
+  @media only screen and (max-width:768px) {
+      #overlay { height:auto; }
+  }
+  
+  
+  /* Visibility Helpers */
+  
+  @media only screen and (min-width:769px) {
+      .visible-mobile,.visible-tablet,.hidden-desktop { display:none !important; }
+  }
+  
+  @media only screen and (min-width:480px) and (max-width:768px) {
+      .visible-mobile,.hidden-tablet,.visible-desktop { display:none !important; }
+  }
+  
+  @media only screen and (max-width:479px) {
+      .hidden-mobile,.visible-tablet,.visible-desktop { display:none !important; }
+  }
+  
+  /*****  section 2 *****/
+  
+  :root{
+      --background-dark: #2d3548;
+      --text-light: rgba(255,255,255,0.6);
+      --text-lighter: rgba(255,255,255,0.9);
+      --spacing-s: 8px;
+      --spacing-m: 16px;
+      --spacing-l: 24px;
+      --spacing-xl: 32px;
+      --spacing-xxl: 64px;
+      --width-container: 1200px;
+    }
+    
+    *{
+      border: 0;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    html{
+      height: 100%;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+    }
+    
+    body{
+      height: 100%;
+    }
+    
+    .hero-section{
+      align-items: flex-start;
+      background-color: rgb(30, 30, 30);
+      display: flex;
+      min-height: 100%;
+      justify-content: center;
+      padding: var(--spacing-xxl) var(--spacing-l);
+      height: 100vh;
+      background-size: cover !important;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: contain;
+      height: 150vh;
+    }
+    
+    .card-grid{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-column-gap: var(--spacing-l);
+      grid-row-gap: var(--spacing-l);
+      max-width: var(--width-container);
+      width: 100%;
+    }
+    
+    @media(min-width: 540px){
+      .card-grid{
+        grid-template-columns: repeat(2, 1fr); 
+      }
+    }
+    
+    @media(min-width: 960px){
+      .card-grid{
+        grid-template-columns: repeat(4, 1fr); 
+      }
+    }
+    
+    .card{
+      list-style: none;
+      position: relative;
+    }
+    
+    .card:before{
+      content: '';
+      display: block;
+      padding-bottom: 150%;
+      width: 100%;
+    }
+    
+    .card__background{
+      background-size: cover;
+      background-position: center;
+      border-radius: var(--spacing-l);
+      bottom: 0;
+      filter: brightness(0.75) saturate(1.2) contrast(0.85);
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      transform-origin: center;
+      transform: scale(1) translateZ(0);
+      transition: 
+        filter 200ms linear,
+        transform 200ms linear;
+    }
+    
+    .card:hover .card__background{
+      transform: scale(1.05) translateZ(0);
+    }
+    
+    .card-grid:hover > .card:not(:hover) .card__background{
+      filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+    }
+    
+    .card__content{
+      left: 0;
+      padding: var(--spacing-l);
+      position: absolute;
+      top: 0;
+    }
+    
+    .card__category{
+      color: var(--text-light);
+      font-size: 0.9rem;
+      margin-bottom: var(--spacing-s);
+      text-transform: uppercase;
+    }
+    
+    .card__heading{
+      color: var(--text-lighter);
+      font-size: 1.9rem;
+      text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+      line-height: 1.4;
+      word-spacing: 100vw;
+    }
+  
+  /***** End  section 2 *****/
+  
+  
