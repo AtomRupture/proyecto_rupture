@@ -58,7 +58,7 @@
     <area shape="rect" coords="376,250,457,350" title="hombro" href="" alt="">
     <area shape="rect" coords="45,250,118,350" title="hombro" href="" alt="">
     <area shape="rect" coords="190,385,310,550" title="abdomen" href="" alt="">
-    <area shape="rect" coords="140,275,350,380" title="pecho" href="" alt="">
+    <area shape="rect" coords="140,275,350,380" title="pecho" href="pecho.php" alt="">
     <area shape="rect" coords="15,510,80,660" title="antebrazo" href="" alt="">
     <area shape="rect" coords="432,510,490,660" title="antebrazo" href="" alt="">
     <area shape="rect" coords="116,720,230,1260" title="pierna" href="" alt="">
@@ -72,23 +72,6 @@
     <i class="fa-solid fa-dumbbell"></i>
 </div>
 -->
-
-
-<script type="text/javascript">
-
-    let Imgfrontal = document.getElementById("frontal");
-    let ImgTrasera = document.getElementById("trasero");
-    let CambioImg = document.getElementById("img_change");
-
-    Imgfrontal.onclick = function(){
-        CambioImg.src = "../../img/rutinas/personaje_frontal.svg";
-    }
-
-    ImgTrasera.onclick = function(){
-        CambioImg.src = "../../img/rutinas/personaje_espalda.svg";
-    }
-
-</script>
 
 <!--- LIBRERÍAS JQUERY PARA LA SELECCIÓN DE LOS MÚSCULOS -->
 <script type="text/javascript" src="../../js/jquery-3.7.1.min.js"></script>
@@ -104,6 +87,22 @@
 }
 
     $('.map').maphilight()
+
+</script>
+
+<script type="text/javascript">
+
+    let Imgfrontal = document.getElementById("frontal");
+    let ImgTrasera = document.getElementById("trasero");
+    let CambioImg = document.getElementById("img_change");
+
+    Imgfrontal.onclick = function(){
+        CambioImg.src = "../../img/rutinas/personaje_frontal.svg";
+    }
+
+    ImgTrasera.onclick = function(){
+        CambioImg.src = "../../img/rutinas/personaje_espalda.svg";
+    }
 
 </script>
         

@@ -29,11 +29,11 @@
 </head>
 <body>
 
-<?php include '../modulos/header.php' ?>
+<?php include '../modulos/header-af.php' ?>
 
 <section class="showcase">
 			<div class="video-container">
-				<video src="../../video/fondo_landing2.mp4" autoplay muted loop></video>
+				<video src="../../video/landing_rutinas.mp4" autoplay muted loop></video>
 			</div>
 			<div class="content">
 				<h1>Rutinas Atom</h1>
