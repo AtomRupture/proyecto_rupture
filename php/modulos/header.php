@@ -11,6 +11,7 @@
     <script src="https://kit.fontawesome.com/49b40f8ce6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="\proyecto_rupture\css\style-responsive.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="shortcut icon" href="\proyecto_rupture\img\unnamed.png">
     <style>
             
@@ -280,7 +281,7 @@ include '.\php\modulos\loader.php' ?>
                             <a href="#" class="sub-menu-link">
                             </a>
                             <br>
-                            <a href="#" class="sub-menu-link">
+                            <a onclick="alerta()" class="sub-menu-link">
                                 <span class="material-symbols-outlined">
                                     manage_accounts
                                 </span>
@@ -307,5 +308,25 @@ include '.\php\modulos\loader.php' ?>
             </ul>
             </nav>
     </header>
+
+    <script>
+        function alerta(){
+            Swal.fire({
+                title: '<strong>Registrate</strong>',
+                icon: 'info',
+                html:
+                    'Para acceder debes <br> <b> registrarte</b>',
+                showCloseButton: true,
+                showCancelButton: true,
+                focusConfirm: false,
+                confirmButtonText:
+                    '<a href="./login.php"><i class="fa fa-thumbs-up"></i> Vamos!</a>',
+                confirmButtonAriaLabel: 'Thumbs up, great!',
+                cancelButtonText:
+                    '<i class="fa fa-thumbs-down"></i>',
+                cancelButtonAriaLabel: 'Thumbs down'
+                });
+        }
+    </script>
 </body>
 </html>

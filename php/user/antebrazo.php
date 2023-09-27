@@ -19,7 +19,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/css_rutinas/style_pierna.css">
+    <link rel="stylesheet" href="../../css/css_rutinas/style_antebrazo.css">
     <script src="../../js/dietas.js"></script>
     <title>Bajar Peso</title>
 </head>
@@ -31,9 +31,9 @@
 <div class="secti1-el">
     <div class="b3">
         <div class="contenedor">
-        <h1 class="Text_princp">RUTINAS DE PIERNA</h1>
+        <h1 class="Text_princp">RUTINAS DE ANTEBRAZO</h1>
     <div class="btt">
-        <h2 class="text_second">Entrena tu pierna con Atom</h2>
+        <h2 class="text_second">Entrena tu antebrazo con Atom</h2>
     </div>
     <hr class="line-1">
     <div class="bt">

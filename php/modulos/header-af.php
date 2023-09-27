@@ -288,7 +288,7 @@ include "../conexion.php";
                             <a href="#" class="sub-menu-link">
                             </a>
                             <br>
-                            <a href="#" class="sub-menu-link">
+                            <a href="../user/profile.php" class="sub-menu-link">
                                 <span class="material-symbols-outlined">
                                     manage_accounts
                                 </span>
