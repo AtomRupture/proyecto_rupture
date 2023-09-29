@@ -37,9 +37,11 @@
     </div>
     <hr class="line-1">
     <div class="bt">
-        <button class="emp-ahr" >  <a href="#"></a>
+    <a href="#hero-section">
+        <button class="emp-ahr" >  
             DESLIZA AHORA
         </button>
+    </a>
     </div>
     </div>
 </div>
@@ -48,7 +50,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 
-<section class="hero-section">
+<section class="hero-section" id="hero-section">
   <div class="card-grid">
     <a class="card" href="./Recetas/receta1_bajarp.php">
       <div class="card__background" style="background-image: url(../../img/ensalada_tomate.jpg)"></div>
