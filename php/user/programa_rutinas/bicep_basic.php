@@ -18,10 +18,10 @@
     
     <!-- Info box -->
     <div class="info_box">
-        <div class="info_title">
+        <div class="info-title">
             <span>Algunas reglas de la rutina</span>
         </div>
-        <div class="info_list">
+        <div class="info-list">
             <div class="info">1. Cumple los <span>tiempos</span> definidos</div>
             <div class="info">2. Acaba la rutina completamente  </div>
             <div class="info">3. Descansa cuando te lo indique la rutina </div>
@@ -39,16 +39,17 @@
         <header>
             <div class="title">Rutina de bicep</div>
             <div class="timer">
-                <div class="time_text">Tiempo restante</div>
+                <div class="time_left_txt">Tiempo restante</div>
                 <div class="timer_sec">15</div>
             </div>
+            <div class="time_line"></div>
         </header>
         <section>
             <div class="que_text">
-                <span> Curl de bicep </span>
+                <!-- <span> Curl de bicep </span> -->
             </div>
             <div class="option_list">
-                <img src="img_programas/curl.gif" alt="">
+                <!-- <div><img src="img_programas/curl.gif" alt=""></div> -->
             </div>
         </section>
 
@@ -73,5 +74,7 @@
         </div>
     </div>
 
+    <script src="js_programas/programas.js"></script>
+    <script src="js_programas/insertar_imagen.js"></script>
 </body>
 </html>
