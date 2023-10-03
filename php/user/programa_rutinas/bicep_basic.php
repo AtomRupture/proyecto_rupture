@@ -56,7 +56,7 @@
         <!-- Quiz box footer -->
         <footer>
             <div class="total_que">
-                <span><p>2</p>of<p>5</p>series</span>
+                <!-- <span><p>2</p>of<p>5</p>series</span> -->
             </div>
             <button class="next_btn">Next que</button>
         </footer>

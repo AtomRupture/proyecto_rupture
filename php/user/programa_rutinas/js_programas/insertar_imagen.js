@@ -14,8 +14,6 @@ let gifs = [
     {
         numb: 3, //INDEX 2
         question: "Dominadas supinas",
-        gif: [
-
-        ]
+        gif: "<img src='img_programas/curl.gif'"
     },
 ];

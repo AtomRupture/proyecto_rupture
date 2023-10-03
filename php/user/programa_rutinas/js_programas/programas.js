@@ -5,6 +5,8 @@ const info_box = document.querySelector(".info_box");
 const exit_btn = info_box.querySelector(".buttons .quit");
 const continue_btn = info_box.querySelector(".buttons .restart");
 const quiz_box = document.querySelector(".quiz_box");
+const timeCount = quiz_box.querySelector(".timer .timer_sec");
+const timeLine = quiz_box.querySelector("header .time_line");
 
 // AL CLICKEAR EL BOTÓN DE EMPEZAR RUTINA
 
@@ -24,11 +26,36 @@ continue_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo"); //
     quiz_box.classList.add("activeQuiz"); // ACTIVAR LA CAJA DE LAS RUTINAS
     showQuestions(0);
+    queCounter(1);
+    startTimer(15);
+    startTimerLine(0);
 }
 
 let que_count = 0;
+let que_numb = 1;
+let counter;
+let timeValue = 15;
+let widthValue = 0;
 
 const next_btn = quiz_box.querySelector(".next_btn");
+
+// AL CLICKEAR EL BOTÓN DE SIGUIENTE
+
+next_btn.onclick = ()=>{
+    if(que_count < gifs.length - 1){
+        que_count++;
+        que_numb++;
+        showQuestions(que_count);
+        queCounter(que_numb);
+        clearInterval(counter);
+        startTimer(timeValue);
+        clearInterval(counterLine);
+        startTimerLine(widthValue);
+        next_btn.style.display = "none";
+    }else{
+        alert("questions completed");
+    }
+}
 
 //Obtener el titulo y los gifs
 function showQuestions(index){
@@ -38,4 +65,39 @@ function showQuestions(index){
     let option_tag = '<div>'+ gifs[index].gif +'</div>';
     que_text.innerHTML = que_tag;
     option_list.innerHTML = option_tag;
+}
+
+function startTimer(time){
+    counter = setInterval(timer, 1000);
+    function timer(){
+        timeCount.textContent = time;
+        time--;
+        if (time <9) {
+            let addZero = timeCount.textContent;
+            timeCount.textContent = "0" + addZero;
+        }
+        if (time < 0) {
+            clearInterval(counter);
+            timeCount.textContent = "00";
+            next_btn.style.display = "block";
+        }
+    }
+}
+
+function startTimerLine(time){
+    counterLine = setInterval(timer, 29);
+    function timer(){
+        time+=1;
+        timeLine.style.width = time + "px";
+        if (time > 549) {
+            clearInterval(counterLine);
+        }
+    }
+}
+
+
+function queCounter(index){
+    const bottom_ques_counter = quiz_box.querySelector(".total_que");
+    let totalQuesCountTag = '<span><p>'+ index +'</p>of<p>'+ gifs.length +'</p>series</span>';
+    bottom_ques_counter.innerHTML = totalQuesCountTag;
 }
