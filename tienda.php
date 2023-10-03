@@ -155,6 +155,80 @@
                 <span class="precio-item">$60.000</span>
                 <button class="boton-item">Agregar al Carrito</button>
             </div>
+            <div class="item">
+                <span class="titulo-item">Gold Standar Isolate</span>
+                <img src="./img/gold_standar.png" alt="" class="img-item">
+                <span class="precio-item">$369.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Smart Gainner 13lb</span>
+                <img src="./img/smartpro.png" alt="" class="img-item">
+                <span class="precio-item">$300.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Super Mass Gainner 12lb</span>
+                <img src="./img/massgain.png" alt="" class="img-item">
+                <span class="precio-item">$430.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">ISO 100 Dymatize 5lb</span>
+                <img src="./img/iso100.png" alt="" class="img-item">
+                <span class="precio-item">$110.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Shield Prosciense</span>
+                <img src="./img/shield.png" alt="" class="img-item">
+                <span class="precio-item">$110.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Shield Prosciense</span>
+                <img src="./img/masstech.png" alt="" class="img-item">
+                <span class="precio-item">$245.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Nutritional Shake</span>
+                <img src="./img/batido.png" alt="" class="img-item">
+                <span class="precio-item">$70.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+                        <div class="item">
+                <span class="titulo-item">Burner stack lata x24</span>
+                <img src="./img/burnerlata.png" alt="" class="img-item">
+                <span class="precio-item">$190.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">collagen stack </span>
+                <img src="./img/collagen.png" alt="" class="img-item">
+                <span class="precio-item">$100.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Bipro Classic 3lb </span>
+                <img src="./img/biprocl.png" alt="" class="img-item">
+                <span class="precio-item">$210.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Bipro Mass 3lb </span>
+                <img src="./img/bipromass.png" alt="" class="img-item">
+                <span class="precio-item">$200.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Protein black magic </span>
+                <img src="./img/blackprotein.png" alt="" class="img-item">
+                <span class="precio-item">$190.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            
+
             <!-- <div class="item"> -->
                 <!-- <span class="titulo-item">BiPro Classic</span>
                 <img src="img/bipro.png" alt="" class="img-item">
