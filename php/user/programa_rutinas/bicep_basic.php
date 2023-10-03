@@ -1,3 +1,17 @@
+<?php
+
+    session_start();
+    error_reporting(0);
+
+    $varsesion = $_SESSION['nombre'];
+
+    if($varsesion == null || $varsesion = ''){
+        echo "No tiene permiso para ingresar";
+        die();
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="es-co">
 <head>
