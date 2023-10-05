@@ -9,9 +9,6 @@ section {
     padding: 20px 0 ;
   }
 
-  
-  
-
 
   @media screen and (max-width: 1200px){
     .a-mu{
@@ -79,6 +76,11 @@ section {
     fill: #E40b0b;
     }
 
+    .hero-section{
+        max-height: 55vh !important;
+    }
+    
+
 
     .sub-menu-warp.open-menu {
         display: flex;
@@ -131,7 +133,11 @@ section {
     }
 }
 
-
+@media screen and (max-width:970px){
+    .hero-section{
+        max-height: 118vh !important;
+    }
+}
 
 @media screen and (max-width:820px){
 
@@ -226,8 +232,7 @@ section {
         .contenedor{
             margin-top: 3rem;
             margin-bottom: 10rem;
-            height: 10rem;
-    
+                
         }
     
         .vist-plns{
@@ -344,7 +349,33 @@ section {
     .fa-solid, .fas { 
         font-size: 1.1rem;
     }
-}
+    .contenedor-items{
+        width: 100% !important;
+    }
+    .carrito{
+        width: 100%;
+    }
+  }
+
+  .nav-list{
+    right: 0rem !important;
+    }
+    .nav.visible{
+    width: 50% !important;
+    }
+    
+    ::-webkit-scrollbar{
+    width:10px;
+    background-color: #40191c;
+    z-index: 99;
+
+    }
+
+    ::-webkit-scrollbar-thumb{
+    background: #A21112;
+    border-radius: 3rem;
+    }
+
 
 @media screen and (max-width: 700px) {
     
@@ -376,6 +407,7 @@ section {
         margin: 6px;
     }
 }
+
 
 @media screen and (max-width: 600px) {
     
@@ -459,6 +491,11 @@ section {
     .marquee{
         margin-left: -27vh;
     }
+
+    .contenedor .contenedor-items .item .img-item{
+        position: relative;
+        left: 5.5rem;
+    }
     
 }
 
@@ -479,7 +516,18 @@ section {
     
 }
 
+@media screen and (max-width:780px){
+    .hero-section{
+        max-height: 90vh !important;
+    }
 
+}
+
+@media screen and (max-width:540px){
+    .hero-section{
+        max-height: 265vh !important;
+    }
+}
 
 @media screen and (max-width:400px){
     .sec4{
@@ -499,6 +547,9 @@ section {
         left: calc(37vh - 75px)!important;
       }
 
+      .hero-section{
+        max-height: 318vh !important;
+    }
 
     
 }
@@ -509,4 +560,5 @@ section {
         top: calc(70vh - 75px)!important;
         left: calc(35vh - 75px)!important;
       }
+      
 }
