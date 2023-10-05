@@ -1,3 +1,17 @@
+<?php
+
+    session_start();
+    error_reporting(0);
+
+    $varsesion = $_SESSION['nombre'];
+
+    if($varsesion == null || $varsesion = ''){
+        echo "No tiene permiso para ingresar";
+        die();
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="es-co">
 <head>
@@ -58,7 +72,7 @@
             <div class="total_que">
                 <!-- <span><p>2</p>of<p>5</p>series</span> -->
             </div>
-            <button class="next_btn">Next que</button>
+            <button class="next_btn">Siguiente</button>
         </footer>
     </div>
 
@@ -70,11 +84,11 @@
         <div class="complete_text">Has completado la rutina!</div>
         <div class="buttons">
             <button class="restart">Volver a realizar</button>
-            <button class="quit">Quitar quiz</button>
+            <button class="quit">Quitar</button>
         </div>
     </div>
 
-    <script src="js_programas/programas.js"></script>
-    <script src="js_programas/insertar_imagen.js"></script>
+    <script src="js_programas/bicep_basic.js"></script>
+    <script src="js_programas/insertarBicepBasico.js"></script>
 </body>
 </html>

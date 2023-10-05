@@ -54,25 +54,25 @@
 
 <section class="hero-section" id="hero-section">
   <div class="card-grid">
-    <a class="card" href="./Recetas/receta1_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/ensalada_tomate.jpg)"></div>
+    <a class="card" href="../user/programa_rutinas/bicep_basic.php">
+      <div class="card__background" style="background-image: url(../../img/bicep_basico.jpeg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Ensalada de tomate</h3>
+        <p class="card__category">Bicep</p>
+        <h3 class="card__heading">Rutina bicep principiantes</h3>
       </div>
     </a>
     <a class="card" href="./Recetas/receta2_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/pollo_receta2.jpg)"></div>
+      <div class="card__background" style="background-image: url(../../img/bicep_avanzado.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Pollo al estilo mediterraneo</h3>
+        <p class="card__category">Bicep</p>
+        <h3 class="card__heading">Rutina bicep intermedia</h3>
       </div>
     </a>
     <a class="card" href="./Recetas/receta3_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/lentejas.jpg)"></div>
+      <div class="card__background" style="background-image: url(../../img/bicep_relampago.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Lentejas guisadas</h3>
+        <p class="card__category">Bicep</p>
+        <h3 class="card__heading">Rutina bicep relampago</h3>
       </div>
     </li>
     <a class="card" href="./Recetas/receta4_bajarp.php">
