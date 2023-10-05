@@ -41,9 +41,11 @@ const next_btn = quiz_box.querySelector(".next_btn");
 const result_box = document.querySelector(".result_box");
 const restart_quiz = result_box.querySelector(".buttons .restart");
 const quit_quiz = result_box.querySelector(".buttons .quit");
-
-quit_quiz.onclick = ()=>{
-    window.location.href("/proyecto_rupture/php/user/bicep.php");
+function quit(){
+    window.history.go(-4);
+}
+result_box.onclick = function(){   
+    location.reload();
 }
 
 // AL CLICKEAR EL BOTÓN DE SIGUIENTE
@@ -98,11 +100,11 @@ function startTimer(time){
 }
 
 function startTimerLine(time){
-    counterLine = setInterval(timer, 29);
+    counterLine = setInterval(timer, 60);
     function timer(){
-        time+=1;
+        time+=2;
         timeLine.style.width = time + "px";
-        if (time > 549) {
+        if (time > 549.5) {
             clearInterval(counterLine);
         }
     }
@@ -111,6 +113,6 @@ function startTimerLine(time){
 
 function queCounter(index){
     const bottom_ques_counter = quiz_box.querySelector(".total_que");
-    let totalQuesCountTag = '<span><p>'+ index +'</p>of<p>'+ gifs.length +'</p>series</span>';
+    let totalQuesCountTag = '<span><p>'+ index +'</p>de<p>'+ gifs.length +'</p>series</span>';
     bottom_ques_counter.innerHTML = totalQuesCountTag;
 }

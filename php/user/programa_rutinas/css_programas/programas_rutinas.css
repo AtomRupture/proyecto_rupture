@@ -47,8 +47,15 @@ body{
     border-radius: 5px;
     background: #fff;
     cursor: pointer;
+    transition: .10s;
 }
 
+.start_btn button:hover{
+    background-color: #000000;
+    border: solid #c4081b 0.5rem;
+    border-radius: 1rem;
+
+}
 .info_box{
     width: 540px;
     background: #fff;
@@ -136,8 +143,8 @@ body{
 }
 
 .quiz_box header .timer{
-    color: #5c0009;
-    background: #cf737c;
+    color: #000;
+    background: #c51d2e;
     border: 1px solid #be5963;
     height: 45px;
     padding: 0 8px;
@@ -173,7 +180,7 @@ body{
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: #ad1e2c;
+    background: #c00d1f;
 }
 
 section{
@@ -181,7 +188,15 @@ section{
     background: #fff;
 }
 
+img{
+    margin-left: 6rem;
+
+}
+
 section .que_text{
+    display: grid;
+    align-items: center;
+    text-align: center;
     font-size: 25px;
     font-weight: 600;
 }
@@ -279,6 +294,7 @@ footer .total_que span p:first-child{
 }
 
 footer .next_btn{
+    color: black !important;
     display: none;
     height: 40px;
     padding: 0 13px;
@@ -289,7 +305,7 @@ footer .next_btn{
     outline: none;
     color: #fff;
     border-radius: 5px;
-    background: #ad1e2c;
+    background: #c71628;
     border: 1px solid #ad1e2c;
     transition: all 0.3s ease;
 }

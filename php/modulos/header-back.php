@@ -15,13 +15,16 @@
     <link rel="stylesheet" href="\proyecto_rupture\css\style-responsive.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="shortcut icon" href="\proyecto_rupture\img\unnamed.png">
+    <?php
+        error_reporting(0);
+        include '../modulos/loader.php' 
+        ?>
     <style>
             
         header{
             display: flex;
             align-items: center;
             justify-content: space-between;
-            background-color: rgba(0, 0, 0, 0.4);
             width: 100%;
             height: 5.5rem;
             position: fixed;
@@ -41,9 +44,6 @@
     <script defer src="\proyecto_rupture\js\app.js"></script>
     <title>Header</title>
 </head>
-<?php
-error_reporting(0);
-include '.\php\modulos\loader.php' ?>
 <body>
 <body onscroll="Camb()">
     <header id="headt"> 

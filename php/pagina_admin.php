@@ -35,6 +35,7 @@ $num_pro = $fila["num_pro"];
     <link rel="stylesheet" href="../css/style-admin.css">
   </head>
   <body>
+  <?php include "./modulos/loader.php" ?>
     <div class="grid-container">
 
       <!-- Header -->
