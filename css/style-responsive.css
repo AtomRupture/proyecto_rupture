@@ -232,8 +232,7 @@ section {
         .contenedor{
             margin-top: 3rem;
             margin-bottom: 10rem;
-            height: 10rem;
-    
+                
         }
     
         .vist-plns{
@@ -350,7 +349,33 @@ section {
     .fa-solid, .fas { 
         font-size: 1.1rem;
     }
-}
+    .contenedor-items{
+        width: 100% !important;
+    }
+    .carrito{
+        width: 100%;
+    }
+  }
+
+  .nav-list{
+    right: 0rem !important;
+    }
+    .nav.visible{
+    width: 50% !important;
+    }
+    
+    ::-webkit-scrollbar{
+    width:10px;
+    background-color: #40191c;
+    z-index: 99;
+
+    }
+
+    ::-webkit-scrollbar-thumb{
+    background: #A21112;
+    border-radius: 3rem;
+    }
+
 
 @media screen and (max-width: 700px) {
     
@@ -382,6 +407,7 @@ section {
         margin: 6px;
     }
 }
+
 
 @media screen and (max-width: 600px) {
     
@@ -464,6 +490,11 @@ section {
   @media screen and (max-width:500px){
     .marquee{
         margin-left: -27vh;
+    }
+
+    .contenedor .contenedor-items .item .img-item{
+        position: relative;
+        left: 5.5rem;
     }
     
 }
