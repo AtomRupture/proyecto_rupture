@@ -92,7 +92,7 @@
             }
 
             .footer-list .footer-link:hover {
-                color: #7f37c9;
+                color: #C30E0E;
             }
 
             #footer_subscribe {
