@@ -1,6 +1,6 @@
 <?php 
 
-include '../php/modulos/header-tu.php';
+include '.././php/modulos/header-back.php';
 error_reporting(0);
 $var = $_POST['pro'];
 $var2 = $_POST['nomp'];

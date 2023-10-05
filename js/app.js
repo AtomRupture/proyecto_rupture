@@ -1,5 +1,3 @@
-
-
 function openMenu(){
   let open = document.querySelector(".sub-menu-warp");
   if (open) {
@@ -10,6 +8,10 @@ function openMenu(){
 function enviar_form(){
   this.location = "login.php";
 }
+
+function header_ba(){
+  window.history.back();
+};
 
 
 //HAMBURGUESA

@@ -157,6 +157,7 @@ body{
     background-color: var(--background);
     color: var(--on-background);
     font-size: var(--body-large); /*1.6rem*/
+    font-family: 'Ubuntu', sans-serif;
 }
 
 header{
