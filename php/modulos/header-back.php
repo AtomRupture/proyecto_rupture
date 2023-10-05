@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/49b40f8ce6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="\proyecto_rupture\css\style-responsive.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="shortcut icon" href="\proyecto_rupture\img\unnamed.png">
@@ -27,7 +29,11 @@
             color: white;
         }
         header button{
-            margin-left: -1rem !important;
+            margin-left: 2rem !important;
+            background-color: transparent !important;
+            border: none !important;
+            color: white;
+            cursor: pointer;
         }
 
     

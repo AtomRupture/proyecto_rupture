@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style_bajar.css">
+    <link rel="stylesheet" href="css/style-responsive.css">
     <script src="js/dietas.js"></script>
 	
     

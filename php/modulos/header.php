@@ -260,7 +260,6 @@ include '.\php\modulos\loader.php' ?>
 
 ?> -->
 <body>
-<body onscroll="Camb()">
     <header id="headt"> 
            <a href="\proyecto_rupture\index.php"> <img src="\proyecto_rupture\img\unnamed-removebg-preview.svg" alt="logo" class="logo"></a>
             <button class="a-mu" id="abrir"><i class="fa-solid fa-bars"></i></button>

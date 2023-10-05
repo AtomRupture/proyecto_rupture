@@ -27,6 +27,8 @@
 </head>
 <body>
 
+    <?php include "../../modulos/header-back.php" ?>
+
     <!-- Botón empezar rutina -->
     <div class="start_btn"><button>Empezar Rutina</button></div>
     
