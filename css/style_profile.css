@@ -1,6 +1,9 @@
 body {
-    background: rgb(30, 30, 30);
+    display: grid;
+    background-color: #000 !important;
     margin-top: 40px;
+    color: white !important;
+    font-family: 'Ubuntu', sans-serif !important;
 }
 
 .card{
@@ -17,9 +20,43 @@ body {
     background  : rgba(0, 0, 0, 0);
     color       : #4E5155;
 }
-
+button{
+    color: white !important;
+}
 label.btn {
+    display: inline;
+    /* vertical-align: middle; */
+    /* background-color: transparent; */
+    border: 3px solid #C30E0E;
+    padding: 0.55rem;
+    border-radius: 3rem;
+    width: 13rem;
+    font-weight: 700;
+    /* line-height: 27.58px; */
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    position: static;
+    transition: .50s;
+    margin-top: -4rem;
+    cursor: pointer;
     margin-bottom: 0;
+}
+
+label.btn:hover{
+    background-color: #E40b0b !important;
+}
+
+.no-gutters{
+    background-color: #0c0b0b !important;
+    color: white;
+}
+
+.col-md-3 pt-0{
+    background-color: #000 !important;
+    color: white;
 }
 
 .btn-outline-primary {
@@ -71,6 +108,7 @@ label.btn {
 
 html:not(.dark-style) .account-settings-links .list-group-item.active {
     background: transparent !important;
+    color     : #A21112 !important;
 }
 
 .account-settings-multiselect~.select2-container {
@@ -110,7 +148,9 @@ html:not(.dark-style) .account-settings-links .list-group-item.active {
 
 .light-style .account-settings-links .list-group-item {
     padding     : 0.85rem 1.5rem;
-    border-color: rgba(24, 28, 33, 0.03) !important;
+    color: white;
+    background-color: #0c0b0b !important;
+    border-color: rgb(34 40 47 / 3%) !important;
 }
 
 .a-mu{

@@ -183,7 +183,9 @@
 
 
         div:where(.swal2-container) img:where(.swal2-image){
+            display: flex;
             background: url("https://th.bing.com/th/id/OIP._ehnMv6LdATGvAXZW-VzfQHaEE?pid=ImgDet&rs=1") !important;
+            z-index: 99;
         }
     </style>
     <title>Responsive Footer</title>

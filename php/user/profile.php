@@ -47,7 +47,7 @@
                     <div class="tab-content">
                         <div class="tab-pane fade active show" id="account-general">
                             <div class="card-body media align-items-center">
-                                <img src="../../img/logo_user.png" alt
+                                <img src="../../img/login.svg" alt
                                     class="d-block ui-w-80">
                                 <div class="media-body ml-4">
                                     <label class="btn btn-outline-primary">
@@ -55,7 +55,7 @@
                                         <input type="file" class="account-settings-fileinput">
                                     </label> &nbsp;
                                     <button type="button" class="btn btn-default md-btn-flat">Reset</button>
-                                    <div class="text-light small mt-1">Allowed JPG, GIF or PNG. Max size of 800K</div>
+                                    <div class="text-light small mt-1">JPG o PNG maximo (800K)</div>
                                 </div>
                             </div>
                             <hr class="border-light m-0">

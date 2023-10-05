@@ -23,7 +23,7 @@ body {
     background-image: var(--primary);
     font-family: sans-serif;
     color: var(--text);
-
+    font-family: 'Ubuntu', sans-serif;
     display: flex;
     align-items: center;
 }
