@@ -23,7 +23,7 @@
     <script src="../../js/dietas.js"></script>
 	
     
-    <title>Bajar Peso</title>
+    <title>Rutina de pecho</title>
 </head>
 <?php include '../modulos/header-af.php' ?>
 <body>
@@ -76,10 +76,10 @@
       </div>
     </li>
     <a class="card" href="./Recetas/receta4_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/batido.jpg)"></div>
+      <div class="card__background" style="background-image: url(../../img/bicep_avanz.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Batido de manzana verde con kiwi</h3>
+        <p class="card__category">Bicep pro</p>
+        <h3 class="card__heading">Rutina bicep avanzada</h3>
       </div>
     </a>
   <div>
