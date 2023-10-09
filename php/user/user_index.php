@@ -31,7 +31,10 @@
 
 <body onscroll="Camb()">
 
-<?php include "../modulos/header-af.php" ?>
+<?php 
+include "../modulos/header-af.php";
+include "../modulos/loader.php";
+?>
   
 <!-- SECCIÓN 1 -->
     <section class="sec1">

@@ -92,7 +92,7 @@
             }
 
             .footer-list .footer-link:hover {
-                color: #7f37c9;
+                color: #C30E0E;
             }
 
             #footer_subscribe {
@@ -202,7 +202,7 @@
                 <p>Tu casa, tu gimnasio</p>
 
                 <div id="footer_social_media">
-                    <a href="#" class="footer-link" id="instagram">
+                    <a href="https://www.instagram.com/atomrupture/" class="footer-link" id="instagram">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
 

@@ -27,6 +27,9 @@
 </head>
 <body>
 
+    <?php include "../../modulos/header-back.php" ?>
+    <?php include "../../modulos/loader.php" ?>
+
     <!-- Botón empezar rutina -->
     <div class="start_btn"><button>Empezar Rutina</button></div>
     
@@ -70,7 +73,7 @@
         <!-- Quiz box footer -->
         <footer>
             <div class="total_que">
-                <!-- <span><p>2</p>of<p>5</p>series</span> -->
+                <!-- <span><p>2</p>de<p>5</p>series</span> -->
             </div>
             <button class="next_btn">Siguiente</button>
         </footer>
@@ -84,7 +87,7 @@
         <div class="complete_text">Has completado la rutina!</div>
         <div class="buttons">
             <button class="restart">Volver a realizar</button>
-            <button class="quit">Quitar</button>
+            <button class="quit" onclick="quit()">Quitar</button>
         </div>
     </div>
 

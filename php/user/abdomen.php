@@ -17,9 +17,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/css_rutinas/style_abdomen.css">
+    <link rel="stylesheet" href="../../css/style-i.css">
+    <link rel="stylesheet" href="../../css/style-responsive.css">
+    <style>
+    .secti1{background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../img/abdomen.jpg) no-repeat center center !important;
+      background-size: cover !important;}</style>
     <script src="../../js/dietas.js"></script>
 	
     
