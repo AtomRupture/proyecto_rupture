@@ -53,7 +53,7 @@
         Swal.fire({
         title: 'Haz parte!',
         text: 'Empieza el cambio con nuestras rutinas',
-        imageUrl: '../../img/img_clases/project-1.png',
+        imageUrl: '../../img/img_clases/alertaLandClases.jpg',
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: 'Custom image',
