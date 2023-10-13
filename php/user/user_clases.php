@@ -184,16 +184,16 @@
 
                                 </div>
 
-                                <div class="card" onclick="halterofilia()">
+                                <div class="card" onclick="saludable()">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
-                                        <img src="../../img/img_clases/halterofilia.jpg" alt="" width="334" height="100" class="img-cover">
+                                        <img src="../../img/img_clases/habitos.jpg" alt="" width="334" height="100" class="img-cover">
                                     </figure>
 
                                     <div class="card-content">
-                                        <span class="label-large card-subtitle">Crossfit</span>
+                                        <span class="label-large card-subtitle">Fitness</span>
 
-                                        <h3 class="title-large card-title"> Curso de halterofilia </h3>
+                                        <h3 class="title-large card-title"> Curso de hábitos saludables y fitness </h3>
                                     </div>
 
                                     <a href="#" class="state-layer"></a>
@@ -279,16 +279,16 @@
                                     <a href="#" class="state-layer"></a>
                                 </div>
 
-                                <div class="card" onclick="postura()">
+                                <div class="card" onclick="saludable()">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
-                                        <img src="../../img/img_clases/postura.jpg" alt="" width="334" height="100" class="img-cover">
+                                        <img src="../../img/img_clases/habitos.jpg" alt="" width="334" height="100" class="img-cover">
                                     </figure>
 
                                     <div class="card-content">
-                                        <span class="label-large card-subtitle">postura</span>
+                                        <span class="label-large card-subtitle">Fitness</span>
 
-                                        <h3 class="title-large card-title"> Curso de corrección de postura</h3>
+                                        <h3 class="title-large card-title"> Curso de hábitos saludables y fitness </h3>
                                     </div>
 
                                     <a href="#" class="state-layer"></a>
@@ -324,7 +324,7 @@
                         <div class="container">
 
                             <div class="project-list">
-                                
+
                                 <div class="card" onclick="nutricion()">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
@@ -415,17 +415,17 @@
         })
         }
 
-        function halterofilia(){
+        function saludable(){
         Swal.fire({
-        title: 'Curso de halterofilia',
-        text: 'Aprende sobre técnicas básicas de crossfit y halterofilia en este pequeño curso',
-        imageUrl: '../../img/img_clases/halterofilia.jpg',
+        title: 'Curso de hábitos saludables y fitness',
+        text: 'Aprende sobre alimentación, fundamentos del ejercicio y paso de hábitos sedentarios a saludables',
+        imageUrl: '../../img/img_clases/habitos.jpg',
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: 'Custom image',
                 showCancelButton: true,
         confirmButtonText:
-                    '<a href="../user/videos_clases/clase1.php"><i class="fa fa-thumbs-up"></i> Vamos!</a>',
+                    '<a href="../user/videos_clases/habitosSaludables.php"><i class="fa fa-thumbs-up"></i> Vamos!</a>',
                 confirmButtonAriaLabel: 'Thumbs up, great!'
         })
         }
