@@ -264,53 +264,52 @@
 
                             <div class="project-list">
 
-                                <div class="card">
+                                <div class="card" onclick="nutricion()">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
-                                        <img src="../../img/img_clases/project-1.png" alt="" width="334" height="100" class="img-cover">
+                                        <img src="../../img/img_clases/nutricion.jpg" alt="" width="334" height="100" class="img-cover">
                                     </figure>
 
                                     <div class="card-content">
-                                        <span class="label-large card-subtitle">Web App</span>
+                                        <span class="label-large card-subtitle">Nutrición</span>
 
-                                        <h3 class="title-large card-title"> Pixstock - Stock Media App</h3>
+                                        <h3 class="title-large card-title"> Curso de nutrición</h3>
                                     </div>
 
                                     <a href="#" class="state-layer"></a>
-
                                 </div>
 
-                                <div class="card">
+                                <div class="card" onclick="postura()">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
-                                        <img src="../../img/img_clases/project-2.png" alt="" width="334" height="100" class="img-cover">
+                                        <img src="../../img/img_clases/postura.jpg" alt="" width="334" height="100" class="img-cover">
                                     </figure>
 
                                     <div class="card-content">
-                                        <span class="label-large card-subtitle">Web App</span>
+                                        <span class="label-large card-subtitle">postura</span>
 
-                                        <h3 class="title-large card-title"> Cook.io - Recipe App</h3>
+                                        <h3 class="title-large card-title"> Curso de corrección de postura</h3>
                                     </div>
 
                                     <a href="#" class="state-layer"></a>
 
                                 </div>
                 
-                                <div class="card">
+                                <div class="card" onclick="cardio()">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
-                                        <img src="../../img/img_clases/project-3.png" alt="" width="334" height="100" class="img-cover">
+                                        <img src="../../img/img_clases/cardioResistencia.jpg" alt="" width="334" height="100" class="img-cover">
                                     </figure>
 
                                     <div class="card-content">
-                                        <span class="label-large card-subtitle">Web App</span>
+                                        <span class="label-large card-subtitle">Fitness</span>
 
-                                        <h3 class="title-large card-title"> GitFinder - Github User Finder </h3>
+                                        <h3 class="title-large card-title"> Curso de ejercicios en casa </h3>
                                     </div>
 
                                     <a href="#" class="state-layer"></a>
 
-                                </div>                                
+                                </div>                              
 
                             </div>
 
@@ -325,21 +324,20 @@
                         <div class="container">
 
                             <div class="project-list">
-
-                                <div class="card">
+                                
+                                <div class="card" onclick="nutricion()">
 
                                     <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
-                                        <img src="../../img/img_clases/project-1.png" alt="" width="334" height="100" class="img-cover">
+                                        <img src="../../img/img_clases/nutricion.jpg" alt="" width="334" height="100" class="img-cover">
                                     </figure>
 
                                     <div class="card-content">
-                                        <span class="label-large card-subtitle">Web App</span>
+                                        <span class="label-large card-subtitle">Nutrición</span>
 
-                                        <h3 class="title-large card-title"> Pixstock - Stock Media App</h3>
+                                        <h3 class="title-large card-title"> Curso de nutrición</h3>
                                     </div>
 
                                     <a href="#" class="state-layer"></a>
-
                                 </div>
                                 
 
@@ -412,7 +410,7 @@
         imageAlt: 'Custom image',
                 showCancelButton: true,
         confirmButtonText:
-                    '<a href="../user/videos_clases/clase1.php"><i class="fa fa-thumbs-up"></i> Vamos!</a>',
+                    '<a href="../user/videos_clases/hipertrofia.php"><i class="fa fa-thumbs-up"></i> Vamos!</a>',
                 confirmButtonAriaLabel: 'Thumbs up, great!'
         })
         }
