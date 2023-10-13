@@ -161,7 +161,7 @@
                                     <div class="card-content">
                                         <span class="label-large card-subtitle">Fitness</span>
 
-                                        <h3 class="title-large card-title"> Curso de cardio y resistencia </h3>
+                                        <h3 class="title-large card-title"> Curso de ejercicios en casa </h3>
                                     </div>
 
                                     <a href="#" class="state-layer"></a>
@@ -382,14 +382,14 @@
         imageAlt: 'Custom image',
                 showCancelButton: true,
         confirmButtonText:
-                    '<a href="../user/videos_clases/clase1.php"><i class="fa fa-thumbs-up"></i> Vamos!</a>',
+                    '<a href="../user/videos_clases/keto.php"><i class="fa fa-thumbs-up"></i> Vamos!</a>',
                 confirmButtonAriaLabel: 'Thumbs up, great!'
         })
         }
 
         function cardio(){
         Swal.fire({
-        title: 'Curso de cardio y resistencia',
+        title: 'Curso ejercicios en casa',
         text: 'En este curso verás cómo ejecutar rutinas de cardio y resistencia',
         imageUrl: '../../img/img_clases/cardioResistencia.jpg',
         imageWidth: 400,
@@ -397,7 +397,7 @@
         imageAlt: 'Custom image',
                 showCancelButton: true,
         confirmButtonText:
-                    '<a href="../user/videos_clases/clase1.php"><i class="fa fa-thumbs-up"></i> Vamos!</a>',
+                    '<a href="../user/videos_clases/cardio.php"><i class="fa fa-thumbs-up"></i> Vamos!</a>',
                 confirmButtonAriaLabel: 'Thumbs up, great!'
         })
         }
