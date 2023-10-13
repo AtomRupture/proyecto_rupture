@@ -5,52 +5,52 @@ const video_playlist = document.querySelector('.video-playlist .videos');
 let data = [
     {
         'id': 'a1',
-        'title': ' Introducción - Aprende a crear una dieta saludable y personalizada',
-        'name': 'nutricion_1.mp4',
+        'title': '5 Minutos CALENTAMIENTO Cuerpo Completo | Hazlo antes de las pesas',
+        'name': 'calentamiento_1.mp4',
         'duration': '3:16',
     },
     {
         'id': 'a2',
-        'title': '🍖Comida Real y Ultraprocesados🍕',
-        'name': 'nutricion_2.mp4',
+        'title': 'CALENTAMIENTO | Hazlo Antes de las Pesas [ 5 Minutos ]',
+        'name': 'calentamiento_2.mp4',
         'duration': '10:18',
     },
     {
         'id': 'a3',
-        'title': '¿Qué son los MACRONUTRIENTES?',
-        'name': 'nutricion_3.mp4',
+        'title': 'CALENTAMIENTO - Hazlo antes de las pesas | [ Warm Up ]',
+        'name': 'calentamiento_3.mp4',
         'duration': '11:51',
     },
 
     {
         'id': 'a4',
-        'title': '¿Funcionan los Sustitutivos de Comida?',
-        'name': 'nutricion_4.mp4',
+        'title': 'ESTIRAMIENTO (para piernas y glúteos) - Hazlo después de las pesas',
+        'name': 'calentamiento_4.mp4',
         'duration': '3:59',
     },
     {
         'id': 'a5',
-        'title': 'Cómo Calcular tus CALORÍAS de Forma PROFESIONAL 💪🏼',
-        'name': 'nutricion_5.mp4',
+        'title': 'ESTIRAMIENTO (cuerpo completo) - Hazlo después de las pesas',
+        'name': 'calentamiento_5.mp4',
         'duration': '4:25',
     },
     {
         'id': 'a6',
-        'title': 'El Gran ERROR de la NUTRICIÓN - Ancel Keys y el Estudio de los Siete Países',
-        'name': 'nutricion_6.mp4',
+        'title': 'ESTIRAMIENTO (Tren Superior) - Hazlo Después de las pesas',
+        'name': 'calentamiento_6.mp4',
         'duration': '5:33',
     },
     {
         'id': 'a7',
-        'title': 'Clasificación de los Carbohidratos',
-        'name': 'nutricion_7.mp4',
+        'title': 'Estiramiento [ Tren Superior ] | Hazlo después de las pesas',
+        'name': 'calentamiento_7.mp4',
         'duration': '0:29',
     },
 
     {
         'id': 'a8',
-        'title': 'Clasificación de las GRASAS 🥑 y Cómo influyen en nuestro CUERPO',
-        'name': 'nutricion_8.mp4',
+        'title': 'ESTIRAMIENTO CUERPO COMPLETO | Hazlo Después de las Pesas',
+        'name': 'calentamiento_8.mp4',
         'duration': '1:12',
     },
 ];

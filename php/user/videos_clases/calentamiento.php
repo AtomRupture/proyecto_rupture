@@ -13,8 +13,8 @@
         
     <main class="container">
         <section class="main-video">
-            <video src="../videos_clases/videos/habitos_1.mp4" controls autoplay></video>
-            <h3 class="title">Introducción al curso | De hábitos sedentarios a hábitos saludables y fitness #1</h3>
+            <video src="../videos_clases/videos/calentamiento_1.mp4" controls autoplay></video>
+            <h3 class="title">5 Minutos CALENTAMIENTO Cuerpo Completo | Hazlo antes de las pesas</h3>
         </section>
 
         <section class="video-playlist">    
