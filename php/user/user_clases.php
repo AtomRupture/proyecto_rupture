@@ -472,7 +472,7 @@
         imageAlt: 'Custom image',
                 showCancelButton: true,
         confirmButtonText:
-                    '<a href="../user/videos_clases/clase1.php"><i class="fa fa-thumbs-up"></i> Vamos!</a>',
+                    '<a href="../user/videos_clases/postura.php"><i class="fa fa-thumbs-up"></i> Vamos!</a>',
                 confirmButtonAriaLabel: 'Thumbs up, great!'
         })
         }
