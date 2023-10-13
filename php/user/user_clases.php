@@ -248,6 +248,22 @@
 
                                 </div>
 
+                                <div class="card" onclick="recetas()">
+
+                                    <figure class="card-banner img-holder" style="--width: 334; --height: 100;">
+                                        <img src="../../img/img_clases/recetas.jpg" alt="" width="334" height="100" class="img-cover">
+                                    </figure>
+
+                                    <div class="card-content">
+                                        <span class="label-large card-subtitle">Nutrición</span>
+
+                                        <h3 class="title-large card-title"> Curso de recetas fitness</h3>
+                                    </div>
+
+                                    <a href="#" class="state-layer"></a>
+
+                                </div>
+
                             </div>
 
                         </div>
@@ -455,7 +471,7 @@
         imageAlt: 'Custom image',
                 showCancelButton: true,
         confirmButtonText:
-                    '<a href="../user/videos_clases/clase1.php"><i class="fa fa-thumbs-up"></i> Vamos!</a>',
+                    '<a href="../user/videos_clases/meditacion.php"><i class="fa fa-thumbs-up"></i> Vamos!</a>',
                 confirmButtonAriaLabel: 'Thumbs up, great!'
         })
         }
@@ -471,6 +487,21 @@
                 showCancelButton: true,
         confirmButtonText:
                     '<a href="../user/videos_clases/postura.php"><i class="fa fa-thumbs-up"></i> Vamos!</a>',
+                confirmButtonAriaLabel: 'Thumbs up, great!'
+        })
+        }
+
+        function recetas(){
+        Swal.fire({
+        title: 'Curso de recetas fitness',
+        text: 'Aprende sobre recetas sanas y mitos sobre la alimentación diaria',
+        imageUrl: '../../img/img_clases/recetas.jpg',
+        imageWidth: 400,
+        imageHeight: 200,
+        imageAlt: 'Custom image',
+                showCancelButton: true,
+        confirmButtonText:
+                    '<a href="../user/videos_clases/recetasFit.php"><i class="fa fa-thumbs-up"></i> Vamos!</a>',
                 confirmButtonAriaLabel: 'Thumbs up, great!'
         })
         }

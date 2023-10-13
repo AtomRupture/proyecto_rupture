@@ -13,8 +13,8 @@
         
     <main class="container">
         <section class="main-video">
-            <video src="../videos_clases/videos/calentamiento_1.mp4" controls autoplay></video>
-            <h3 class="title">5 Minutos CALENTAMIENTO Cuerpo Completo | Hazlo antes de las pesas</h3>
+            <video src="../videos_clases/videos/meditacion_1.mp4" controls autoplay></video>
+            <h3 class="title">Día 1- Aprende a Meditar | Reto de meditación para aprender a meditar paso a paso</h3>
         </section>
 
         <section class="video-playlist">    
@@ -30,7 +30,7 @@
         </footer>
     </main>
 
-    <script src="js_videos/calentamiento.js"></script>
+    <script src="js_videos/meditacion.js"></script>
 
 </body>
 
