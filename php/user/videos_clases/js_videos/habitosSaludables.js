@@ -125,6 +125,36 @@ let data = [
         'name': 'habitos_20.mp4',
         'duration': '1:12',
     },
+    {
+        'id': 'a21',
+        'title': 'Introducción Tercer Pilar: Entrenamiento | De hábitos sedentarios a hábitos saludables y fitness #21',
+        'name': 'habitos_21.mp4',
+        'duration': '1:12',
+    },
+    {
+        'id': 'a22',
+        'title': '¿Cuánto debe durar mi sesión de entrenamiento?|hábitos sedentarios a hábitos saludables y fitness #22',
+        'name': 'habitos_22.mp4',
+        'duration': '1:12',
+    },
+    {
+        'id': 'a23',
+        'title': '¿Para bajar de peso si o si tengo que salir a correr todos los días? #23',
+        'name': 'habitos_23.mp4',
+        'duration': '1:12',
+    },
+    {
+        'id': 'a24',
+        'title': '¿Para ganar músculo debo levantar mucho peso? | hábitos saludables y fitness #24',
+        'name': 'habitos_24.mp4',
+        'duration': '1:12',
+    },
+    {
+        'id': 'a25',
+        'title': '¿Para crecer un músculo lo debo entrenar todos los días? | Hábitos saludables y fitness #25',
+        'name': 'habitos_25.mp4',
+        'duration': '1:12',
+    },
 ];
 
 data.forEach((video, i) => {
