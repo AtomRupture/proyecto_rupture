@@ -27,7 +27,7 @@
     <script src="../../js/dietas.js"></script>
 	
     
-    <title>Rutina de pecho</title>
+    <title>Rutina de biceps</title>
 </head>
 <?php include '../modulos/header-af.php' ?>
 <body>
@@ -59,17 +59,17 @@
 <section class="hero-section" id="hero-section">
   <div class="card-grid">
     <a class="card" href="../user/programa_rutinas/bicep_basic.php">
-      <div class="card__background" style="background-image: url(../../img/bicep_basico.jpeg)"></div>
-      <div class="card__content">
-        <p class="card__category">Bicep</p>
-        <h3 class="card__heading">Rutina bicep principiantes</h3>
-      </div>
-    </a>
-    <a class="card" href="./Recetas/receta2_bajarp.php">
       <div class="card__background" style="background-image: url(../../img/bicep_avanzado.jpg)"></div>
       <div class="card__content">
         <p class="card__category">Bicep</p>
-        <h3 class="card__heading">Rutina bicep sin equipo</h3>
+        <h3 class="card__heading">Rutina bicep con mancuernas</h3>
+      </div>
+    </a>
+    <a class="card" href="../user/programa_rutinas/bicep_maq.php">
+      <div class="card__background" style="background-image: url(../../img/bicep_avanz.jpg)"></div>
+      <div class="card__content">
+        <p class="card__category">Bicep</p>
+        <h3 class="card__heading">Rutina bicep con máquinas</h3>
       </div>
     </a>
     <a class="card" href="./Recetas/receta3_bajarp.php">
@@ -80,7 +80,7 @@
       </div>
     </li>
     <a class="card" href="./Recetas/receta4_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/bicep_avanz.jpg)"></div>
+      <div class="card__background" style="background-image: url(../../img/bicep_basico.jpeg)"></div>
       <div class="card__content">
         <p class="card__category">Bicep pro</p>
         <h3 class="card__heading">Rutina bicep avanzada</h3>

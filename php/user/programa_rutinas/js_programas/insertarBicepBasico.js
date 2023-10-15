@@ -16,4 +16,10 @@ let gifs = [
         question: "Curl concentrado",
         gif: "<img width='350' src='img_programas/curl_concentrado.gif'"
     },
+
+    {
+        numb: 4, //INDEX 3
+        question: "Curl inclinado",
+        gif: "<img width='350' src='img_programas/curl_inclinado.gif'"
+    },
 ];

@@ -23,7 +23,7 @@
     <script src="https://kit.fontawesome.com/49b40f8ce6.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="\proyecto_rupture\img\unnamed.png">
     <link rel="stylesheet" href="css_programas/programas_rutinas.css">
-    <title>Bicep con mancuernas</title>
+    <title>Bicep con máquina</title>
 </head>
 <body>
 
@@ -92,6 +92,6 @@
     </div>
 
     <script src="js_programas/programa_rutinas.js"></script>
-    <script src="js_programas/insertarBicepBasico.js"></script>
+    <script src="js_programas/insertarBicepMaq.js"></script>
 </body>
 </html>
