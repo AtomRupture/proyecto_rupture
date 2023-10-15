@@ -69,7 +69,7 @@
       <div class="card__background" style="background-image: url(../../img/bicep_avanzado.jpg)"></div>
       <div class="card__content">
         <p class="card__category">Bicep</p>
-        <h3 class="card__heading">Rutina bicep intermedia</h3>
+        <h3 class="card__heading">Rutina bicep sin equipo</h3>
       </div>
     </a>
     <a class="card" href="./Recetas/receta3_bajarp.php">
