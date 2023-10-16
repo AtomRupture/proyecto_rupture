@@ -11,7 +11,7 @@
         echo "No tiene permiso para ingresar";
         die();
     }
-
+    
 ?>
 
 <!DOCTYPE html>
@@ -43,7 +43,8 @@
                             href="#account-change-password">Cambiar contraseña</a>
                     </div>
                 </div>
-                <div class="col-md-9">
+                
+                <form class="col-md-9" action="../actualizar_profile.php" method="post">
                     <div class="tab-content">
                         <div class="tab-pane fade active show" id="account-general">
                             <div class="card-body media align-items-center">
@@ -62,15 +63,15 @@
                             <div class="card-body">
                                 <div class="form-group">
                                     <label class="form-label">Usuario</label>
-                                    <input type="text" class="form-control mb-1" value="<?php echo $_SESSION['nombre'];?>">
+                                    <input type="text" class="form-control mb-1" name="nombre" value="<?php echo $_SESSION['nombre'];?>">
                                 </div>
                                 <div class="form-group">
                                     <label class="form-label">Correo</label>
-                                    <input type="text" class="form-control" value="<?php echo $_SESSION['correo'];?>">
+                                    <input type="text" class="form-control" name="correo" value="<?php echo $_SESSION['correo'];?>">
                                 </div>
                                 <div class="form-group">
                                     <label class="form-label">Teléfono</label>
-                                    <input type="text" class="form-control mb-1" value="<?php echo $_SESSION['telefono'];?>">
+                                    <input type="text" class="form-control mb-1" name="telefono" value="<?php echo $_SESSION['telefono'];?>">
                                 </div>
                             </div>
                         </div>
@@ -247,13 +248,14 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                    <div class="text-right mt-3">
+                    <button type="button" class="btn btn-primary">Save changes</button>&nbsp;
+                    <a href="./user_index.php"><button type="button" class="btn btn-default">Cancel</button></a>
+                    </div>
+                </form>
             </div>
         </div>
-        <div class="text-right mt-3">
-            <button type="button" class="btn btn-primary">Save changes</button>&nbsp;
-            <button type="button" class="btn btn-default">Cancel</button>
-        </div>
+
     </div>
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>

@@ -21,10 +21,10 @@
     <link rel="stylesheet" href="../../css/style-i.css">
     <link rel="stylesheet" href="../../css/style-responsive.css">
     <style>
-    .secti1{background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../img/hombro.jpg) no-repeat center center !important;
+    .secti1{background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../img/pecho.jpg) no-repeat center center !important;
       background-size: cover !important;}</style>
     <script src="../../js/dietas.js"></script>
-    <title>Bajar Peso</title>
+    <title>Rutina de pecho</title>
 </head>
 <?php include '../modulos/header-af.php' ?>
 <body>
@@ -55,33 +55,29 @@
 
 <section class="hero-section" id="hero-section">
   <div class="card-grid">
-    <a class="card" href="./Recetas/receta1_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/ensalada_tomate.jpg)"></div>
+    <a class="card" href="../user/programa_rutinas/pecho_sin.php">
+      <div class="card__background" style="background-image: url(../../img/pecho_sin.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Ensalada de tomate</h3>
+        <p class="card__category">Pecho</p>
+        <h3 class="card__heading">Rutina de pecho sin equipo</h3>
       </div>
     </a>
-    <a class="card" href="./Recetas/receta2_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/pollo_receta2.jpg)"></div>
+    <a class="card" href="../user/programa_rutinas/pecho_maq.php">
+      <div class="card__background" style="background-image: url(../../img/pecho_maq.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Pollo al estilo mediterraneo</h3>
+        <p class="card__category">Pecho</p>
+        <h3 class="card__heading">Rutina de pecho con máquinas</h3>
       </div>
     </a>
-    <a class="card" href="./Recetas/receta3_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/lentejas.jpg)"></div>
+    <a class="card" href="../user/programa_rutinas/pecho_avanz.php">
+      <div class="card__background" style="background-image: url(../../img/pecho_avanz.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Lentejas guisadas</h3>
+        <p class="card__category">Pecho</p>
+        <h3 class="card__heading">Rutina de pecho avanzada</h3>
       </div>
     </li>
     <a class="card" href="./Recetas/receta4_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/batido.jpg)"></div>
-      <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Batido de manzana verde con kiwi</h3>
-      </div>
+
     </a>
   <div>
 </section>

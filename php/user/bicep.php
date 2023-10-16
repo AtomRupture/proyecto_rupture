@@ -72,19 +72,15 @@
         <h3 class="card__heading">Rutina bicep con máquinas</h3>
       </div>
     </a>
-    <a class="card" href="./Recetas/receta3_bajarp.php">
+    <a class="card" href="../user/programa_rutinas/bicep_polea.php">
       <div class="card__background" style="background-image: url(../../img/bicep_relampago.jpg)"></div>
       <div class="card__content">
         <p class="card__category">Bicep</p>
-        <h3 class="card__heading">Rutina bicep relampago</h3>
+        <h3 class="card__heading">Rutina biceps con poleas</h3>
       </div>
     </li>
     <a class="card" href="./Recetas/receta4_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/bicep_basico.jpeg)"></div>
-      <div class="card__content">
-        <p class="card__category">Bicep pro</p>
-        <h3 class="card__heading">Rutina bicep avanzada</h3>
-      </div>
+
     </a>
   <div>
 </section>

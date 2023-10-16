@@ -33,20 +33,6 @@
 
 <?php include '../modulos/header-af.php' ?>
 
-<div class="container">
-    <div class="pane">
-        <label class="label" id="frontal">
-            <span>Frontal</span>
-            <input id="left" class="input" name="radio" type="radio">
-        </label>
-        <label class="label" id="trasero">
-            <span>Trasero</span>
-            <input id="middle" class="input" checked="checked" name="radio" type="radio">
-        </label>
-        <span class="selection"></span>
-    </div>
-</div>
-
 <div class="personaje">
 <img src="../../img/rutinas/personaje_frontal.svg" class="map" id="img_change" alt="" usemap="#human">
 </div>

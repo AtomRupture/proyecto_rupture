@@ -20,6 +20,6 @@ let gifs = [
     {
         numb: 4, //INDEX 3
         question: "Curl predicador",
-        gif: "<img width='350' src='img_programas/curl_predicador.gif'"
+        gif: "<img width='350' src='img_programas/predicador.gif'"
     },
 ];

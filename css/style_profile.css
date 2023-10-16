@@ -190,6 +190,10 @@ html:not(.dark-style) .account-settings-links .list-group-item.active {
     display: none;
 }
 
+.mt-3{
+    padding: 20px;
+}
+
 
 @media screen and (max-width:1200px){
     .a-mu{
