@@ -24,7 +24,7 @@
     .secti1{background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../img/pierna.jpg) no-repeat center center !important;
       background-size: cover !important;}</style>
     <script src="../../js/dietas.js"></script>
-    <title>Bajar Peso</title>
+    <title>Pierna</title>
 </head>
 <?php include '../modulos/header-af.php' ?>
 <body>
@@ -55,32 +55,32 @@
 
 <section class="hero-section" id="hero-section">
   <div class="card-grid">
-    <a class="card" href="./Recetas/receta1_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/ensalada_tomate.jpg)"></div>
+    <a class="card" href="../user/programa_rutinas/cuadriceps_maq.php">
+      <div class="card__background" style="background-image: url(../../img/cuadriceps_maq.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Ensalada de tomate</h3>
+        <p class="card__category">Pierna</p>
+        <h3 class="card__heading">Cuadriceps con máquina</h3>
       </div>
     </a>
-    <a class="card" href="./Recetas/receta2_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/pollo_receta2.jpg)"></div>
+    <a class="card" href="../user/programa_rutinas/cuadriceps_man.php">
+      <div class="card__background" style="background-image: url(../../img/cuadriceps_pesas.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Pollo al estilo mediterraneo</h3>
+        <p class="card__category">Pierna</p>
+        <h3 class="card__heading">Cuadriceps con pesas</h3>
       </div>
     </a>
-    <a class="card" href="./Recetas/receta3_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/lentejas.jpg)"></div>
+    <a class="card" href="../user/programa_rutinas/isquiotibiales_mancuerna.php">
+      <div class="card__background" style="background-image: url(../../img/isquiotibiales.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Lentejas guisadas</h3>
+        <p class="card__category">Pierna</p>
+        <h3 class="card__heading">Isquiotibiales con mancuernas y bandas</h3>
       </div>
     </li>
-    <a class="card" href="./Recetas/receta4_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/batido.jpg)"></div>
+    <a class="card" href="../user/programa_rutinas/isquiotibiales_maq.php">
+    <div class="card__background" style="background-image: url(../../img/isquiotibiales_maq.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Batido de manzana verde con kiwi</h3>
+        <p class="card__category">Pierna</p>
+        <h3 class="card__heading">Isquiotibiales con máquinas</h3>
       </div>
     </a>
   <div>

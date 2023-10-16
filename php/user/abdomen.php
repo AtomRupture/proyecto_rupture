@@ -26,7 +26,7 @@
     <script src="../../js/dietas.js"></script>
 	
     
-    <title>Bajar Peso</title>
+    <title>Abdomen</title>
 </head>
 <?php include '../modulos/header-af.php' ?>
 <body>
@@ -57,32 +57,32 @@
 
 <section class="hero-section" id="hero-section">
   <div class="card-grid">
-    <a class="card" href="./Recetas/receta1_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/ensalada_tomate.jpg)"></div>
+    <a class="card" href="../user/programa_rutinas/abdomen_sin.php">
+      <div class="card__background" style="background-image: url(../../img/abdomen_sin.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Ensalada de tomate</h3>
+        <p class="card__category">Abdomen</p>
+        <h3 class="card__heading">Abdomen sin equipo</h3>
       </div>
     </a>
-    <a class="card" href="./Recetas/receta2_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/pollo_receta2.jpg)"></div>
+    <a class="card" href="../user/programa_rutinas/abdomen_balon.php">
+      <div class="card__background" style="background-image: url(../../img/abdomen_balon.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Pollo al estilo mediterraneo</h3>
+        <p class="card__category">Abdomen</p>
+        <h3 class="card__heading">Abdomen con balón medicinal</h3>
       </div>
     </a>
-    <a class="card" href="./Recetas/receta3_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/lentejas.jpg)"></div>
+    <a class="card" href="../user/programa_rutinas/abdomen_poleas.php">
+      <div class="card__background" style="background-image: url(../../img/abdomen_poleas.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Lentejas guisadas</h3>
+        <p class="card__category">Abdomen</p>
+        <h3 class="card__heading">Abdomen con bandas elásticas</h3>
       </div>
     </li>
-    <a class="card" href="./Recetas/receta4_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/batido.jpg)"></div>
+    <a class="card" href="../user/programa_rutinas/abdomen_maq.php">
+      <div class="card__background" style="background-image: url(../../img/abdomen_maq.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Batido de manzana verde con kiwi</h3>
+        <p class="card__category">Abdomen</p>
+        <h3 class="card__heading">Abdomen con máquinas</h3>
       </div>
     </a>
   <div>
