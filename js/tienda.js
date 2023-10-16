@@ -43,7 +43,13 @@ function ready(){
 }
 //Eliminamos todos los elementos del carrito y lo ocultamos
 function pagarClicked(){
+
+    alert("Ingresa los datos para continuar con la compra");
+
     
+    alert("Sus datos se procesaron correctamente");
+  
+
     alert("😎 Gracias por comprar con nosotros en AtomRupture. 😎");
     //Elimino todos los elmentos del carrito
     var carritoItems = document.getElementsByClassName('carrito-items')[0];
