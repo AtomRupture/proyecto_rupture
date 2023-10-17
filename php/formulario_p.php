@@ -20,6 +20,7 @@ $var2 = $_POST['nomp'];
   <link rel="shortcut icon" href="./img/unnamed-removebg-preview.svg">
   <script defer type="text/javascript" src="js/app.js"></script>
   <link rel="stylesheet" href="../css/style-admin.css">
+  <style>body{height: 100vh !important;}.card-front, .card-back {height: 120% !important; top: -2rem !important;}</style>
 </head>
 <body>
 

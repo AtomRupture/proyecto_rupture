@@ -21,37 +21,40 @@
         ?>
     <style>
             
-        header{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 100%;
-            height: 5.5rem;
-            position: fixed;
-            z-index: 9;
-            color: white;
-        }
-        header button{
-            margin-left: 2rem !important;
-            background-color: transparent !important;
-            border: none !important;
-            color: white;
-            cursor: pointer;
-        }
+header {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  height: 4.5rem !important;
+  position: fixed !important;
+  z-index: 9 !important;
+  color: white !important;
+  background-color: transparent !important;
+}
 
-    
+header button {
+  margin-left: 1.4rem !important;
+  background-color: transparent !important;
+  border: none !important;
+  color: white !important;
+  cursor: pointer !important;
+}
+
         </style>
-    <script defer src="\proyecto_rupture\js\app.js"></script>
     <title>Header</title>
 </head>
 <body>
-<body onscroll="Camb()">
     <header id="headt"> 
-           <button onclick="header_ba()"><span class="material-symbols-outlined">
+           <button onclick="back2()"><span class="material-symbols-outlined">
         arrow_back
         </span>
     </button>
     </header>
-
+<script>
+function back2(){
+  window.history.back();
+};
+</script>
 </body>
 </html>

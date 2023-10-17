@@ -32,6 +32,7 @@ $num_pro = $fila["num_pro"];
     <title>Atom admin</title>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="shortcut icon" href="../../img/unnamed.png">
     <link rel="stylesheet" href="../css/style-admin.css">
   </head>
   <body>
@@ -83,13 +84,8 @@ $num_pro = $fila["num_pro"];
             </a>
           </li>
           <li class="sidebar-list-item">
-            <a href="#" target="_blank">
-              <span class="material-icons-outlined">fact_check</span> Inventario
-            </a>
-          </li>
-          <li class="sidebar-list-item">
-            <a href="../index.php" target="_blank">
-              <span class="material-icons-outlined">keyboard_return</span> Volver
+            <a href="./user/user_index.php" target="_blank">
+              <span class="material-icons-outlined">keyboard_return</span> Ir a principal
             </a>
           </li>
         </ul>

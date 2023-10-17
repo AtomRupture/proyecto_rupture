@@ -7,7 +7,7 @@ let gifs = [
 
     {
         numb: 2, //INDEX 1
-        question: "Press en máquina smith con triángulo",
+        question: "Press en máquina smith",
         gif: "<img width='350' src='img_programas/press_smith.gif'"
     },
 

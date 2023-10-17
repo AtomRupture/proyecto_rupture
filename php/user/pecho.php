@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="../../css/style-responsive.css">
     <style>
     .secti1{background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../img/pecho.jpg) no-repeat center center !important;
-      background-size: cover !important;}</style>
+      background-size: cover !important}; .card-grid{grid-template-columns: repeat(1, 1fr)!important;}</style>
     <script src="../../js/dietas.js"></script>
     <title>Rutina de pecho</title>
 </head>
@@ -76,7 +76,7 @@
         <h3 class="card__heading">Rutina de pecho avanzada</h3>
       </div>
     </li>
-    <a class="card" href="./Recetas/receta4_bajarp.php">
+    <a>
 
     </a>
   <div>
