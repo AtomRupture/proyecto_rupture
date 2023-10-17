@@ -115,7 +115,7 @@ body{
 }
 
 .quiz_box{
-    width: 650px;
+    width: 550px;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -139,9 +139,8 @@ body{
 
 .quiz_box header .title{
     color: black;
-    font-size: 20px;
+    font-size: 0px;
     font-weight: 600;
-    margin-left: -2rem;
 }
 
 .quiz_box header .timer{
@@ -155,7 +154,6 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 145px;
-    margin-right: -1.4rem !important;
 }
 
 .quiz_box header .timer .time_left_txt{
@@ -198,10 +196,9 @@ img{
 
 section .que_text{
     display: grid;
-    align-items: center;
-    text-align: center;
-    font-size: 25px;
+    font-size: 19pxpx;
     font-weight: 600;
+    margin-left: 15px;
 }
 
 section .option_list{

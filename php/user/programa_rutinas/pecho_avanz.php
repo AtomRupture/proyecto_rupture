@@ -54,7 +54,7 @@
     <!-- quiz box  -->
     <div class="quiz_box">
         <header>
-            <div class="title"></div>
+        
             <div class="timer">
                 <div class="time_left_txt">Tiempo restante</div>
                 <div class="timer_sec">15</div>

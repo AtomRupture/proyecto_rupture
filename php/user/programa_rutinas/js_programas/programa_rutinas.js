@@ -34,7 +34,7 @@ continue_btn.onclick = ()=>{
 let que_count = 0;
 let que_numb = 1;
 let counter;
-let timeValue = 18;
+let timeValue = 15;
 let widthValue = 0;
 
 const next_btn = quiz_box.querySelector(".next_btn");
@@ -102,9 +102,9 @@ function startTimer(time){
 function startTimerLine(time){
     counterLine = setInterval(timer, 60);
     function timer(){
-        time+=2.2;
+        time+=2;
         timeLine.style.width = time + "px";
-        if (time > 620) {
+        if (time > 549.5) {
             clearInterval(counterLine);
         }
     }
