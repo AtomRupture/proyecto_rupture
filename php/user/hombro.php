@@ -25,7 +25,7 @@
     .secti1{background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../../img/hombro.jpg) no-repeat center center !important;
       background-size: cover !important;}</style>
     <script src="../../js/dietas.js"></script>
-    <title>Bajar Peso</title>
+    <title>Hombro</title>
 </head>
 <?php include '../modulos/header-af.php' ?>
 <body>
@@ -56,33 +56,29 @@
 
 <section class="hero-section" id="hero-section">
   <div class="card-grid">
-    <a class="card" href="./Recetas/receta1_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/ensalada_tomate.jpg)"></div>
+    <a class="card" href="../user/programa_rutinas/hombro_mancuerna.php">
+      <div class="card__background" style="background-image: url(../../img/hombro_mancuerna.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Ensalada de tomate</h3>
+        <p class="card__category">Hombro</p>
+        <h3 class="card__heading">Hombro con mancuerna</h3>
       </div>
     </a>
-    <a class="card" href="./Recetas/receta2_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/pollo_receta2.jpg)"></div>
+    <a class="card" href="../user/programa_rutinas/hombro_maq.php">
+      <div class="card__background" style="background-image: url(../../img/hombro_maq.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Pollo al estilo mediterraneo</h3>
+        <p class="card__category">Hombro</p>
+        <h3 class="card__heading">Hombro con máquinas</h3>
       </div>
     </a>
-    <a class="card" href="./Recetas/receta3_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/lentejas.jpg)"></div>
+    <a class="card" href="../user/programa_rutinas/hombro_polea.php">
+      <div class="card__background" style="background-image: url(../../img/hombro_polea.jpg)"></div>
       <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Lentejas guisadas</h3>
+        <p class="card__category">Hombro</p>
+        <h3 class="card__heading">Hombro con poleas</h3>
       </div>
     </li>
-    <a class="card" href="./Recetas/receta4_bajarp.php">
-      <div class="card__background" style="background-image: url(../../img/batido.jpg)"></div>
-      <div class="card__content">
-        <p class="card__category">Perder peso</p>
-        <h3 class="card__heading">Batido de manzana verde con kiwi</h3>
-      </div>
+    <a class="card" href="hombro.php">
+
     </a>
   <div>
 </section>
