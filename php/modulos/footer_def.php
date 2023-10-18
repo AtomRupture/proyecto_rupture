@@ -248,9 +248,9 @@
                     de la familia rupture :)
                 </p>
 
-                <div id="input_group">
-                    <input type="email" id="email">
-                    <button>
+                <div onclick="sendMail();" id="input_group">
+                    <input type="email" name="user_email" id="email">
+                    <button type="submit">
                         <i class="fa-regular fa-envelope"></i>
                     </button>
                 </div>
@@ -262,5 +262,30 @@
             2023 todos los derechos reservados
         </div>
     </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <script>
+        function sendMail(){
+            (function(){
+                emailjs.init("Kf0AScj6T7kN67w77"); //Codigo pública
+            })();
+
+            var params = {
+                to: document.querySelector("#email").value,
+            };
+
+            var serviceID = "service_hwcapab";
+            var templateID = "template_mnfsv59";
+
+            emailjs.send(serviceID, templateID, params)
+            .then(res =>{
+                alert("Correo registrado 😎");
+            })
+            .catch();
+        }
+
+    </script>
+
 </body>
 </html>
