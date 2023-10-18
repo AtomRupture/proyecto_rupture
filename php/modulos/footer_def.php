@@ -266,6 +266,9 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     
     <script>
+
+        const contactEmail = document.getElementById('email');
+
         function sendMail(){
             (function(){
                 emailjs.init("Kf0AScj6T7kN67w77"); //Codigo pública
@@ -283,7 +286,11 @@
                 alert("Correo registrado 😎");
             })
             .catch();
+
+            contactEmail.value = '';
         }
+
+
 
     </script>
 
