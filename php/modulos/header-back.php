@@ -16,9 +16,11 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="shortcut icon" href="\proyecto_rupture\img\unnamed.png">
     <?php
-        error_reporting(0);
-        include '../modulos/loader.php' 
-        ?>
+error_reporting(0);
+include "../modulos/loader.php";
+
+include "../modulos/mensaje.php"
+?>
     <style>
             
 header {

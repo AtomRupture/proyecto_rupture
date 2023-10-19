@@ -1,18 +1,88 @@
 <?php
+session_start();
+error_reporting(0);
 
-    session_start();
-    error_reporting(0);
+// Incluye el archivo de conexión a la base de datos
+include "../conexion.php";
 
-    $varsesion = $_SESSION['nombre'];
-    $varsesioncorreo = $_SESSION['correo'];
-    $varsesiontelefono = $_SESSION['telefono'];
+// Verificar si el usuario ha iniciado sesión
+if(isset($_SESSION['nombre']) && isset($_SESSION['correo']) && isset($_SESSION['telefono'])) {
+    $nombre = $_SESSION['nombre'];
+    $correo = $_SESSION['correo'];
+    $telefono = $_SESSION['telefono'];
 
-    if($varsesion == null || $varsesion = ''){
-        echo "No tiene permiso para ingresar";
-        die();
+    // Verificar si se ha enviado un formulario de actualización
+    if($_SERVER['REQUEST_METHOD'] == 'POST') {
+        // Verificar si se seleccionó un archivo
+        if(isset($_FILES['archivo']) && $_FILES['archivo']['error'] === UPLOAD_ERR_OK) {
+            $nombre_imagen = $_FILES['archivo']['name'];
+            $tipo_imagen = $_FILES['archivo']['type'];
+            $tamano_imagen = $_FILES['archivo']['size'];
+            $ruta_temporal = $_FILES['archivo']['tmp_name'];
+
+            // Verificar el tipo de archivo
+            $allowed_types = array("image/jpg", "image/jpeg", "image/png");
+            if(in_array($tipo_imagen, $allowed_types)) {
+                // Mover el archivo a la ubicación deseada
+                $ruta_destino = "../../img/user_img/" . $nombre_imagen;
+                if(move_uploaded_file($ruta_temporal, $ruta_destino)) {
+                    // Actualizar la imagen en la base de datos
+                    $query = "UPDATE usuarios SET img='$nombre_imagen' WHERE correo='$correo'";
+                    mysqli_query($conexion, $query) or die("Error al actualizar la información en la base de datos.");
+
+                    echo "Se ha actualizado la imagen correctamente.";
+                } else {
+                    echo "Error al mover el archivo.";
+                }
+            } else {
+                echo "El tipo de archivo no es válido.";
+            }
+        }
+
+        // Actualizar el nombre, el teléfono y el correo
+        $nombre_actualizado = $_POST['nombre'];
+        $telefono_actualizado = $_POST['telefono'];
+        $correo_actualizado = $_POST['correo'];
+        $pass_actual = $_POST['pass_actual'];
+        $nueva_contrasena = $_POST['nueva_contrasena'];
+
+        // Verificar si la contraseña actual es válida
+        $query = "SELECT pass FROM usuarios WHERE correo='$correo'";
+        $resultado = mysqli_query($conexion, $query);
+        if($row = mysqli_fetch_assoc($resultado)) {
+            $pass_guardado = $row['pass'];
+            if(password_verify($pass_actual, $pass_guardado)) {
+                // La contraseña ingresada es correcta
+                // Verificar si la nueva contraseña y la confirmación coinciden
+                $confirmar_contrasena = $_POST['confirmar_contrasena'];
+                if($nueva_contrasena === $confirmar_contrasena) {
+                    // Encriptar la nueva contraseña
+                    $pass_encriptado = password_hash($nueva_contrasena, PASSWORD_DEFAULT);
+
+                    // Actualizar la contraseña en la base de datos
+                    $query = "UPDATE usuarios SET nombre='$nombre_actualizado', telefono='$telefono_actualizado',
+                        correo='$correo_actualizado', pass='$pass_encriptado' WHERE correo='$correo'";
+                    mysqli_query($conexion, $query) or die("Error al actualizar la información en la base de datos.");
+
+                    echo "Se ha actualizado la información correctamente.";
+                } else {
+                    echo "La nueva contraseña y la confirmación no coinciden.";
+                }
+            } else {
+                echo "La contraseña actual es incorrecta.";
+            }
+        } else {
+            echo "No se encontró la contraseña en la base de datos.";
+        }
     }
-    
+} else {
+    echo "Debe iniciar sesión para acceder a esta página.";
+}
+
+// Cerrar la conexión a la base de datos
+mysqli_close($conexion);
 ?>
+
 
 <!DOCTYPE html>
 <html lang="es-co">
@@ -22,9 +92,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil de usuario</title>
     <link rel="stylesheet" href="../../css/style_profile.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
+<style>.btn-outline-primary {color: white !important;border-color: #E40b0b !important; border-radius: 1rem; transition: .5s !important;} .btn-outline-primary:hover {background-color: #E40b0b; } .pro_img{max-width: 100rem; border-radius: 50%; max-height: 8rem; width: 7.5rem;} .pb-2{padding: 2rem 0rem 0rem 0rem !important;}</style>
 <body>
 
 <?php include '../modulos/header-af.php' ?>
@@ -44,42 +114,39 @@
                     </div>
                 </div>
                 
-                <form class="col-md-9" action="../actualizar_profile.php" method="post">
+                <form class="col-md-9" action="" method="post" enctype="multipart/form-data">
                     <div class="tab-content">
                         <div class="tab-pane fade active show" id="account-general">
                             <div class="card-body media align-items-center">
-                                <img src="../../img/login.svg" alt
-                                    class="d-block ui-w-80">
+                            <img class="pro_img" src="../../img/user_img/<?php echo "$nombre_imagen"?>" alt class="../../img/login.svg">
                                 <div class="media-body ml-4">
-                                    <label class="btn btn-outline-primary">
-                                        Upload new photo
-                                        <input type="file" class="account-settings-fileinput">
+                                    <label>
+                                        Subir nueva foto
+                                        <input type="file" name="archivo" class="btn btn-outline-primary">
                                     </label> &nbsp;
-                                    <button type="button" class="btn btn-default md-btn-flat">Reset</button>
-                                    <div class="text-light small mt-1">JPG o PNG maximo (800K)</div>
+                                    <div class="text-light small mt-1">JPG o PNG con un tamaño máximo de 2MB</div>
                                 </div>
                             </div>
                             <hr class="border-light m-0">
                             <div class="card-body">
-                                <div class="form-group">
-                                    <label class="form-label">Usuario</label>
-                                    <input type="text" class="form-control mb-1" name="nombre" value="<?php echo $_SESSION['nombre'];?>">
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label">Correo</label>
-                                    <input type="text" class="form-control" name="correo" value="<?php echo $_SESSION['correo'];?>">
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label">Teléfono</label>
-                                    <input type="text" class="form-control mb-1" name="telefono" value="<?php echo $_SESSION['telefono'];?>">
-                                </div>
-                            </div>
+                            <div class="form-group">
+                            <label class="form-label">Usuario</label>
+                            <input type="text" class="form-control mb-1" name="nombre" value="<?php echo isset($_POST['nombre']) ? $_POST['nombre'] : $_SESSION['nombre']; ?>">
                         </div>
+                        <div class="form-group">
+                            <label class="form-label">Correo</label>
+                            <input type="text" class="form-control" name="correo" value="<?php echo isset($_POST['correo']) ? $_POST['correo'] : $_SESSION['correo']; ?>">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Teléfono</label>
+                            <input type="text" class="form-control mb-1" name="telefono" value="<?php echo isset($_POST['telefono']) ? $_POST['telefono'] : $_SESSION['telefono']; ?>">
+                        </div>
+
                         <div class="tab-pane fade" id="account-change-password">
                             <div class="card-body pb-2">
                                 <div class="form-group">
                                     <label class="form-label">Contraseña actual</label>
-                                    <input type="password" class="form-control">
+                                    <input type="pass_actual" class="form-control">
                                 </div>
                                 <div class="form-group">
                                     <label class="form-label">Contraseña nueva</label>
@@ -91,171 +158,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="account-info">
-                            <div class="card-body pb-2">
-                                <div class="form-group">
-                                    <label class="form-label">Bio</label>
-                                    <textarea class="form-control"
-                                        rows="5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nunc arcu, dignissim sit amet sollicitudin iaculis, vehicula id urna. Sed luctus urna nunc. Donec fermentum, magna sit amet rutrum pretium, turpis dolor molestie diam, ut lacinia diam risus eleifend sapien. Curabitur ac nibh nulla. Maecenas nec augue placerat, viverra tellus non, pulvinar risus.</textarea>
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label">Birthday</label>
-                                    <input type="text" class="form-control" value="May 3, 1995">
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label">Country</label>
-                                    <select class="custom-select">
-                                        <option>USA</option>
-                                        <option selected>Canada</option>
-                                        <option>UK</option>
-                                        <option>Germany</option>
-                                        <option>France</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <hr class="border-light m-0">
-                            <div class="card-body pb-2">
-                                <h6 class="mb-4">Contacts</h6>
-                                <div class="form-group">
-                                    <label class="form-label">Phone</label>
-                                    <input type="text" class="form-control" value="+0 (123) 456 7891">
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label">Website</label>
-                                    <input type="text" class="form-control" value>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="account-social-links">
-                            <div class="card-body pb-2">
-                                <div class="form-group">
-                                    <label class="form-label">Twitter</label>
-                                    <input type="text" class="form-control" value="https://twitter.com/user">
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label">Facebook</label>
-                                    <input type="text" class="form-control" value="https://www.facebook.com/user">
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label">Google+</label>
-                                    <input type="text" class="form-control" value>
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label">LinkedIn</label>
-                                    <input type="text" class="form-control" value>
-                                </div>
-                                <div class="form-group">
-                                    <label class="form-label">Instagram</label>
-                                    <input type="text" class="form-control" value="https://www.instagram.com/user">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="account-connections">
-                            <div class="card-body">
-                                <button type="button" class="btn btn-twitter">Connect to
-                                    <strong>Twitter</strong></button>
-                            </div>
-                            <hr class="border-light m-0">
-                            <div class="card-body">
-                                <h5 class="mb-2">
-                                    <a href="javascript:void(0)" class="float-right text-muted text-tiny"><i
-                                            class="ion ion-md-close"></i> Remove</a>
-                                    <i class="ion ion-logo-google text-google"></i>
-                                    You are connected to Google:
-                                </h5>
-                                <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
-                                    data-cfemail="f9979498818e9c9595b994989095d79a9694">[email&#160;protected]</a>
-                            </div>
-                            <hr class="border-light m-0">
-                            <div class="card-body">
-                                <button type="button" class="btn btn-facebook">Connect to
-                                    <strong>Facebook</strong></button>
-                            </div>
-                            <hr class="border-light m-0">
-                            <div class="card-body">
-                                <button type="button" class="btn btn-instagram">Connect to
-                                    <strong>Instagram</strong></button>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="account-notifications">
-                            <div class="card-body pb-2">
-                                <h6 class="mb-4">Activity</h6>
-                                <div class="form-group">
-                                    <label class="switcher">
-                                        <input type="checkbox" class="switcher-input" checked>
-                                        <span class="switcher-indicator">
-                                            <span class="switcher-yes"></span>
-                                            <span class="switcher-no"></span>
-                                        </span>
-                                        <span class="switcher-label">Email me when someone comments on my article</span>
-                                    </label>
-                                </div>
-                                <div class="form-group">
-                                    <label class="switcher">
-                                        <input type="checkbox" class="switcher-input" checked>
-                                        <span class="switcher-indicator">
-                                            <span class="switcher-yes"></span>
-                                            <span class="switcher-no"></span>
-                                        </span>
-                                        <span class="switcher-label">Email me when someone answers on my forum
-                                            thread</span>
-                                    </label>
-                                </div>
-                                <div class="form-group">
-                                    <label class="switcher">
-                                        <input type="checkbox" class="switcher-input">
-                                        <span class="switcher-indicator">
-                                            <span class="switcher-yes"></span>
-                                            <span class="switcher-no"></span>
-                                        </span>
-                                        <span class="switcher-label">Email me when someone follows me</span>
-                                    </label>
-                                </div>
-                            </div>
-                            <hr class="border-light m-0">
-                            <div class="card-body pb-2">
-                                <h6 class="mb-4">Application</h6>
-                                <div class="form-group">
-                                    <label class="switcher">
-                                        <input type="checkbox" class="switcher-input" checked>
-                                        <span class="switcher-indicator">
-                                            <span class="switcher-yes"></span>
-                                            <span class="switcher-no"></span>
-                                        </span>
-                                        <span class="switcher-label">News and announcements</span>
-                                    </label>
-                                </div>
-                                <div class="form-group">
-                                    <label class="switcher">
-                                        <input type="checkbox" class="switcher-input">
-                                        <span class="switcher-indicator">
-                                            <span class="switcher-yes"></span>
-                                            <span class="switcher-no"></span>
-                                        </span>
-                                        <span class="switcher-label">Weekly product updates</span>
-                                    </label>
-                                </div>
-                                <div class="form-group">
-                                    <label class="switcher">
-                                        <input type="checkbox" class="switcher-input" checked>
-                                        <span class="switcher-indicator">
-                                            <span class="switcher-yes"></span>
-                                            <span class="switcher-no"></span>
-                                        </span>
-                                        <span class="switcher-label">Weekly blog digest</span>
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                     <div class="text-right mt-3">
-                    <button type="button" class="btn btn-primary">Save changes</button>&nbsp;
-                    <a href="./user_index.php"><button type="button" class="btn btn-default">Cancel</button></a>
+                        <button type="submit" class="btn btn-primary">Guardar cambios</button>&nbsp;
+                        <a href="./user_index.php"><button type="button" class="btn btn-default">Cancelar</button></a>
                     </div>
                 </form>
             </div>
         </div>
-
     </div>
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>

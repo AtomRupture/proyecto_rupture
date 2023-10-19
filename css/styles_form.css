@@ -268,7 +268,7 @@ display: none;
   padding: 0;
   margin: 10px auto;
   cursor: pointer;
-  background-color: #ffeba7;
+  background-color: #e40b0b;
 }
 .checkbox:checked + label:before,
 .checkbox:not(:checked) + label:before{
@@ -277,7 +277,7 @@ display: none;
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  color: #ffeba7;
+  color: white;
   background-color: #020305;
   font-family: 'unicons';
   content: '\eb4f';
@@ -395,7 +395,7 @@ display: none;
 }
 .btn:hover{  
   background-color: #000000;
-  color: #ffeba7;
+  color: #A21112;
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
 }
 

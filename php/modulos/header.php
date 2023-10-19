@@ -253,7 +253,11 @@
 </head>
 <?php
 error_reporting(0);
-include '.\php\modulos\loader.php' ?>
+include "../modulos/loader.php";
+
+include "../modulos/mensaje.php"
+?>
+
 <!-- <?php 
 
 // include "../conexion.php";

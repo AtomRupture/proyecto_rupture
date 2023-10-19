@@ -48,20 +48,20 @@ label.btn {
 
 .btn-primary{
     display: inline;
-    /* vertical-align: middle; */
-    /* background-color: transparent; */
+    vertical-align: middle !important;
+    background-color: transparent;
     border: 3px solid #C30E0E !important;
-    padding: 0.55rem;
+    padding: 0.55rem !important;
     border-radius: 3rem !important;
     width: 13rem;
     font-weight: 700;
-    /* line-height: 27.58px; */
+    line-height: 27.58px;
     font-size: 20px;
     font-style: normal;
     color: white;
     text-align: center;
     font-size: 15px;
-    position: static;
+    /* position: absolute; */
     transition: .50s !important;
     margin-top: -4rem;
     cursor: pointer;

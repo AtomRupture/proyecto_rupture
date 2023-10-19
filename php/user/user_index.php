@@ -33,7 +33,6 @@
 
 <?php 
 include "../modulos/header-af.php";
-include "../modulos/loader.php";
 ?>
   
 <!-- SECCIÓN 1 -->

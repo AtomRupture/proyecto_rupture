@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Subir imagenes</title>
+</head>
+<body>
+	
+<div class="container-box">
+	<form action="insertar_imagenes.php" method="post" enctype="multipart/form-data">
+		
+		<label for=""> Nombre </label>
+        <input type="text" name="nombre" required="">
+
+        <label for=""> Archivo</label>
+        <input type="file" name="archivo">
+        
+        <input type="submit" value="Subir" name="subir">
+        <button> <a href="listar_imagenes.php"> DESCARGAS </a> </button>
+	</form>
+</div>
+
+</body>
+</html>

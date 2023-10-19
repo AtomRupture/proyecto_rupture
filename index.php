@@ -18,8 +18,7 @@
 <body onscroll="Camb()">
 
 
-<?php include './php/modulos/header.php' ?>
-  
+<?php include "./php/modulos/header.php"?>
 <!-- SECCIÓN 1 -->
     <section class="sec1">
 

@@ -261,12 +261,13 @@
     <script defer src="\proyecto_rupture\js\app.js"></script>
     <title>Header</title>
 </head>
-<?php include './php/modulos/loader.php' ?>
-<?php 
+<?php
+error_reporting(0);
+include "../modulos/loader.php";
 
-include "../conexion.php";
-
+include "../modulos/mensaje.php"
 ?>
+
 <body>
 <body onscroll="Camb()">
     <header id="headt"> 
