@@ -15,7 +15,7 @@
 </head>
 <body>
 <?php include './php/modulos/header.php' ?>
-
+<?php include './php/modulos/loader.php' ?>
 <section class="showcase">
 			<div class="video-container">
 				<video src="video/landing_rutinas.mp4" autoplay muted loop></video>

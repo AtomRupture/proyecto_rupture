@@ -16,6 +16,7 @@
 <body>
 
 <?php include './php/modulos/header.php' ?>
+<?php include './php/modulos/loader.php' ?>
 
 <section class="showcase">
 			<div class="video-container">

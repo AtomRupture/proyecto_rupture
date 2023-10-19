@@ -1,6 +1,8 @@
 <?php 
     include "./conexion.php";
 
+    error_reporting(0);
+
     if (isset($_POST["enviar"])) {
 
     $nombre_p = $_POST["nombre_p"];

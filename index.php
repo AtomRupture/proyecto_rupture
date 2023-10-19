@@ -19,6 +19,7 @@
 
 
 <?php include "./php/modulos/header.php"?>
+<?php include './php/modulos/loader.php' ?>
 <!-- SECCIÓN 1 -->
     <section class="sec1">
 

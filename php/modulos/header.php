@@ -273,8 +273,8 @@ include "../modulos/mensaje.php"
                 <li><a class="clases" href="landing_clases.php">Clases</a></li>
                 <li><a href="\proyecto_rupture\index.php#plan">Planes</a></li>
                 <li><a href="landing_rutinas.php">Rutinas</a></li>
-                <li><a class="dietas" href="dietas.php">Dietas</a></li>
-                <li><a class="tienda" href="tienda.php">Tienda</a></li>
+                <li><a class="dietas" href="\proyecto_rupture\dietas.php">Dietas</a></li>
+                <li><a class="tienda" href="\proyecto_rupture\tienda.php">Tienda</a></li>
                 <li><button onclick="enviar_form()" class="bo"><p>Comience ya!</p></button></li>
                 <li><a class="b2" id="op" onclick="openMenu()"><img src="\proyecto_rupture\img\login.svg" alt="" class="login"></a></li>
                 <div class="sub-menu-warp">

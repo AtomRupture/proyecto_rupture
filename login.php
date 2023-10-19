@@ -15,7 +15,7 @@
 </head>
 <body>
   <?php include './php/modulos/header.php' ?>
-
+  <?php include './php/modulos/loader.php' ?>
   
   <div class="section">
 

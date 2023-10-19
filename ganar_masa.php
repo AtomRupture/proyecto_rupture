@@ -13,6 +13,7 @@
     <title>Ganar Masa</title>
 </head>
 <?php include './php/modulos/header.php' ?>
+<?php include './php/modulos/loader.php' ?>
 <body>
  
 <section class="secti1">
