@@ -487,3 +487,8 @@ element.style{
     scale: 1.05;
     
 }
+
+div:where(.swal2-icon).swal2-warning{
+  border-color: #E40b0b !important;
+  color: #E40b0b !important;
+}

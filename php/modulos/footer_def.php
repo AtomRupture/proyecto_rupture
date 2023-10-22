@@ -250,7 +250,7 @@
 
                 <div onclick="sendMail();" id="input_group">
                     <input type="email" name="user_email" id="email">
-                    <button type="submit">
+                    <button onclick="ready()" type="submit">
                         <i class="fa-regular fa-envelope"></i>
                     </button>
                 </div>
@@ -283,14 +283,17 @@
 
             emailjs.send(serviceID, templateID, params)
             .then(res =>{
-                alert("Correo registrado 😎");
-            })
+                Swal.fire({
+                icon: 'success',
+                title: 'Correo registrado',
+                showConfirmButton: false,
+                timer: 5000
+                })
+                })
             .catch();
 
             contactEmail.value = '';
         }
-
-
 
     </script>
 

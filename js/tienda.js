@@ -43,14 +43,39 @@ function ready(){
 }
 //Eliminamos todos los elementos del carrito y lo ocultamos
 function pagarClicked(){
-
-    alert("Ingresa los datos para continuar con la compra");
-
-    
-    alert("Sus datos se procesaron correctamente");
-  
-
-    alert("😎 Gracias por comprar con nosotros en AtomRupture. 😎");
+    const swalWithBootstrapButtons = Swal.mixin({
+        customClass: {
+          confirmButton: 'btn btn-success',
+          cancelButton: 'btn btn-danger'
+        },
+      })
+      
+      swalWithBootstrapButtons.fire({
+        title: 'Estás seguro de tu compra?',
+        text: "No podrás revertir tu compra",
+        icon: 'warning',
+        showCancelButton: true,
+        confirmButtonText: 'Sí, comprar!',
+        cancelButtonText: 'No, cancelar!',
+        reverseButtons: true
+      }).then((result) => {
+        if (result.isConfirmed) {
+          swalWithBootstrapButtons.fire(
+            'Compra exitosa!',
+            'Has comprado tus productos.',
+            'success'
+          )
+        } else if (
+          /* Read more about handling dismissals below */
+          result.dismiss === Swal.DismissReason.cancel
+        ) {
+          swalWithBootstrapButtons.fire(
+            'Cancelado',
+            'No se ha completado tu compra :(',
+            'error'
+          )
+        }
+      })
     //Elimino todos los elmentos del carrito
     var carritoItems = document.getElementsByClassName('carrito-items')[0];
     while (carritoItems.hasChildNodes()){
