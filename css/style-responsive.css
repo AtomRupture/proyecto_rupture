@@ -119,9 +119,7 @@ section {
         display: none;
     }
 
-    .logo{
-        /* max-width: 8rem; */
-    }
+
 
     .text_pri2{
         font-size: 37px;
@@ -256,7 +254,7 @@ section {
 
     .nav-list{
         position: absolute;
-        right: 2.5rem;
+        right: 1.3rem !important;
         top: 6rem;
         gap: 5.5rem;
     }
@@ -360,10 +358,16 @@ section {
   }
 
   .nav-list{
-    right: 0rem !important;
+    right: 4.8rem ;
+    }
+    #fix{
+    right: 1rem !important;
+    }
+    .nav-list2{
+     right: 1.2rem !important;
     }
     .nav.visible{
-    width: 50% !important;
+    width: 10rem !important;
     }
     
     ::-webkit-scrollbar{
@@ -527,7 +531,7 @@ section {
 
 @media screen and (max-width:540px){
     .hero-section{
-        max-height: 265vh !important;
+        max-height: 290vh !important;
     }
 }
 
@@ -592,7 +596,12 @@ section{
      html{
         background-color: black;
      }
-
+header{
+    display: none;
+}
+footer{
+    display: none;
+}
      .mensaje{
         display: grid;
         z-index: 99999999;

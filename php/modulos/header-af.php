@@ -275,7 +275,7 @@ include "../modulos/mensaje.php"
             <button class="a-mu" id="abrir"><i class="fa-solid fa-bars"></i></button>
             <nav class="nav" id="nav">
                 <button class="c-mu" id="cerrar"><i class="fa-solid fa-x"></i></button>
-            <ul class="nav-list">
+            <ul class="nav-list" id="fix">
                 <li><a class="clases" href="../user/user_landclases.php">Clases</a></li>
                 <li><a href="\proyecto_rupture\php\user\user_index.php#p">Planes</a></li>
                 <li><a href="../user/user_landrutinas.php">Rutinas</a></li>

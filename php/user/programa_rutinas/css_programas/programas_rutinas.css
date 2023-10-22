@@ -184,6 +184,8 @@ body{
     background: #c00d1f;
 }
 
+
+
 section{
     padding: 25px 30px 20px 30px;
     background: #fff;
@@ -388,4 +390,19 @@ footer .next_btn:hover{
 .buttons button.quit:hover{
     color: #fff;
     background: #ad1e2c;
+}
+
+@media screen and (max-width: 820px){
+    .quiz_box, .info_box, .result_box{
+        width: 92%;
+    }
+
+    img {
+        margin-left: 1rem;
+        max-width: 20rem;
+    }
+
+    .timer{
+        margin-left: 3rem !important;
+    }
 }

@@ -86,12 +86,6 @@ include '../php/modulos/loader.php' ?>
       <div class="pie-recipe__tips__text">¿No sabes qué comer cuando te apetece algo diferente? Déjame decirte que, a partir de ahora, estos rollitos de pollo rellenos serán tu nueva receta salvavidas cuando te apetezca comer algo fuera de lo convencional pero no quieras saltarte la dieta y arruinar tus progresos.</div>
     </div>
   </div>
-  <div class="context__wrapper">
-    <aside class="context">
-      <div class="explanation">A continuation of <a href="https://codepen.io/oliviale/full/WJoqNZ" target="_blank">this pen here</a>. Also part of the <a href="https://codepen.io/collection/DQvYpQ/" target="_blank">CSS Grid collection here</a>.</div>
-    </aside>
-    <footer><a href="https://twitter.com/meowlivia_" target="_blank"><i class="icon-social-twitter icons"></i></a><a href="https://github.com/oliviale" target="_blank"><i class="icon-social-github icons"></i></a><a href="https://dribbble.com/oliviale" target="_blank"><i class="icon-social-dribbble icons"></i></a></footer>
-  </div>
 </div>
     
 </body>

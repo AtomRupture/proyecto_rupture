@@ -89,12 +89,6 @@ Por último, sirve en un plato para disfrutarlo en el momento o guárdalo en tup
       <div class="pie-recipe__tips__text">Nuestro delicioso y ligero estofado de pollo es uno de los platos más clásicos de la época del año a la que estamos a punto de adentrarnos (aunque intentemos resistirlo), que te ayudará a subir la temperatura corporal y a soportar un poco mejor el frío. Es una receta muy sencilla que podrás preparar perfectamente el domingo por la tarde/noche, así tendrás comida de caliente para toda la semana.</div>
     </div>
   </div>
-  <div class="context__wrapper">
-    <aside class="context">
-      <div class="explanation">A continuation of <a href="https://codepen.io/oliviale/full/WJoqNZ" target="_blank">this pen here</a>. Also part of the <a href="https://codepen.io/collection/DQvYpQ/" target="_blank">CSS Grid collection here</a>.</div>
-    </aside>
-    <footer><a href="https://twitter.com/meowlivia_" target="_blank"><i class="icon-social-twitter icons"></i></a><a href="https://github.com/oliviale" target="_blank"><i class="icon-social-github icons"></i></a><a href="https://dribbble.com/oliviale" target="_blank"><i class="icon-social-dribbble icons"></i></a></footer>
-  </div>
 </div>
     
 </body>

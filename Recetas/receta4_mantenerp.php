@@ -83,12 +83,6 @@ Por último, saca la bandeja del horno y decora los bocadillos con unas hojas de
       <div class="pie-recipe__tips__text">Este delicioso e irresistible bocadillo de albóndigas es la comida ideal para darle un poco de color y calor a esos días grises y fríos de invierno. Además, cuenta con un aporte de casi 30 g de proteína, siendo una de las mejores formas conocidas hasta la fecha de aumentar la ingesta de proteínas.</div>
     </div>
   </div>
-  <div class="context__wrapper">
-    <aside class="context">
-      <div class="explanation">A continuation of <a href="https://codepen.io/oliviale/full/WJoqNZ" target="_blank">this pen here</a>. Also part of the <a href="https://codepen.io/collection/DQvYpQ/" target="_blank">CSS Grid collection here</a>.</div>
-    </aside>
-    <footer><a href="https://twitter.com/meowlivia_" target="_blank"><i class="icon-social-twitter icons"></i></a><a href="https://github.com/oliviale" target="_blank"><i class="icon-social-github icons"></i></a><a href="https://dribbble.com/oliviale" target="_blank"><i class="icon-social-dribbble icons"></i></a></footer>
-  </div>
 </div>
     
 </body>

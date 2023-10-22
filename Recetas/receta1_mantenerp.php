@@ -84,12 +84,6 @@
       <div class="pie-recipe__tips__text">Tanto la lechuga como las lentejas te permiten disfrutar de cenas ligeras que cuidan tu peso y salud. Así pues, estos deliciosos tacos se convertirán en una de tus opciones favoritas para saciar el hambre a esta hora del día.</div>
     </div>
   </div>
-  <div class="context__wrapper">
-    <aside class="context">
-      <div class="explanation">A continuation of <a href="https://codepen.io/oliviale/full/WJoqNZ" target="_blank">this pen here</a>. Also part of the <a href="https://codepen.io/collection/DQvYpQ/" target="_blank">CSS Grid collection here</a>.</div>
-    </aside>
-    <footer><a href="https://twitter.com/meowlivia_" target="_blank"><i class="icon-social-twitter icons"></i></a><a href="https://github.com/oliviale" target="_blank"><i class="icon-social-github icons"></i></a><a href="https://dribbble.com/oliviale" target="_blank"><i class="icon-social-dribbble icons"></i></a></footer>
-  </div>
 </div>
     
 </body>
