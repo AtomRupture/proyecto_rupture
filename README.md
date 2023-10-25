@@ -3,8 +3,10 @@
 
 Integrantes: 
 Jhon Jairo Pulgarin Restrepo
-Diego Alexander García Hoyos             11-4
+Diego Alexander García Hoyos             
 Ángel David Palacios Navas
+
+11-4 
 
 Institución:
 I.E José María Bravo Márquez
